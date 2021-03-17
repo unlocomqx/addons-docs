@@ -50,17 +50,17 @@ module.exports = {
       "/guide/": [
         {
           title: "Guide",
+          path: "/guide/",
           collapsable: false,
           children: [
-            "01-intro.md",
             "02-installation.md",
             "03-updates.md",
             "04-configuration.md",
             {
               title: "Product Configuration",
+              path: "/guide/product-config/",
               collapsable: true,
               children: [
-                'product-config/',
                 "product-config/06-settings.md",
                 "product-config/07-fields.md",
                 "product-config/08-formulas.md",
@@ -83,7 +83,7 @@ module.exports = {
         }
       ],
     },
-    sidebarDepth: 3
+    sidebarDepth: 2
   },
 
   /**
