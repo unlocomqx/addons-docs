@@ -5,11 +5,11 @@ tagline: Dynamic Product Documentation
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Module Dev with ❤️
+- title: Easy configuration
+  details: The most intuitive interface
+- title: Powerful features
+  details: Responds to every situation
+- title: Endless possibilities
+  details: It can do more than expected
+footer: Made In Tunisia ️🇹🇳
 ---
