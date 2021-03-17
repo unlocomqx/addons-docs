@@ -1,0 +1,19 @@
+{
+  "name": "dp-docs",
+  "version": "0.0.1",
+  "description": "Dynamic Product Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Module Dev",
+    "email": "prestalife.solutions@gmail.com"
+  },
+  "repository": "https://github.com/unlocomqx/dp-docs/dp-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
