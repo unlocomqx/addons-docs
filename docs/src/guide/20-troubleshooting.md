@@ -33,7 +33,9 @@ The module will display this confirmation if the fix was applied successfully
 
 <img srcset="/images/template-fix-applied.jpg 2x">
 
-?> Clear the PrestaShop cache after applying the template fix
+::: tip
+Clear the PrestaShop cache after applying the template fix
+:::
 
 The customization will be displayed like this
 

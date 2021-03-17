@@ -9,7 +9,9 @@ then it can be referenced as **[width]**
 
 The module will then replace the field references with their corresponding values
 
-?> The module formulas use the same syntax as **Excel**
+::: tip
+The module formulas use the same syntax as **Excel**
+:::
 
 Adding a field to the formula is easy, you just need to click the field button to insert it.
 
@@ -24,12 +26,16 @@ Many Excel functions can be used
 If statement for conditional calculation
 <code class="formula">IF(**[width]** > 100, 10, 12)</code>
 
-?> The keyboard shortct to save a formula is **Ctrl** + **Enter**
+::: tip
+The keyboard shortct to save a formula is **Ctrl** + **Enter**
+:::
 
 ### Price formula
 This formula is used to calculate the cost of the customization.  
 
-?> The result of this formula will be added to the base price of the product
+::: tip
+The result of this formula will be added to the base price of the product
+:::
 
 The module applies the taxes and the reductions to this result.  
 The reductions that the module supports are:

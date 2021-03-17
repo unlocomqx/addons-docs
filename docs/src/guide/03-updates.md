@@ -12,6 +12,10 @@ Here are the steps to follow:
    <img srcset="/images/upgrade-btn.jpg 2x" class="border"/>
 4. Clear the PrestaShop cache and the browser cache to reload the module
 
-?> You don't need to reset the module in order to update it
+::: tip
+You don't need to reset the module in order to update it
+:::
 
-!> Creating a full backup before updating the module is highly recommended
+::: warning
+Creating a full backup before updating the module is highly recommended
+:::

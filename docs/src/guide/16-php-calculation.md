@@ -98,7 +98,9 @@ $logged_in = (int)Context::getContext()->customer->isLogged();
 // It can be used to show/hide fields using the condition feature for example
 ```
 
-?> Don't forget to create a [dynamic variable](07-fields.md?id=dynamic-variable) field before assigning its value
+::: tip
+Don't forget to create a [dynamic variable](07-fields.md?id=dynamic-variable) field before assigning its value
+:::
 
 Once you assign a value to a field, you can use it in the price formula and all other formulas and functions such as the
 intervals, the conditions and the grids etc...
@@ -118,7 +120,9 @@ To calculate the price, place a PHP file in the folder `/dynamicproduct/calculat
 
 In the price calculation, you need to assign a `$result` variable at the end of the calculation.
 
-?> Initially, the `$result` variable will contain the price formula result
+::: tip
+Initially, the `$result` variable will contain the price formula result
+:::
 
 ```php
 $result = $width * $length / 10000 * 50;
@@ -155,7 +159,9 @@ Here's an example
 $weight = $width * $length * $depth * 5;
 ```
 
-?> Initially, the `$weight` variable will contain the weight formula result
+::: tip
+Initially, the `$weight` variable will contain the weight formula result
+:::
 
 ### Quantity calculation using PHP
 
@@ -171,7 +177,9 @@ to [the price calculation](16-php-calculation.md?id=price-calculation-using-php)
 $qty = $width * $length;
 ```
 
-?> Initially, the `$qty` variable will contain the quantity formula result
+::: tip
+Initially, the `$qty` variable will contain the quantity formula result
+:::
 
 ### Declaring JavaScript variables from PHP
 

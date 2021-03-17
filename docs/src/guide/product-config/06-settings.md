@@ -29,7 +29,9 @@ The price will be displayed like this
 
 <img srcset="/images/display-price.jpg 2x">
 
-?> The module applies the configured tax to the displayed price
+::: tip
+The module applies the configured tax to the displayed price
+:::
 
 ### Price unit
 
@@ -115,4 +117,6 @@ In the following example, a custom execution order is configured where the field
 
 This is useful when you have a field that is modified by a grid and that you want to use it in a field formula.
 
-?> You can add a calculation step more than once if needed
+::: tip
+You can add a calculation step more than once if needed
+:::

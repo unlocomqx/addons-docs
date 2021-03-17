@@ -15,7 +15,9 @@ To edit it, click it, then this popup will be displayed
 
 <img srcset="/images/intervals-popup.jpg 2x" class="border">
 
-?> You can set the **Max** value to infinity by clicking the infinity button on the right side of the input. 
+::: tip
+You can set the **Max** value to infinity by clicking the infinity button on the right side of the input. 
+:::
 
 ### Interval conditions
 
@@ -29,7 +31,9 @@ You can also target multiple fields
 
 <img srcset="/images/interval-target.jpg 2x" class="padding border">
 
-?> You can also have multiple intervals in one product
+::: tip
+You can also have multiple intervals in one product
+:::
 
 ### Values
 In the interval condition, you can pick the type **Interval** as well as the type **Values**.
@@ -45,5 +49,6 @@ This is how to configure the condition using **Values**
 
 <img srcset="/images/interval-values-popup.jpg 2x" class="border">
 
-?> The **Values** must be separated by commas and without spaces
-
+::: tip
+The **Values** must be separated by commas and without spaces
+:::
