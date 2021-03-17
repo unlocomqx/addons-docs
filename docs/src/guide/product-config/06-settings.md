@@ -84,7 +84,9 @@ You can copy a product configuration to the current product by picking a product
 
 <img srcset="/images/load-config.jpg 2x" class="border padding">
 
-!> The configuration of the current product will be overwritten
+:::warning
+The configuration of the current product will be overwritten
+:::
 
 ### Copy configuration
 
@@ -92,7 +94,9 @@ You can copy the current product configuration to any category of your choice.
 
 <img srcset="/images/copy-config.jpg 2x" class="border padding">
 
-!> The configuration of all the products of the selected category will be overwritten
+:::warning
+The configuration of all the products of the selected category will be overwritten
+:::
 
 ### Import / Export configuration
 
