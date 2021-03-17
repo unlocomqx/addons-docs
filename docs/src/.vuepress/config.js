@@ -1,10 +1,10 @@
-const { description } = require('../../package')
+const {description} = require("../../package");
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Dynamic Product Module',
+  title: "Dynamic Product Module",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,9 +16,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ["meta", {name: "theme-color", content: "#3eaf7c"}],
+    ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
+    ["meta", {name: "apple-mobile-web-app-status-bar-style", content: "black"}]
   ],
 
   /**
@@ -27,44 +27,70 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: "",
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: "",
+    editLinkText: "",
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: "Guide",
+        link: "/guide/",
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: "Config",
+        link: "/config/"
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: "VuePress",
+        link: "https://v1.vuepress.vuejs.org"
       }
     ],
     sidebar: {
-      '/guide/': [
+      "/guide/": [
         {
-          title: 'Guide',
+          title: "Guide",
           collapsable: false,
           children: [
-            '',
-            'using-vue',
+            "01-intro.md",
+            "02-installation.md",
+            "03-updates.md",
+            "04-configuration.md",
+            {
+              title: "Product Configuration",
+              collapsable: true,
+              children: [
+                'product-config/',
+                "product-config/06-settings.md",
+                "product-config/07-fields.md",
+                "product-config/08-formulas.md",
+                "product-config/09-conditions.md",
+                "product-config/10-field-formulas.md",
+                "product-config/11-proportions.md",
+                "product-config/12-intervals.md",
+                "product-config/13-grids.md",
+                "product-config/14-groups.md",
+              ],
+            },
+            "15-formula-functions.md",
+            "16-php-calculation.md",
+            "17-custom-scripts.md",
+            "18-carrier-filtering.md",
+            "19-dynamic-content.md",
+            "20-troubleshooting.md",
+            "21-debug-mode.md",
           ]
         }
       ],
-    }
+    },
+    sidebarDepth: 3
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
   ]
-}
+};
