@@ -84,7 +84,7 @@ The value of `props` will have this shape
   active: 1
   common: 0
   description: ""
-  dir: "/images/field"
+  dir: "/dynamicproduct/images/field"
   ext: ".jpg"
   favorite: 0
   force_id: false

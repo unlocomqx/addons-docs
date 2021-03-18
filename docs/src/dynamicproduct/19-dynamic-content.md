@@ -11,12 +11,12 @@ The calculation is [width] * [height] = [total]
 
 - **HTML config**
 
-<img srcset="/images/html-config.jpg 2x" class="border">
+<img srcset="/dynamicproduct/images/html-config.jpg 2x" class="border">
 
 - **Feature config**
 
-<img srcset="/images/feature-config.jpg 2x" class="border">
+<img srcset="/dynamicproduct/images/feature-config.jpg 2x" class="border">
 
 The fields will be dislayed like this
 
-<img srcset="/images/dynamic-content.jpg 2x" class="padding border">
+<img srcset="/dynamicproduct/images/dynamic-content.jpg 2x" class="padding border">

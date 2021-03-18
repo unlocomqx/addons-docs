@@ -2,7 +2,7 @@
 
 To make dynamic calculations, the module uses a formula system.
 
-<img srcset="/images/formula.jpg 2x">
+<img srcset="/dynamicproduct/images/formula.jpg 2x">
 
 The concept is to reference the fields by name between brackets, so if the field has the name **width**,
 then it can be referenced as **[width]**
@@ -134,4 +134,4 @@ Example
 
 You can easily insert this expression by long pressing the field name
 
-<img srcset="/images/secondary-value.jpg 2x">
+<img srcset="/dynamicproduct/images/secondary-value.jpg 2x">

@@ -3,7 +3,7 @@
 The module installation requires no special steps.  
 Simply upload the zip through the Modules Manager page and the module will be installed normally.
 
-<img srcset="/images/install.jpg 2x" class="border">
+<img srcset="/dynamicproduct/images/install.jpg 2x" class="border">
 
 ## Overrides
 The module will install the following overrides automatically:

@@ -116,7 +116,7 @@ To calculate the price, place a PHP file in the folder `/dynamicproduct/calculat
   `product42.php` will target product `#42`  
   The product **ID** is displayed in the product list in the backoffice
   
-  <img srcset="/images/php-ids.jpg 2x" class="padding border">
+  <img srcset="/dynamicproduct/images/php-ids.jpg 2x" class="padding border">
 
 In the price calculation, you need to assign a `$result` variable at the end of the calculation.
 

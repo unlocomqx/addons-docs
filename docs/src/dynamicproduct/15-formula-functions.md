@@ -112,7 +112,7 @@ CONCAT( "A great ", "day ", "today" ) → "A great day today"
 **Grid**: Allows reading a CSV file and getting a result based on two values  
 This function is very similar to [the Grid feature](/dynamicproduct/product-config/13-grids.md).
 
-Here's a [CSV sample](files/sample.csv ':ignore')
+Here's a [CSV sample](/dynamicproduct/files/sample.csv ':ignore')
 
 To use this function, start by uploading your CSV file to the folder `[root of PrestaShop]/dynamicproduct/databases/`  
 Then in the formula, you can insert this function by clicking the CSV file
@@ -123,7 +123,7 @@ Then in the formula, you can insert this function by clicking the CSV file
 
 In this case, we get a price based on the width and height values
 
-<img srcset="/images/grid-function.jpg 2x">
+<img srcset="/dynamicproduct/images/grid-function.jpg 2x">
 
 This method allows you to use a single CSV file for multiple products
 

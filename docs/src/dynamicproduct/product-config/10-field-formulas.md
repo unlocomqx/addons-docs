@@ -4,7 +4,7 @@ You can configure field formulas which allows you to change the value of a field
 
 For example, we would like to have an **area** field which will hold the area that is calculated from the **width** and **length** fields.
 
-<img srcset="/images/field-formula.jpg 2x">
+<img srcset="/dynamicproduct/images/field-formula.jpg 2x">
 
 In this example, we set the **area** field value to the meter squared area.  
 Formula:
@@ -16,7 +16,7 @@ Before:
 After:
 <code class="formula">**[area]** * 50</code>
 
-<img srcset="/images/field-formula-area.jpg 2x">
+<img srcset="/dynamicproduct/images/field-formula-area.jpg 2x">
 
 ## Conditional calculations
 
@@ -25,11 +25,11 @@ For example, let's say we have a price that we want to reduce when the area exce
 
 The first step is to create the price field, let's call it **price_m2** and give it a default value of 50.
 
-<img srcset="/images/field-formulas-price_m2.jpg 2x" class="border">
+<img srcset="/dynamicproduct/images/field-formulas-price_m2.jpg 2x" class="border">
 
 Now in the field formula, we can change its value using an **IF** statement like this
 
-<img srcset="/images/field-formulas-price_m2_formula.jpg 2x">
+<img srcset="/dynamicproduct/images/field-formulas-price_m2_formula.jpg 2x">
 
 The formula means: If the **area** is bigger than 3 m2 then set **price_m2** to 40, otherwise set it to 50.
 
