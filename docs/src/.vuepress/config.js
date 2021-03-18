@@ -32,7 +32,7 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: false,
-    logo: "images/tunisoft.png",
+    logo: "/images/tunisoft.png",
     nav: [
       {
         text: "Dynamic Product",
