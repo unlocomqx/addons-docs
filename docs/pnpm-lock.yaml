@@ -1,5 +1,6 @@
 devDependencies:
   vuepress: 1.8.2
+  vuepress-plugin-smooth-scroll: 0.0.10
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.13:
@@ -7965,6 +7966,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-TQrDX/v+WHOihj3jpilVnjXu9RcTm6m8tzljNJwYhxnJUW0WWQ0hFLcDTqTBwgKIFdEiSxVOmYE+bJX/sq46MA==
+  /vuepress-plugin-smooth-scroll/0.0.10:
+    dependencies:
+      smoothscroll-polyfill: 0.4.4
+    dev: true
+    resolution:
+      integrity: sha512-1B7cc0OxROX9aPdktTF6lGqASGh3h0mtiUCmbAVZfGDtTOGUYDDA1BhLV96zkz/v1Zh/UvKP2gF6ADrcV83BMg==
   /vuepress-plugin-smooth-scroll/0.0.3:
     dependencies:
       smoothscroll-polyfill: 0.4.4
@@ -8303,3 +8310,4 @@ packages:
       integrity: sha1-4Se9nmb9hGvl6rSME5SIL3wOT5g=
 specifiers:
   vuepress: ^1.8.2
+  vuepress-plugin-smooth-scroll: ^0.0.10
