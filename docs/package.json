@@ -7,7 +7,7 @@
     "name": "Module Dev",
     "email": "prestalife.solutions@gmail.com"
   },
-  "repository": "https://github.com/unlocomqx/dp-docs/dp-docs",
+  "repository": "https://github.com/unlocomqx/dp-docs/",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
