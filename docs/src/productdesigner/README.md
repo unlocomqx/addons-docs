@@ -12,4 +12,6 @@
 The module displays an interface which allows adding texts and images and changing various aspects of the product
 all white having a direct preview of the result.
 
+<img srcset="/productdesigner/images/interface.jpg 2x">
 
+<img srcset="/productdesigner/images/interface-2.jpg 2x">
