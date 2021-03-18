@@ -30,7 +30,7 @@ If statement for conditional calculation
 The keyboard shortct to save a formula is **Ctrl** + **Enter**
 :::
 
-### Price formula
+## Price formula
 This formula is used to calculate the cost of the customization.  
 
 ::: tip
@@ -44,12 +44,12 @@ The reductions that the module supports are:
 - Category reductions
 
 
-### Weight formula
+## Weight formula
 This formula is used to calculate the extra weight that the customization adds.  
 The result of this formula affects the shipping cost.
 To display the result of this formula, you can enable [the weight display option](product-config/06-settings.md?id=display-weight-to-customers).
 
-### Quantity formula
+## Quantity formula
 This formula affects the quantity that is retracted from the stock when the order is validated.  
 This is useful when you want to retract meters for example instead of units.  
 
@@ -61,7 +61,7 @@ You can configure this formula:
 If you'd like to retract by meter squared for example
 <code class="formula">**[width]** * **[length]**</code>
 
-### Field values for each type
+## Field values for each type
 
 - **Numeric Input**  
   The value is the html field value
@@ -126,7 +126,7 @@ If you'd like to retract by meter squared for example
 - **Error message**  
   Can only be used in [conditions](product-config/09-conditions.md)
 
-### Secondary values
+## Secondary values
 For the fields of type **Dropdown**, **Radio buttons** and **Image list**, you can assign a secondary value to each option.  
 The way you use this secondary value in the formula is by using double brackets  
 Example
