@@ -2,7 +2,7 @@
 
 <div style="text-align: center; margin-bottom: 50px;">
   <div>
-    <img srcset="/images/logo.png 2x">
+    <img srcset="/images/dynamicproduct-logo.png 2x">
   </div>
   <strong style="font-size: 2em;">Dynamic Product</strong>
 </div>
