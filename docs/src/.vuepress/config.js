@@ -38,12 +38,12 @@ module.exports = {
         link: "/dynamicproduct/",
       },
       {
-        text: "Config",
-        link: "/config/"
+        text: "Product Designer",
+        link: "/productdesigner/"
       },
       {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org"
+        text: "PrestaShop Addons",
+        link: "https://addons.prestashop.com/en/2_community-developer?contributor=179195"
       }
     ],
     sidebar: {

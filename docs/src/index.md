@@ -15,5 +15,5 @@ documentations:
   logo: images/prestashop.png
   text: View Docs →
   link: __/prestashop/
-footer: Made In Tunisia ️🇹🇳
+footer: ©️ TuniSoft Solutions
 ---
