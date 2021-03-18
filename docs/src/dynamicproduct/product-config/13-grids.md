@@ -29,6 +29,6 @@ And here it is imported as a grid
 <img srcset="/images/grids-imported.jpg 2x" class="padding border">
 
 ::: tip
-For decimal number, use the dot instead of the comma.  
+For decimal numbers, use the dot instead of the comma.  
 For example, write `10.5` instead of `10,5`
 :::

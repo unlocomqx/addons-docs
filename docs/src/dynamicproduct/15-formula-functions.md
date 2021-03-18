@@ -126,3 +126,8 @@ In this case, we get a price based on the width and height values
 <img srcset="/images/grid-function.jpg 2x">
 
 This method allows you to use a single CSV file for multiple products
+
+::: tip
+For decimal numbers, use the dot instead of the comma.  
+For example, write `10.5` instead of `10,5`
+:::
