@@ -1,6 +1,6 @@
 # Groups
 
-Once you added your field groups in [the main configuration page](/guide/04-configuration.md#groups),
+Once you added your field groups in [the main configuration page](/dynamicproduct/04-configuration.md#groups),
 you can insert the desired groups into the product.
 
 <img srcset="/images/groups-insert.jpg 2x" class="padding border">

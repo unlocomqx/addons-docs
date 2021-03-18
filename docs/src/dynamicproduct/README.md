@@ -6,7 +6,7 @@
 
 Your customers can fill in various types of fields then order their custom product directly.
 
-The module can display [many types of fields](/guide/product-config/07-fields.md) like numeric fields, dropdown, checkbox and radio buttons etc...  
+The module can display [many types of fields](/dynamicproduct/product-config/07-fields.md) like numeric fields, dropdown, checkbox and radio buttons etc...  
 
 <img srcset="/images/fields-example.jpg 2x" class="border">
 

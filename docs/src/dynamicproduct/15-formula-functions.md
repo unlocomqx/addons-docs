@@ -110,7 +110,7 @@ CONCAT( "A great ", "day ", "today" ) → "A great day today"
 ## The Grid function
 
 **Grid**: Allows reading a CSV file and getting a result based on two values  
-This function is very similar to [the Grid feature](/guide/product-config/13-grids.md).
+This function is very similar to [the Grid feature](/dynamicproduct/product-config/13-grids.md).
 
 Here's a [CSV sample](files/sample.csv ':ignore')
 

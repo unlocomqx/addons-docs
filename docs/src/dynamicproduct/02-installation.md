@@ -20,4 +20,4 @@ The module will install the following overrides automatically:
 - **Product** override  
   Path: **/override/classes/Product.php**  
   Methods: 
-  - **getProductProperties**: used to alter the product [displayed price](/guide/product-config/06-settings.md#displayed-price) in category page when a display price is configured
+  - **getProductProperties**: used to alter the product [displayed price](/dynamicproduct/product-config/06-settings.md#displayed-price) in category page when a display price is configured

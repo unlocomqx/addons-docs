@@ -47,7 +47,7 @@ You can also display the calculated price which will be calculated based on the 
 
 ## Display weight to customers
 
-When enabled, the result of the [weight formula](/guide/product-config/08-formulas.md#weight-formula) will be displayed  
+When enabled, the result of the [weight formula](/dynamicproduct/product-config/08-formulas.md#weight-formula) will be displayed  
 
 <img srcset="/images/display-weight.jpg 2x" class="border padding">
 
@@ -110,10 +110,10 @@ In the advanced configuration, you can change the calculation order if needed.
 You can access the advanced configuration from the `Settings` tab and you can find it in the bottom of this tab.  
 This is the default calculation order that the module follows:
 
-1. [Intervals](/guide/product-config/12-intervals.md)
-2. [Field formulas](/guide/product-config/10-field-formulas.md)
-3. [Grids](/guide/product-config/13-grids.md)
-4. [Conditions](/guide/product-config/09-conditions.md)
+1. [Intervals](/dynamicproduct/product-config/12-intervals.md)
+2. [Field formulas](/dynamicproduct/product-config/10-field-formulas.md)
+3. [Grids](/dynamicproduct/product-config/13-grids.md)
+4. [Conditions](/dynamicproduct/product-config/09-conditions.md)
 
 In the following example, a custom execution order is configured where the field formulas are calculated after the grids
 

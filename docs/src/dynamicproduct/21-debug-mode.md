@@ -12,7 +12,7 @@ The module will display this warning
 To view the debug information, open your browser console:
 - [How to open the Chrome console](https://developers.google.com/web/tools/chrome-devtools/open)
 - [How to open the Firefox console](https://developer.mozilla.org/en-US/docs/Tools/Browser_Console)
-- [How to open the Safari console](https://support.apple.com/en-gb/guide/safari/sfri20948/mac)
+- [How to open the Safari console](https://support.apple.com/en-gb/dynamicproduct/safari/sfri20948/mac)
 
 The console will show the formula and the calculation as well as the field values and the resulting prices
 

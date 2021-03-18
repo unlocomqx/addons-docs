@@ -34,8 +34,8 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: "Guide",
-        link: "/guide/",
+        text: "Dynamic Product",
+        link: "/dynamicproduct/",
       },
       {
         text: "Config",
@@ -47,10 +47,10 @@ module.exports = {
       }
     ],
     sidebar: {
-      "/guide/": [
+      "/dynamicproduct/": [
         {
           title: "Guide",
-          path: "/guide/",
+          path: "/dynamicproduct/",
           collapsable: false,
           children: [
             "02-installation.md",
@@ -58,7 +58,7 @@ module.exports = {
             "04-configuration.md",
             {
               title: "Product Configuration",
-              path: "/guide/product-config/",
+              path: "/dynamicproduct/product-config/",
               collapsable: true,
               children: [
                 "product-config/06-settings.md",
