@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Dynamic Product Module",
+  title: "Addons Documentation",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */

@@ -1,5 +1,5 @@
 {
-  "name": "dp-docs",
+  "name": "addons-docs",
   "version": "0.0.1",
   "description": "Dynamic Product Documentation",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "name": "Module Dev",
     "email": "prestalife.solutions@gmail.com"
   },
-  "repository": "https://github.com/unlocomqx/dp-docs/",
+  "repository": "https://github.com/unlocomqx/addons-docs/",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"

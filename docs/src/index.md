@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: images/logo.png
-tagline: Dynamic Product Documentation
+tagline: Addons Documentation
 actionText: Quick Start →
 actionLink: /guide/
 features:
