@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: images/tunisoft.png
-tagline: Addons Documentation
+tagline: PrestaShop Addons Manuals
 documentations:
 - name: Dynamic Product
   logo: images/dynamicproduct.png

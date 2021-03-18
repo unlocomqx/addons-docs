@@ -1,7 +1,7 @@
 {
   "name": "addons-docs",
   "version": "0.0.1",
-  "description": "Dynamic Product Documentation",
+  "description": "PrestaShop Addons Documentation",
   "main": "index.js",
   "authors": {
     "name": "Module Dev",

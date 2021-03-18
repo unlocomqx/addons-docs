@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Addons Documentation",
+  title: "Addons Documentations",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -32,6 +32,7 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: false,
+    logo: "images/tunisoft.png",
     nav: [
       {
         text: "Dynamic Product",
