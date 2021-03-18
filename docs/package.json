@@ -16,5 +16,8 @@
   "devDependencies": {
     "vuepress": "^1.8.2",
     "vuepress-plugin-smooth-scroll": "^0.0.10"
+  },
+  "dependencies": {
+    "@vuepress/theme-default": "^1.8.2"
   }
 }

@@ -1,15 +1,19 @@
 ---
 home: true
-heroImage: images/logo.png
+heroImage: images/tunisoft.png
 tagline: Addons Documentation
-actionText: Quick Start →
-actionLink: /guide/
-features:
-- title: Easy configuration
-  details: The most intuitive interface
-- title: Powerful features
-  details: Responds to every situation
-- title: Endless possibilities
-  details: It can do more than expected
+documentations:
+- name: Dynamic Product
+  logo: images/dynamicproduct.png
+  text: View Docs →
+  link: /dynamicproduct/
+- name: Product Designer
+  logo: images/productdesigner.png
+  text: View Docs →
+  link: /productdesigner/
+- name: PrestaShop Addons
+  logo: images/prestashop.png
+  text: View Docs →
+  link: __/prestashop/
 footer: Made In Tunisia ️🇹🇳
 ---
