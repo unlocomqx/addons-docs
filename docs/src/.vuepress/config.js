@@ -80,6 +80,9 @@ module.exports = {
       ],
       "/productdesigner/": [
         "",
+        "02-installation",
+        "03-configuration",
+        // "02-product-configuration",
       ]
     },
     sidebarDepth: 3
