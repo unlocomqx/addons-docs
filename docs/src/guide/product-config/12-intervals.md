@@ -19,14 +19,14 @@ To edit it, click it, then this popup will be displayed
 You can set the **Max** value to infinity by clicking the infinity button on the right side of the input. 
 :::
 
-### Interval conditions
+## Interval conditions
 
 Each interval, can have more than one condition if needed,
 you can add other conditions by clicking the add button that is inside the interval. 
 
 <img srcset="/images/interval-new_condition.jpg 2x" class="padding border">
 
-### Target fields
+## Target fields
 You can also target multiple fields
 
 <img srcset="/images/interval-target.jpg 2x" class="padding border">
@@ -35,7 +35,7 @@ You can also target multiple fields
 You can also have multiple intervals in one product
 :::
 
-### Values
+## Values
 In the interval condition, you can pick the type **Interval** as well as the type **Values**.
 The type **Values** allows you to use discrete values in your conditions.  
 As example, let's say we have 3 colors with value 1, 2 and 3 and we want the price to be 20% more expensive

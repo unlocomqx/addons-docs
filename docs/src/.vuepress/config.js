@@ -83,7 +83,7 @@ module.exports = {
         }
       ],
     },
-    sidebarDepth: 2
+    sidebarDepth: 3
   },
 
   /**

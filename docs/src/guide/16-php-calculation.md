@@ -16,7 +16,7 @@ Here are the available methods to use a PHP file:
 - To [declare JavaScript variables](16-php-calculation.md?id=declaring-javascript-variables-from-php) to use it in
   a [custom script](17-custom-scripts.md)
 
-### Accessing fields from PHP
+## Accessing fields from PHP
 
 In any PHP file that you create inside the folder `/dynamicproduct`, the fields will be available with their current
 values. For example, if you have fields `width`, `length` and `height`, you can access them using the variables
@@ -34,7 +34,7 @@ Additionally, the module provides a variable named `$changed`
 which indicates the name of the field that was changed by the customer.  
 This can be useful if you want to only update the field that wasn't changed when two fields depend on each other.
 
-### Accessing PrestaShop functions
+## Accessing PrestaShop functions
 
 In the calculation file, you can access any PrestaShop function as well, here are some examples:
 
@@ -49,7 +49,7 @@ $id_group = Context::getContext()->customer->id_default_group;
 $id_category = (new Product($id_product))->id_category_default;
 ```
 
-### Other available variables
+## Other available variables
 
 In addition to the fields, the module provides other variables in the PHP context:
 
@@ -70,7 +70,7 @@ $product_price
 $product_weight
 ```
 
-### Assigning a value to a field (Field Allocation)
+## Assigning a value to a field (Field Allocation)
 
 You can assign a value to field dynamically using PHP.  
 First, create a php file in the folder `/dynamicproduct/allocations`
@@ -105,7 +105,7 @@ Don't forget to create a [dynamic variable](07-fields.md?id=dynamic-variable) fi
 Once you assign a value to a field, you can use it in the price formula and all other formulas and functions such as the
 intervals, the conditions and the grids etc...
 
-### Price calculation using PHP
+## Price calculation using PHP
 
 To calculate the price, place a PHP file in the folder `/dynamicproduct/calculator`
 
@@ -144,7 +144,7 @@ $unit_price = (float)Tools::file_get_contents('https://remoteservice.com/pricing
 $result = $length * $unit_price; 
 ```
 
-### Weight calculation using PHP
+## Weight calculation using PHP
 
 The weight calculation is done exactly in the same way
 as [the price calculation](16-php-calculation.md?id=price-calculation-using-php), except for two differences.
@@ -163,7 +163,7 @@ $weight = $width * $length * $depth * 5;
 Initially, the `$weight` variable will contain the weight formula result
 :::
 
-### Quantity calculation using PHP
+## Quantity calculation using PHP
 
 The quantity calculation is also very similar
 to [the price calculation](16-php-calculation.md?id=price-calculation-using-php), but here's the two differences:
@@ -181,7 +181,7 @@ $qty = $width * $length;
 Initially, the `$qty` variable will contain the quantity formula result
 :::
 
-### Declaring JavaScript variables from PHP
+## Declaring JavaScript variables from PHP
 
 The module allows you to declare JavaScript variables that you can use in your custom scripts.  
 First, create a php file in the folder `/dynamicproduct/declarations`

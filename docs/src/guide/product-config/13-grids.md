@@ -16,7 +16,7 @@ The last interval will be picked when the corresponding field value is equal or 
 
 **30** wil be picked when (**width** >= 200) and (**length** >= 200)
 
-### CSV Import
+## CSV Import
 
 You can import a grid from a CSV file, here you can find [a sample file](files/sample.csv ':ignore')
 

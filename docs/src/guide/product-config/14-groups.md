@@ -15,7 +15,7 @@ The groups will be then displayed like this
 
 The fields that are not added to any group will be displayed in the bottom.
 
-### Collapsible option
+## Collapsible option
 
 You can choose to make the field collapsible and make it collpased initially.
 

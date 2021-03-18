@@ -12,7 +12,7 @@ The file name should be:
 - `customX.js` (if you want to only target the product with ID=**X**)  
   For example, if you want to target product `#10`, you can create a file named `custom10.js`
 
-### Detecting a field change
+## Detecting a field change
 
 To detect a field change, you can create a function with the same name as the field but prefixed with `dp_`.  
 For example, if you have a field named `width`, you can create a function named `dp_width`.  
@@ -34,7 +34,7 @@ function dp_dropdown(value, selected_options) {
 }
 ```
 
-### Updating the properties of a field
+## Updating the properties of a field
 
 You can change a field properties from the custom script, for that you need to use the `updateField` function.  
 Code example:
@@ -72,7 +72,7 @@ export interface IFieldSettings {
 }
 ```
 
-### Get a field properties
+## Get a field properties
 You can use the `getField` function to get the properties of a field.
 ```js
 getField(field_name);
@@ -147,7 +147,7 @@ The value of `props` will have this shape
 }
 ```
 
-### Detecting a calculation result
+## Detecting a calculation result
 You can subscribe to the module stores in ordre to detect the calculation results.  
 The module uses [`Svelte stores`](https://svelte.dev/docs#svelte_store) under the hood.
 
@@ -226,7 +226,7 @@ The data is have this shape
 }
 ```
 
-### Detecting any change on fields
+## Detecting any change on fields
 You can subscribe to the fields store to detect any change on the fields.  
 The result will be an object containing each field
 Example code
@@ -271,7 +271,7 @@ The fields variable will have this shape
 }
 ```
 
-### Validating the fields
+## Validating the fields
 If you need to validate the fields programmatically, you can use the `validateFields` function.
 
 Example code:
@@ -281,7 +281,7 @@ var isValid = validateFields();
 // The module will highlight errors and will scroll to the first visible error
 ```
 
-### Saving the customization
+## Saving the customization
 If you need to save the customization programmatically, then you can use the `dpSaveCustomization`
 
 Example code
@@ -296,7 +296,7 @@ dpSaveCustomization(true).then(function(response){
 });
 ```
 
-### Changing the module position in the page
+## Changing the module position in the page
 You can change the module position by changing the `dp_hook` variable and set it to any selector or html element.  
 The module will then be positioned after the selected hook.  
 Examples:
@@ -306,7 +306,7 @@ window.dp_hook = $("#my_location"); // A jQuery element
 window.dp_hook = document.getElementById("my_location"); // A DOM element
 ```
 
-### Setting the price element
+## Setting the price element
 Sometimes, the module can't find the price element to update it 
 because the theme has a different html structure than the default theme,
 for that, you can set the variable `dp_price_hook` to tell the module which element

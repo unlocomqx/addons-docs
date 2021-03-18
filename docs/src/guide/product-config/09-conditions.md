@@ -27,7 +27,7 @@ We can of course hide more than one field
 
 <img srcset="/images/condition-more.jpg 2x" class="border">
 
-### Hiding options
+## Hiding options
 Besides fields and groups, we can also hide individual options of a dropdown or radio or image list field.
 
 To hide a field options, click the cog icon to open the options list.
@@ -38,7 +38,7 @@ Then you can hide the options of your choice by clicking them
 
 <img srcset="/images/condition-options.jpg 2x" class="border">
 
-### Working with fields having options
+## Working with fields having options
 When working with field which have options, you will need to reference the option value in the condition formula.
 Referencing with numeric values can hinder readability, this is why you can use strings instead.
 

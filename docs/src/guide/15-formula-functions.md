@@ -2,7 +2,7 @@
 
 The module supports many Excel functions that you can use in your calculations
 
-### Standard functions
+## Standard functions
 
 **SQR**: Return the square of a number 
 ```xls
@@ -107,7 +107,7 @@ CONCAT( "A great ", "day ", "today" ) → "A great day today"
 ```
 
 ---
-### The Grid function
+## The Grid function
 
 **Grid**: Allows reading a CSV file and getting a result based on two values  
 This function is very similar to [the Grid feature](product-config/13-grids.md).

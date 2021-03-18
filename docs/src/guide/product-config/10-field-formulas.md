@@ -18,7 +18,7 @@ After:
 
 <img srcset="/images/field-formula-area.jpg 2x">
 
-### Conditional calculations
+## Conditional calculations
 
 In the field formulas, you can also perform condition calculations.  
 For example, let's say we have a price that we want to reduce when the area exceeds 3 meter squared.
