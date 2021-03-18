@@ -9,12 +9,12 @@ these situations for example:
 
 Here are the available methods to use a PHP file:
 
-- To calculate the [price formula](product-config/08-formulas.md?id=price-formula)
-- To calculate the [weight formula](product-config/08-formulas.md?id=weight-formula)
-- To calculate the [quantity formula](product-config/08-formulas.md?id=quantity-formula)
-- To assign the value of a [dynamic field](product-config/07-fields.md?id=dynamic-variable) from PHP
-- To [declare JavaScript variables](16-php-calculation.md?id=declaring-javascript-variables-from-php) to use it in
-  a [custom script](17-custom-scripts.md)
+- To calculate the [price formula](/guide/product-config/08-formulas.md#price-formula)
+- To calculate the [weight formula](/guide/product-config/08-formulas.md#weight-formula)
+- To calculate the [quantity formula](/guide/product-config/08-formulas.md#quantity-formula)
+- To assign the value of a [dynamic field](/guide/product-config/07-fields.md#dynamic-variable) from PHP
+- To [declare JavaScript variables](/guide/16-php-calculation.md#declaring-javascript-variables-from-php) to use it in
+  a [custom script](/guide/17-custom-scripts.md)
 
 ## Accessing fields from PHP
 
@@ -78,10 +78,10 @@ First, create a php file in the folder `/dynamicproduct/allocations`
 - Name the file `products.php` if you want to target all products
 - Name the file `productX.php` if you want to target only the product with ID=**X**
 
-You can [access fields by name](16-php-calculation.md?id=accessing-fields-from-php) and you can also assign a value to
+You can [access fields by name](/guide/16-php-calculation.md#accessing-fields-from-php) and you can also assign a value to
 fields by name, here are some examples:
 
-- Assign a value to an area field (this can be done using [Field formulas](product-config/10-field-formulas.md) but it's
+- Assign a value to an area field (this can be done using [Field formulas](/guide/product-config/10-field-formulas.md) but it's
   here only as an example)
 
 ```php
@@ -99,7 +99,7 @@ $logged_in = (int)Context::getContext()->customer->isLogged();
 ```
 
 ::: tip
-Don't forget to create a [dynamic variable](07-fields.md?id=dynamic-variable) field before assigning its value
+Don't forget to create a [dynamic variable](/guide/product-config/07-fields.md#dynamic-variable) field before assigning its value
 :::
 
 Once you assign a value to a field, you can use it in the price formula and all other formulas and functions such as the
@@ -147,7 +147,7 @@ $result = $length * $unit_price;
 ## Weight calculation using PHP
 
 The weight calculation is done exactly in the same way
-as [the price calculation](16-php-calculation.md?id=price-calculation-using-php), except for two differences.
+as [the price calculation](/guide/16-php-calculation.md#price-calculation-using-php), except for two differences.
 
 - The variable that has to be assigned is called `$weight`
 - The file names are `weights.php` and `weightX.php` to target a product with ID=**X**
@@ -166,7 +166,7 @@ Initially, the `$weight` variable will contain the weight formula result
 ## Quantity calculation using PHP
 
 The quantity calculation is also very similar
-to [the price calculation](16-php-calculation.md?id=price-calculation-using-php), but here's the two differences:
+to [the price calculation](/guide/16-php-calculation.md#price-calculation-using-php), but here's the two differences:
 
 - The variable that you need to assign is called `$qty`
 - The file names are `quantity.php` and `quantityX.php` to target a product with ID=**X**  

@@ -47,7 +47,7 @@ The reductions that the module supports are:
 ## Weight formula
 This formula is used to calculate the extra weight that the customization adds.  
 The result of this formula affects the shipping cost.
-To display the result of this formula, you can enable [the weight display option](product-config/06-settings.md?id=display-weight-to-customers).
+To display the result of this formula, you can enable [the weight display option](/guide/product-config/06-settings.md#display-weight-to-customers).
 
 ## Quantity formula
 This formula affects the quantity that is retracted from the stock when the order is validated.  
@@ -124,7 +124,7 @@ If you'd like to retract by meter squared for example
   The value is the html field value
   <code class="formula">**[picker]**</code>
 - **Error message**  
-  Can only be used in [conditions](product-config/09-conditions.md)
+  Can only be used in [conditions](/guide/product-config/09-conditions.md)
 
 ## Secondary values
 For the fields of type **Dropdown**, **Radio buttons** and **Image list**, you can assign a secondary value to each option.  
