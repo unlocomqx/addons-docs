@@ -78,6 +78,9 @@ module.exports = {
         "21-debug-mode.md",
 
       ],
+      "/productdesigner/": [
+        "",
+      ]
     },
     sidebarDepth: 3
   },
