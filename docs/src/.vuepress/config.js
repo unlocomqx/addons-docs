@@ -88,6 +88,7 @@ module.exports = {
           collapsable: true,
           children: [
             "product-config/04-main.md",
+            "product-config/05-tabs.md",
           ],
         },
       ]
