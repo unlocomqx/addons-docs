@@ -14,7 +14,8 @@ Below are the various configuration sections
 This option hides the PrestaShop cart button so that the customer customizes the product then uses the add to cart
 button that is inside the module.
 
-::: details Advanced If the module doesn't succeed in hiding the cart button then it means that your theme has a
+::: details Advanced 
+If the module doesn't succeed in hiding the cart button then it means that your theme has a
 different html structure compared to the default theme.  
 For that you can use custom CSS to hide the cart button.  
 The module adds a class to the `body` called `dsn-hide-cart-button` so you can write this CSS for example to hide the
@@ -33,7 +34,8 @@ Customize the CSS selector to work on your theme, this requires CSS knowledge
 
 This options hides the PrestaShop quantity box. The user can then enter the quantity in the module interface.
 
-::: details Advanced Sometimes, the theme has a different html structure than the default theme, so the module can't
+::: details Advanced 
+Sometimes, the theme has a different html structure than the default theme, so the module can't
 correctly hide the quantity input.  
 The solution is to add custom CSS code to hide the quantity input.  
 The module adds a class to the `body` which is called `dsn-hide-qty-input`, so you can write code like this
@@ -62,7 +64,8 @@ This option will display the PrestaShop attributes inside the module interface.
 
 This is useful if you don't want the module to take space on your page or to be initially visible.
 
-::: tip When you enable this option, make sure that the [customize button](#show-the-customize-button) is enabled so
+::: tip 
+When you enable this option, make sure that the [customize button](#show-the-customize-button) is enabled so
 that the popup can be accessed.
 :::
 
@@ -105,7 +108,8 @@ This option will crop the final SVG to the area size, thus including only the us
 
 Will display the SVG preview in the invoice PDF
 
-::: warning This option is not recommended being enabled because the PDF library used by PrestaShop does not support SVG
+::: warning 
+This option is not recommended being enabled because the PDF library used by PrestaShop does not support SVG
 files very well.
 :::
 
@@ -266,7 +270,8 @@ The colors/textures will be dislayed like this in the interface
 The module also allows you to choose which colors to enable for each product and also for each feature (text colors,
 image colors, etc...). This can be done in the [Product configuration](link).
 
-::: tip Supported file types The supported file types for textures are: `svg` `png` `jpg` `jpeg`
+::: tip Supported file types 
+The supported file types for textures are: `svg` `png` `jpg` `jpeg`
 :::
 
 ## Fonts
@@ -279,11 +284,17 @@ Here's the font properties
 
 <img srcset="/productdesigner/images/font-edit.jpg 2x">
 
-::: tip Upload the font file and the module will detect the name and the family name
+::: tip 
+Upload the font file and the module will detect the name and the family name
 :::
 
-::: tip Supported file types The supported file types are `.otf` and `.ttf`
+::: tip Supported file types 
+The supported file types are `.otf` and `.ttf`
 :::
+
+You can import multiple fonts at once by clicking this icon
+
+<img srcset="/productdesigner/images/fonts-import.jpg 2x" class="border-sw">
 
 The fonts will be displayed like this in the interface
 
@@ -316,3 +327,11 @@ In this example the Mountains group belongs to the Nature group, it will be disp
 Enable this option if the group will contain only white images. This is useful if you want to provide images that the
 customer can colorize using the [Image colors](link) feature.  
 Images that belong to this group will be automatically colored using the first available color when inserted in the design.
+
+### Bulk import
+
+You can import multiple image groups by clicking this icon
+
+<img srcset="/productdesigner/images/image-groups-import.jpg 2x">
+
+## Images
