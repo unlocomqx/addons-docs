@@ -1,8 +1,9 @@
 # Real size
 
-In order for the module to calculate the design cost, it need to know the product real size in centimeters.
+In order for the module to calculate the design cost, it need to know the product real size
+in `centimeters`.
 
-You can determine this real size by resizing the ruler and entering the size in cm.
+You can determine this real size by resizing the ruler and entering the size in `cm`.
 
 <img srcset="/productdesigner/images/real-size.jpg 2x">
 
