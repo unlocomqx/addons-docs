@@ -89,6 +89,7 @@ module.exports = {
           children: [
             "product-config/04-main.md",
             "product-config/05-tabs.md",
+            "product-config/06-sides.md",
           ],
         },
       ]
