@@ -243,3 +243,21 @@ The name is only used in the backoffice to reference the side in other sections 
 The label will be displayed to customers like this
 
 <img srcset="/productdesigner/images/sides-display.jpg 2x">
+
+## Colors
+
+You can configure available colors in this section
+
+<img srcset="/productdesigner/images/colors.jpg 2x">
+
+These colors will be used for text colors, image colors and product colors.
+
+Here are the color properties
+
+<img srcset="/productdesigner/images/color-edit.jpg 2x">
+
+You can also add a texture instead of a plain color. Make sure that your texture file is seamless so that it could be tiled properly by the module.
+
+The colors/textures will be dislayed like this in the interface
+
+<img srcset="/productdesigner/images/colors-list.jpg 2x">
