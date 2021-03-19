@@ -261,3 +261,31 @@ You can also add a texture instead of a plain color. Make sure that your texture
 The colors/textures will be dislayed like this in the interface
 
 <img srcset="/productdesigner/images/colors-list.jpg 2x">
+
+The module also allows you to choose which colors to enable for each product and also for each feature (text colors, image colors, etc...).
+This can be done in the [Product configuration](link).
+
+::: tip Supported file types
+The supported file types for textures are: `svg` `png` `jpg` `jpeg`
+:::
+## Fonts
+You can add custom fonts in this section
+
+<img srcset="/productdesigner/images/fonts.jpg 2x">
+
+Here's the font properties
+
+<img srcset="/productdesigner/images/font-edit.jpg 2x">
+
+::: tip
+Upload the font file and the module will detect the name and the family name
+:::
+
+::: tip Supported file types
+  The supported file types are `.otf` and `.ttf`
+:::
+
+The fonts will be displayed like this in the interface
+
+<img srcset="/productdesigner/images/fonts-panel.jpg 2x">
+
