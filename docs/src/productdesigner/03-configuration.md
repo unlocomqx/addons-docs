@@ -1,7 +1,8 @@
 # Configuration
 
 You can change the global settings of the module in the main configuration.  
-This page contains a configuration that is common to all products, such as the available text colors and fonts etc...
+This page contains a configuration that is common to all products, such as the available text colors
+and fonts etc...
 
 <img srcset="/productdesigner/images/configuration.jpg 2x">
 
@@ -11,15 +12,15 @@ Below are the various configuration sections
 
 ### Hide standard cart button
 
-This option hides the PrestaShop cart button so that the customer customizes the product then uses the add to cart
-button that is inside the module.
+This option hides the PrestaShop cart button so that the customer customizes the product then uses
+the add to cart button that is inside the module.
 
 ::: details Advanced   
-If the module doesn't succeed in hiding the cart button then it means that your theme has a different html structure
-compared to the default theme.  
+If the module doesn't succeed in hiding the cart button then it means that your theme has a
+different html structure compared to the default theme.  
 For that you can use custom CSS to hide the cart button.  
-The module adds a class to the `body` called `dsn-hide-cart-button` so you can write this CSS for example to hide the
-cart button
+The module adds a class to the `body` called `dsn-hide-cart-button` so you can write this CSS for
+example to hide the cart button
 
 ```css
 body.dsn-hide-cart-button button.add-to-cart {
@@ -32,13 +33,15 @@ Customize the CSS selector to work on your theme, this requires CSS knowledge
 
 ### Hide standard quantity box
 
-This options hides the PrestaShop quantity box. The user can then enter the quantity in the module interface.
+This options hides the PrestaShop quantity box. The user can then enter the quantity in the module
+interface.
 
 ::: details Advanced   
-Sometimes, the theme has a different html structure than the default theme, so the module can't correctly hide the
-quantity input.  
+Sometimes, the theme has a different html structure than the default theme, so the module can't
+correctly hide the quantity input.  
 The solution is to add custom CSS code to hide the quantity input.  
-The module adds a class to the `body` which is called `dsn-hide-qty-input`, so you can write code like this
+The module adds a class to the `body` which is called `dsn-hide-qty-input`, so you can write code
+like this
 
 ```css
 body.dsn-hide-qty-input div.qty {
@@ -65,8 +68,8 @@ This option will display the PrestaShop attributes inside the module interface.
 This is useful if you don't want the module to take space on your page or to be initially visible.
 
 ::: tip   
-When you enable this option, make sure that the [customize button](#show-the-customize-button) is enabled so that the
-popup can be accessed.
+When you enable this option, make sure that the [customize button](#show-the-customize-button) is
+enabled so that the popup can be accessed.
 :::
 
 ### Show the popup on page load
@@ -75,8 +78,8 @@ Enable this option if you want the customer to start customizing the product rig
 
 ### Defer loading of the module
 
-Enable if you want your product pages to load faster. The module will wait for the page load, then it will load its
-scripts.
+Enable if you want your product pages to load faster. The module will wait for the page load, then
+it will load its scripts.
 
 This can help with the page score.
 
@@ -102,15 +105,16 @@ Determines whether to include the visual options in the final SVG.
 
 ### Include design area only
 
-This option will crop the final SVG to the area size, thus including only the useful part of the design.
+This option will crop the final SVG to the area size, thus including only the useful part of the
+design.
 
 ### Show preview in invoice <Badge text="Not recommended" type="error"/>
 
 Will display the SVG preview in the invoice PDF
 
 ::: warning   
-This option is not recommended being enabled because the PDF library used by PrestaShop does not support SVG files very
-well.
+This option is not recommended being enabled because the PDF library used by PrestaShop does not
+support SVG files very well.
 :::
 
 ### Show design details in invoice
@@ -159,7 +163,8 @@ When the image does not have a sufficient quality, its borders will be highlight
 
 <img srcset="/productdesigner/images/dpi-validation.jpg 2x" class="border">
 
-An error will be displayed to prevent adding a design which has an image with less than the required DPI
+An error will be displayed to prevent adding a design which has an image with less than the required
+DPI
 
 <img srcset="/productdesigner/images/dpi-error.jpg 2x">
 
@@ -169,7 +174,8 @@ The customer can then reduce the size of the image until all the borders are gre
 
 ### Disallow designs with low dpi images
 
-If disabled, the module will only show this warning when the design contains an image with insufficient quality
+If disabled, the module will only show this warning when the design contains an image with
+insufficient quality
 
 <img srcset="/productdesigner/images/dpi-confirm.jpg 2x">
 
@@ -228,7 +234,8 @@ The tabs are displayed in the interface like this
 
 <img srcset="/productdesigner/images/interface-tabs.jpg 2x">
 
-You can also have a specific tabs configuration for any product of your choice in the [Tabs section](link)
+You can also have a specific tabs configuration for any product of your choice in
+the [Tabs section](link)
 
 ## Sides
 
@@ -242,7 +249,8 @@ Here are the side properties
 
 <img srcset="/productdesigner/images/sides-edit.jpg 2x">
 
-The name is only used in the backoffice to reference the side in other sections of the configuration.
+The name is only used in the backoffice to reference the side in other sections of the
+configuration.
 
 The label will be displayed to customers like this
 
@@ -260,15 +268,15 @@ Here are the color properties
 
 <img srcset="/productdesigner/images/color-edit.jpg 2x">
 
-You can also add a texture instead of a plain color. Make sure that your texture file is seamless so that it could be
-tiled properly by the module.
+You can also add a texture instead of a plain color. Make sure that your texture file is seamless so
+that it could be tiled properly by the module.
 
 The colors/textures will be dislayed like this in the interface
 
 <img srcset="/productdesigner/images/colors-list.jpg 2x">
 
-The module also allows you to choose which colors to enable for each product and also for each feature (text colors,
-image colors, etc...). This can be done in the [Product configuration](link).
+The module also allows you to choose which colors to enable for each product and also for each
+feature (text colors, image colors, etc...). This can be done in the [Product configuration](link).
 
 ::: tip Supported file types   
 The supported file types for textures are: `svg` `png` `jpg` `jpeg`
@@ -302,7 +310,8 @@ The fonts will be displayed like this in the interface
 
 ## Image groups
 
-You can add image groups will contain the images that the customer can pick from and add to the design.
+You can add image groups will contain the images that the customer can pick from and add to the
+design.
 
 <img srcset="/productdesigner/images/image-groups.jpg 2x">
 
@@ -324,10 +333,10 @@ In this example the Mountains group belongs to the Nature group, it will be disp
 
 ### White image group
 
-Enable this option if the group will contain only white images. This is useful if you want to provide images that the
-customer can colorize using the [Image colors](link) feature.  
-Images that belong to this group will be automatically colored using the first available color when inserted in the
-design.
+Enable this option if the group will contain only white images. This is useful if you want to
+provide images that the customer can colorize using the [Image colors](link) feature.  
+Images that belong to this group will be automatically colored using the first available color when
+inserted in the design.
 
 ### Bulk import
 
@@ -351,30 +360,45 @@ The images will be displayed when the customer opens the corresponding image gro
 
 ### Price per m²
 
-The module will apply the image cost by its size dynamically when it's added to the design or when it's resized
+The module will apply the image cost by its size dynamically when it's added to the design or when
+it's resized
 
-You can configure the image pricing in a more advanced way under the [Image pricing](link) tab 
+You can configure the image pricing in a more advanced way under the [Image pricing](link) tab
 
 ### Image width/height
 
-Set these values if the image is meant to be used at a fixed size only. Leave these values to 0 to ignore them.
+Set these values if the image is meant to be used at a fixed size only. Leave these values to 0 to
+ignore them.
 
 ## Help content
+
 In this section, you can configure different help areas in the interface
 
 <img srcset="/productdesigner/images/help-content.jpg 2x">
 
 ### Image upload help
+
 The image upload help will be displayed like this
 
 <img srcset="/productdesigner/images/image-upload-help.jpg 2x">
 
 ### Text help
+
 The text help will be displayed like this
 
 <img srcset="/productdesigner/images/text-help.jpg 2x">
 
 ### Image upload terms
+
 The image terms will be displayed like this
 
 <img srcset="/productdesigner/images/image-terms.jpg 2x">
+
+## Color theme
+
+In this section, you can customize the interface appearance to better match your theme
+
+<img srcset="/productdesigner/images/color-theme.jpg 2x">
+
+Furthermore, you can open the [color configurator](link) from any product that has the module enabled and
+edit the color theme directly in the product page.
