@@ -256,19 +256,21 @@ Here are the color properties
 
 <img srcset="/productdesigner/images/color-edit.jpg 2x">
 
-You can also add a texture instead of a plain color. Make sure that your texture file is seamless so that it could be tiled properly by the module.
+You can also add a texture instead of a plain color. Make sure that your texture file is seamless so that it could be
+tiled properly by the module.
 
 The colors/textures will be dislayed like this in the interface
 
 <img srcset="/productdesigner/images/colors-list.jpg 2x">
 
-The module also allows you to choose which colors to enable for each product and also for each feature (text colors, image colors, etc...).
-This can be done in the [Product configuration](link).
+The module also allows you to choose which colors to enable for each product and also for each feature (text colors,
+image colors, etc...). This can be done in the [Product configuration](link).
 
-::: tip Supported file types
-The supported file types for textures are: `svg` `png` `jpg` `jpeg`
+::: tip Supported file types The supported file types for textures are: `svg` `png` `jpg` `jpeg`
 :::
+
 ## Fonts
+
 You can add custom fonts in this section
 
 <img srcset="/productdesigner/images/fonts.jpg 2x">
@@ -277,15 +279,40 @@ Here's the font properties
 
 <img srcset="/productdesigner/images/font-edit.jpg 2x">
 
-::: tip
-Upload the font file and the module will detect the name and the family name
+::: tip Upload the font file and the module will detect the name and the family name
 :::
 
-::: tip Supported file types
-  The supported file types are `.otf` and `.ttf`
+::: tip Supported file types The supported file types are `.otf` and `.ttf`
 :::
 
 The fonts will be displayed like this in the interface
 
 <img srcset="/productdesigner/images/fonts-panel.jpg 2x">
 
+## Image groups
+
+You can add image groups will contain the images that the customer can pick from and add to the design.
+
+<img srcset="/productdesigner/images/image-groups.jpg 2x">
+
+Here's the image group properties
+
+<img srcset="/productdesigner/images/image-group-edit.jpg 2x">
+
+The image groups will be displayed like this
+
+<img srcset="/productdesigner/images/image-groups-display.jpg 2x">
+
+### Parent group
+
+The group can either belong to the root category or to another group
+
+In this example the Mountains group belongs to the Nature group, it will be displayed like this
+
+<img srcset="/productdesigner/images/sub-group.jpg 2x">
+
+### White image group
+
+Enable this option if the group will contain only white images. This is useful if you want to provide images that the
+customer can colorize using the [Image colors](link) feature.  
+Images that belong to this group will be automatically colored using the first available color when inserted in the design.
