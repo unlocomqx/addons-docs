@@ -82,7 +82,14 @@ module.exports = {
         "",
         "02-installation",
         "03-configuration",
-        // "02-product-configuration",
+        {
+          title: "Product Configuration",
+          path: "/productdesigner/product-config/",
+          collapsable: true,
+          children: [
+            "product-config/04-main.md",
+          ],
+        },
       ]
     },
     sidebarDepth: 3
