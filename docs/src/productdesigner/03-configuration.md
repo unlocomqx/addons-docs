@@ -336,3 +336,25 @@ You can import multiple image groups by clicking this icon
 <img srcset="/productdesigner/images/image-groups-import.jpg 2x">
 
 ## Images
+
+You can add images that the customer can pick from and add to the design.
+
+<img srcset="/productdesigner/images/images.jpg 2x">
+
+Here's the image properties
+
+<img srcset="/productdesigner/images/image-edit.jpg 2x">
+
+The images will be displayed when the customer opens the corresponding image group
+
+<img srcset="/productdesigner/images/images-display.jpg 2x">
+
+### Price per m²
+
+The module will apply the image cost by its size dynamically when it's added to the design or when it's resized
+
+You can configure the image pricing in a more advanced way under the [Image pricing](link) tab 
+
+### Image width/height
+
+Set these values if the image is meant to be used at a fixed size only. Leave these values to 0 to ignore them.
