@@ -93,6 +93,7 @@ module.exports = {
             "product-config/07-images.md",
             "product-config/08-product-colors.md",
             "product-config/09-product-size.md",
+            "product-config/10-real-size.md",
           ],
         },
       ]
