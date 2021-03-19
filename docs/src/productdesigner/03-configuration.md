@@ -225,3 +225,21 @@ The tabs are displayed in the interface like this
 <img srcset="/productdesigner/images/interface-tabs.jpg 2x">
 
 You can also have a specific tabs configuration for any product of your choice in the [Tabs section](link)
+
+## Sides
+
+In this section, you can configure the available sides for your products
+
+<img srcset="/productdesigner/images/sides.jpg 2x">
+
+You can then enable specific sides for any product in the [Sides tab](link)
+
+Here are the side properties
+
+<img srcset="/productdesigner/images/sides-edit.jpg 2x">
+
+The name is only used in the backoffice to reference the side in other sections of the configuration.
+
+The label will be displayed to customers like this
+
+<img srcset="/productdesigner/images/sides-display.jpg 2x">
