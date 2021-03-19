@@ -92,6 +92,7 @@ module.exports = {
             "product-config/06-sides.md",
             "product-config/07-images.md",
             "product-config/08-product-colors.md",
+            "product-config/09-product-size.md",
           ],
         },
       ]
