@@ -3,6 +3,7 @@ dependencies:
 devDependencies:
   vuepress: 1.8.2
   vuepress-plugin-smooth-scroll: 0.0.10
+  vuepress-plugin-zooming: 1.1.8
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.13:
@@ -7741,6 +7742,12 @@ packages:
       smoothscroll-polyfill: 0.4.4
     resolution:
       integrity: sha512-qsQkDftLVFLe8BiviIHaLV0Ea38YLZKKonDGsNQy1IE0wllFpFIEldWD8frWZtDFdx6b/O3KDMgVQ0qp5NjJCg==
+  /vuepress-plugin-zooming/1.1.8:
+    dependencies:
+      zooming: 2.1.1
+    dev: true
+    resolution:
+      integrity: sha512-QAspMEqzerd0n8z/oOL5a67V/QaFZyjSwfo86y6PWhDdVAeOLR7umJ7syQqJpMdN9EVxmAstuzbKHkRxWzL0NQ==
   /vuepress/1.8.2:
     dependencies:
       '@vuepress/core': 1.8.2
@@ -8068,7 +8075,12 @@ packages:
   /zepto/1.2.0:
     resolution:
       integrity: sha1-4Se9nmb9hGvl6rSME5SIL3wOT5g=
+  /zooming/2.1.1:
+    dev: true
+    resolution:
+      integrity: sha512-Z38dkZRQsFNBE67+xDBQLNKMs5J1Gc+s3/zO6iezTrC24VYLJV7YPBdBDJmiLhff5qa6Awxv4wsjqx3oYz2MYA==
 specifiers:
   '@vuepress/theme-default': ^1.8.2
   vuepress: ^1.8.2
   vuepress-plugin-smooth-scroll: ^0.0.10
+  vuepress-plugin-zooming: ^1.1.8
