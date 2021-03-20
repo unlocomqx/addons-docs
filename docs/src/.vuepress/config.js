@@ -124,5 +124,14 @@ module.exports = {
     "vuepress-plugin-smooth-scroll",
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
-  ]
+  ],
+
+  markdown: {
+    extendMarkdown: md => {
+      // md.set({ breaks: true })
+      if (process.env.NODE_ENV === "production") {
+        md.use(require('./resize-images'));
+      }
+    }
+  }
 };
