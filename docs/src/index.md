@@ -14,6 +14,6 @@ documentations:
 - name: PrestaShop Addons
   logo: /prestashop/images/prestashop.png
   text: View Docs →
-  link: __/prestashop/
+  link: /prestashop/
 footer: ©️ TuniSoft Solutions
 ---
