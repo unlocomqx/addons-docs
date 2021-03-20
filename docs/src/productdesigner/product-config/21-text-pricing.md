@@ -11,7 +11,7 @@ will apply the extra cost.
 
 ## Text cost intervals
 
-Allow setting different costs for different size ranges
+Allows setting different costs for different size ranges
 
 <img srcset="/productdesigner/images/text-pricing-intervals.jpg 2x">
 
