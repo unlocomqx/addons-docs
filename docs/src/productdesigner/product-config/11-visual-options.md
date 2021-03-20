@@ -117,7 +117,7 @@ Here's how the price is displayed when the option has a price
 
 <img srcset="/productdesigner/images/visual-options/option-price.jpg 2x" class="border">
 
-## Option colorization
+## :art: Option colorization
 
 You can generate options by colorizing an image using multiple colors.  
 
