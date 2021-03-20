@@ -3,18 +3,19 @@
 The module can display a visual configurator where the customer can pick different parts of the
 product and get a direct preview of the selected options.
 
-In this example, we will configure a custom skateboard step by step to see how to add option groups and visual
-options to the designer.
+In this example, we will configure a custom skateboard step by step to see how to add option groups
+and visual options to the designer.
 
 ## :one: Enabling the visual options
+
 The first step is to enable the visual options
 
 <img srcset="/productdesigner/images/visual-options-enable.jpg 2x">
 
 ## :two: Background image
 
-Then we will open the [images tab](product-config/07-images.md) and configure a white
-background to replace the base image
+Then we will open the [images tab](product-config/07-images.md) and configure a white background to
+replace the base image
 
 <img srcset="/productdesigner/images/visual-bg.jpg 2x">
 
@@ -44,7 +45,7 @@ You can create the other two groups in the same way.
 <img srcset="/productdesigner/images/visual-groups.jpg 2x">
 
 ## :four: Options
- 
+
 Next up, we add different options to each group
 
 We can add options individually by clicking this button
@@ -60,8 +61,8 @@ The supported file types are: `svg`, `png`, `jpg`, `jpeg`
 Leave the icon image empty if you want to use a color instead
 :::
 
-The option image should have a transparent background to allow the graphical
-superposition of the various visual options.
+The option image should have a transparent background to allow the graphical superposition of the
+various visual options.
 
 Here are some examples:
 
@@ -85,7 +86,7 @@ Make sure to name your files correctly, because the module will use the file nam
 names when importing multiple files.
 :::
 
-After importing the layers, they should look like this 
+After importing the layers, they should look like this
 
 <img srcset="/productdesigner/images/visual-options/options.jpg 2x" class="border">
 
@@ -119,7 +120,7 @@ Here's how the price is displayed when the option has a price
 
 ## :art: Option colorization
 
-You can generate options by colorizing an image using multiple colors.  
+You can generate options by colorizing an image using multiple colors.
 
 In this example, we will colorize this image
 
@@ -146,3 +147,10 @@ You can delete the icons if you want to display the colors
 Here's how the generated options will look
 
 <img srcset="/productdesigner/images/visual-options/dials.jpg 2x">
+
+You can also use textures to colorize the option. Make sure that your texture is seamless so that it
+could be tiled properly over the option image.
+
+Here's an option that was colorized using an aluminium texture
+
+<img srcset="/productdesigner/images/visual-options/alu.jpg 2x" class="border">
