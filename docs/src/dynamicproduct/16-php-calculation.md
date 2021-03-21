@@ -95,7 +95,7 @@ $area = $width * $length;
 // Assuming you have a field named logged_in
 $logged_in = (int)Context::getContext()->customer->isLogged();
 // This will return 1 or 0
-// It can be used to show/hide fields using the condition feature for example
+// It can be used to show/hide fields using the conditions feature for example
 ```
 
 ::: tip

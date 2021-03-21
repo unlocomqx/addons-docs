@@ -281,7 +281,7 @@ Here's an example of an error message
 
 <img srcset="/dynamicproduct/images/fields/error.jpg 2x" class="padding border">
 
-You can control the visibility of this field using the conditions feature.
+You can control the visibility of this field using [the conditions feature](/dynamicproduct/product-config/09-conditions.md).
 
 When an _Error message_ field is displayed, the module will not allow adding to cart and will scroll to the first error that is displayed
 
