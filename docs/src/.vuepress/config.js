@@ -81,6 +81,7 @@ module.exports = {
       "/productdesigner/": [
         "",
         "02-installation",
+        "05-updates.md",
         "03-configuration",
         {
           title: "Product Configuration",
