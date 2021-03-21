@@ -34,13 +34,13 @@ This will add the interval cost directly without multiplying it by the area
 ## Upload cost
 
 This will be added if the image is a customer upload and if
-the [Use image cost directly](/productdesigner/product-config/22-image-pricing.html#use-image-cost-directly)
+the [Use image cost directly](/productdesigner/product-config/22-image-pricing.md#use-image-cost-directly)
 option is enabled
 
 ## Upload cost per m²
 
 This will be added for customer uploads if
-the [Use image cost directly](/productdesigner/product-config/22-image-pricing.html#use-image-cost-directly)
+the [Use image cost directly](/productdesigner/product-config/22-image-pricing.md#use-image-cost-directly)
 option is not active.
 
 ## Minimum image cost

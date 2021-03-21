@@ -235,7 +235,7 @@ The tabs are displayed in the interface like this
 <img srcset="/productdesigner/images/interface-tabs.jpg 2x">
 
 You can also have a specific tabs configuration for any product of your choice in
-the [Tabs section](link)
+the [Tabs section](/productdesigner/product-config/05-tabs.md)
 
 ## Sides
 
@@ -243,7 +243,7 @@ In this section, you can configure the available sides for your products
 
 <img srcset="/productdesigner/images/sides.jpg 2x">
 
-You can then enable specific sides for any product in the [Sides tab](link)
+You can then enable specific sides for any product in the [Sides tab](/productdesigner/product-config/06-sides.md)
 
 Here are the side properties
 
@@ -276,7 +276,7 @@ The colors/textures will be dislayed like this in the interface
 <img srcset="/productdesigner/images/colors-list.jpg 2x">
 
 The module also allows you to choose which colors to enable for each product and also for each
-feature (text colors, image colors, etc...). This can be done in the [Product configuration](link).
+feature (text colors, image colors, etc...). This can be done in the [Product configuration](/productdesigner/product-config/).
 
 ::: tip Supported file types   
 The supported file types for textures are: `svg` `png` `jpg` `jpeg`
@@ -334,7 +334,7 @@ In this example the Mountains group belongs to the Nature group, it will be disp
 ### White image group
 
 Enable this option if the group will contain only white images. This is useful if you want to
-provide images that the customer can colorize using the [Image colors](link) feature.  
+provide images that the customer can colorize using the [Image colors](/productdesigner/product-config/14-image-colors.md) feature.  
 Images that belong to this group will be automatically colored using the first available color when
 inserted in the design.
 
@@ -363,7 +363,7 @@ The images will be displayed when the customer opens the corresponding image gro
 The module will apply the image cost by its size dynamically when it's added to the design or when
 it's resized
 
-You can configure the image pricing in a more advanced way under the [Image pricing](link) tab
+You can configure the image pricing in a more advanced way under the [Image pricing](/productdesigner/product-config/22-image-pricing.md) tab
 
 ### Image width/height
 
@@ -400,5 +400,5 @@ In this section, you can customize the interface appearance to better match your
 
 <img srcset="/productdesigner/images/color-theme.jpg 2x">
 
-Furthermore, you can open the [color configurator](link) from any product that has the module enabled and
+Furthermore, you can open the [color configurator](/productdesigner/04-color-theme.md) from any product that has the module enabled and
 edit the color theme directly in the product page.
