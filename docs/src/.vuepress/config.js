@@ -76,7 +76,7 @@ module.exports = {
         "19-dynamic-content.md",
         "20-troubleshooting.md",
         "21-debug-mode.md",
-
+        "22-custom-style.md",
       ],
       "/productdesigner/": [
         "",
