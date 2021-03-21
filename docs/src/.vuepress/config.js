@@ -111,6 +111,7 @@ module.exports = {
             "product-config/24-bulk-copy.md",
           ],
         },
+        "04-color-theme",
       ]
     },
     sidebarDepth: 3
