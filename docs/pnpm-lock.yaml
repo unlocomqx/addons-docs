@@ -1,6 +1,7 @@
 dependencies:
   '@vuepress/theme-default': 1.8.2
 devDependencies:
+  '@vuepress/plugin-google-analytics': 1.8.2
   file-extension: 4.0.5
   image-size: 0.9.7
   make-dir: 3.1.0
@@ -1254,6 +1255,10 @@ packages:
       lodash.debounce: 4.0.8
     resolution:
       integrity: sha512-JmXAQg8D7J8mcKe2Ue3BZ9dOCzJMJXP4Cnkkc/IrqfDg0ET0l96gYWZohCqlvRIWt4f0VPiFAO4FLYrW+hko+g==
+  /@vuepress/plugin-google-analytics/1.8.2:
+    dev: true
+    resolution:
+      integrity: sha512-BMFayLzT2BvXmnhM9mDHw0UPU7J0pH1X9gQA4HmZxOf7f3+atK5eJGsc1Ia/+1FTG2ESvhFLUU/CC3h5arjEJw==
   /@vuepress/plugin-last-updated/1.8.2:
     dependencies:
       cross-spawn: 6.0.5
@@ -8379,6 +8384,7 @@ packages:
     resolution:
       integrity: sha512-Z38dkZRQsFNBE67+xDBQLNKMs5J1Gc+s3/zO6iezTrC24VYLJV7YPBdBDJmiLhff5qa6Awxv4wsjqx3oYz2MYA==
 specifiers:
+  '@vuepress/plugin-google-analytics': ^1.8.2
   '@vuepress/theme-default': ^1.8.2
   file-extension: ^4.0.5
   image-size: ^0.9.7

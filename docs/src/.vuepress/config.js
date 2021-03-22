@@ -126,6 +126,12 @@ module.exports = {
     "vuepress-plugin-smooth-scroll",
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-177220990-1'
+      }
+    ]
   ],
 
   markdown: {
