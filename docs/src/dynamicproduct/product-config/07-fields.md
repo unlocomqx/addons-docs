@@ -402,9 +402,16 @@ The field will be highlighted like this
 
 <img srcset="/dynamicproduct/images/common-field.jpg 2x" class="border padding">
 
-Then, you can load the field in other products from the common fields list
+Then, you can link the field to other products from the common fields list
 
 <img srcset="/dynamicproduct/images/load-common-field.jpg 2x" class="border padding">
 
 You can find the list of favorite fields in
 the [main configuration page](/dynamicproduct/04-configuration.md#common-fields)
+
+::: tip  
+The difference between a common field and a favorite field is that a common field is only one field
+that is used in multiple products so it's basically linked to in other products, that's why when you
+edit in any product, it's also changed in others. The favorite field is simply a copy of the
+original and is not linked to it.
+:::
