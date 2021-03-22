@@ -72,4 +72,4 @@ each field will contain the value of the corresponding product feature.
 The module provides a field with the name `changed` which holds the name of the field that the
 customer changed in order to trigger the calculation
 
-This field is also available in php, via the variable `$changed`
+This field is also available in [php](/dynamicproduct/16-php-calculation.md), via the variable `$changed`
