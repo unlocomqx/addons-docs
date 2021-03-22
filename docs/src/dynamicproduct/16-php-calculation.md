@@ -68,6 +68,9 @@ $product_price
 
 // The product base weight
 $product_weight
+
+// The name of the field that the customer changed to trigger the calculation
+$changed
 ```
 
 ## Assigning a value to a field (Field Allocation)
