@@ -66,3 +66,10 @@ to learn more
 
 Similar to the attribute names section, this section will display product features. The value of
 each field will contain the value of the corresponding product feature.
+
+## Hidden fields
+
+The module provides a field with the name `changed` which holds the name of the field that the
+customer changed in order to trigger the calculation
+
+This field is also available in php, via the variable `$changed`
