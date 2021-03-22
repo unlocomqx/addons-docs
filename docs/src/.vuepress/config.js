@@ -77,6 +77,7 @@ module.exports = {
         "20-troubleshooting.md",
         "21-debug-mode.md",
         "22-custom-style.md",
+        "23-extra-fields.md",
       ],
       "/productdesigner/": [
         "",
