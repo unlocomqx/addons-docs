@@ -35,8 +35,8 @@ CEIL(-3.14) → -3
 ```
 **FLOOR**: Rounds a number down
 ```xls
-CEIL(3.2) → 3
-CEIL(-3.14) → -4
+FLOOR(3.2) → 3
+FLOOR(-3.14) → -4
 ```  
 **ROUND**: Uses PrestaShop rounding method (configurable in the PrestaShop settings)
 ```xls
