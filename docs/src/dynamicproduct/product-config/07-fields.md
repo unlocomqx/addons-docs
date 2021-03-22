@@ -9,10 +9,15 @@ Start by adding a new field then you can change its properties directly in the l
 <img srcset="/dynamicproduct/images/field-example.jpg 2x" class="padding border">
 
 ---
+
 ## Name
-The field name is only used in the backoffice and it's used to reference the field in the formulas.  
-This name should be lower case and should only contain alphanumerical characters in addition to the underscore.  
+
+The field name is only used in the backoffice and it's used to reference the field in the
+formulas.  
+This name should be lower case and should only contain alphanumerical characters in addition to the
+underscore.  
 Here are some examples:
+
 - width
 - height
 - unit_price
@@ -20,15 +25,21 @@ Here are some examples:
 - option2
 
 ---
+
 ## Label
+
 This label will be displayed to the customers, it can be translated to all available languages
 
 ---
+
 ## Type
-The module supports many field types, here's the full list 
+
+The module supports many field types, here's the full list
 
 ---
+
 ### Numeric Input
+
 Displays a numeric field
 
 <img srcset="/dynamicproduct/images/fields/numeric.jpg 2x" class="padding border">
@@ -40,7 +51,9 @@ You can access more settings by clicking the settings icon
 When both _min_ and _max_ are set to 0, the module will not validate them.
 
 ---
+
 ### Slider
+
 Displays a slider (from the jQueryUI library)
 
 <img srcset="/dynamicproduct/images/fields/slider.jpg 2x" class="padding border">
@@ -50,6 +63,7 @@ The slider settings show these options
 <img srcset="/dynamicproduct/images/fields/slider-settings.jpg 2x" class="border">
 
 ---
+
 ### Dropdown
 
 Displays a dropdown list (a HTML select)
@@ -61,7 +75,8 @@ You can add dropdown options in the field settings
 <img srcset="/dynamicproduct/images/fields/dropdown-settings.jpg 2x" class="border">
 
 In most cases, the values and secondary values of the options are arbitrary.  
-The field value will be the value of the selected option, so you can use the field directly in the formulas.
+The field value will be the value of the selected option, so you can use the field directly in the
+formulas.
 
 You can also assign a color or an image to each option if needed
 
@@ -72,6 +87,7 @@ The module will then display the corresponding image or color when an image is s
 <img srcset="/dynamicproduct/images/fields/dropdown-image.jpg 2x" class="padding border">
 
 ---
+
 ### Radio buttons
 
 Display radio buttons
@@ -83,6 +99,7 @@ You can add radio option in the field settings
 <img srcset="/dynamicproduct/images/fields/radio-settings.jpg 2x" class="border">
 
 ---
+
 ### Image list
 
 Displays a list of images or colors
@@ -93,14 +110,15 @@ You can configure the options in the field settings
 
 <img srcset="/dynamicproduct/images/fields/image-list-settings.jpg 2x" class="border">
 
-You can allow multi-selection, where the customer can pick more than one option
-You can also display the label of each option by enabling the "Display label" option
+You can allow multi-selection, where the customer can pick more than one option You can also display
+the label of each option by enabling the "Display label" option
 
 <img srcset="/dynamicproduct/images/fields/image-list-labels.jpg 2x" class="padding border">
 
 You can also change the height of the thumbnails in pixels
 
 ---
+
 ### Checkbox
 
 Display a checkbox
@@ -111,9 +129,11 @@ You can configure the checkbox in the settings popup
 
 <img srcset="/dynamicproduct/images/fields/checkbox-settings.jpg 2x" class="border">
 
-The value of the checkbox if either 0 or 1, so you can use its value like an on/off switch to add a conditional cost.
+The value of the checkbox if either 0 or 1, so you can use its value like an on/off switch to add a
+conditional cost.
 
 ---
+
 ### Text
 
 Displays a text field
@@ -127,6 +147,7 @@ You can configure the text field in the field settings
 The text length will not be validated if both _min_ and _max_ are set to 0
 
 ---
+
 ### Text Area
 
 Displays a text area
@@ -140,6 +161,7 @@ You can find more options in the field settings popup
 The text length will not be validated if both _min_ and _max_ are set to 0
 
 ---
+
 ### Date
 
 Display a date field
@@ -151,21 +173,25 @@ More settings are available in the field settings popup
 <img srcset="/dynamicproduct/images/fields/date-settings.jpg 2x" class="padding border">
 
 #### Initial value
+
 The possible values for the initial value are:
+
 - empty
 - 0 (will set the date to the current date)
-- +dd/-dd (will set the date to X days before or after the current date) 
-For example, you can set the initial date to +7 to set it to one week in the future
-
+- +dd/-dd (will set the date to X days before or after the current date)
+  For example, you can set the initial date to +7 to set it to one week in the future
 
 #### Min / Max date
-You can either set the min/max value to +dd or -dd or set them to a specific date following the format dd/mm/yyyy
-Examples:
+
+You can either set the min/max value to +dd or -dd or set them to a specific date following the
+format dd/mm/yyyy Examples:
+
 - Min date: -10 (Minimum of 10 days before the current date)
 - Max date: +30 (A maximum of one month in the future)
 - Min date: 15/05/2021
 
 ---
+
 ### Image
 
 Displays an image upload field
@@ -183,6 +209,7 @@ When the user uploads an image, a preview will be displayed like this
 <img srcset="/dynamicproduct/images/fields/image-preview.jpg 2x" class="padding border">
 
 ---
+
 ### File
 
 Displays a file upload field
@@ -194,15 +221,17 @@ You can configure the field like this
 <img srcset="/dynamicproduct/images/fields/file-settings.jpg 2x" class="border">
 
 The allowed extensions value if comma separated without spaces.  
-Example:  
+Example:
+
 ```
 svg,png,zip
 ```
 
 ---
+
 ### Fixed Value
 
-This field can be used if you'd like to declare a fixed value that is not supposed to change.  
+This field can be used if you'd like to declare a fixed value that is not supposed to change.
 
 <img srcset="/dynamicproduct/images/fields/fixed.jpg 2x" class="padding border">
 
@@ -210,36 +239,42 @@ For example, if you'd like to store a conversion ratio between two units.
 This field can be displayed to customers but it's not necessary in most cases.
 
 ---
+
 ### Price
 
 You can use this field to store a price.  
-When this field is displayed to the customer, its value will be formatted using the current currency.
+When this field is displayed to the customer, its value will be formatted using the current
+currency.
 
 <img srcset="/dynamicproduct/images/fields/price.jpg 2x" class="padding border">
 
 ---
+
 ### Dynamic Variable
 
-You can use this field for any variable that is going to change either using the intervals or the grid 
-or any other method such as a [PHP calculation file](16-php-calculation.md)  
+You can use this field for any variable that is going to change either using the intervals or the
+grid or any other method such as a [PHP calculation file](16-php-calculation.md)  
 In most case, you will not need to display this field to customers, so you can hide it.
 
-If you choose to display it, then it will be displayed like this  
+If you choose to display it, then it will be displayed like this
 
 <img srcset="/dynamicproduct/images/fields/dynamic.jpg 2x" class="padding border">
 
 ---
+
 ### Feature
 
 This field can display any value, it's similar to product features displayed by PrestaShop
 
 <img srcset="/dynamicproduct/images/fields/feature.jpg 2x" class="padding border">
 
-You can enter the feature value in the field settings. This value can be translated to all available languages.
+You can enter the feature value in the field settings. This value can be translated to all available
+languages.
 
 <img srcset="/dynamicproduct/images/fields/feature-settings.jpg 2x" class="border">
 
 ---
+
 ### Divider
 
 Display a line separating fields
@@ -247,6 +282,7 @@ Display a line separating fields
 <img srcset="/dynamicproduct/images/fields/divider.jpg 2x" class="padding border">
 
 ---
+
 ### Color picker
 
 Displays a color picker field
@@ -258,6 +294,7 @@ You can configure the initial color and the description in the field settings.
 <img srcset="/dynamicproduct/images/fields/picker-settings.jpg 2x" class="padding border">
 
 ---
+
 ### HTML
 
 Allows you to display any html content
@@ -268,11 +305,11 @@ You can configure the content in the field settings
 
 <img srcset="/dynamicproduct/images/fields/html-settings.jpg 2x" class="padding border">
 
-:::warning
-For **security** purposes, only paste html from trusted sources
+:::warning For **security** purposes, only paste html from trusted sources
 :::
 
 ---
+
 ### Error message
 
 This field allows you to implement a custom validation logic for your fields
@@ -281,16 +318,20 @@ Here's an example of an error message
 
 <img srcset="/dynamicproduct/images/fields/error.jpg 2x" class="padding border">
 
-You can control the visibility of this field using [the conditions feature](/dynamicproduct/product-config/09-conditions.md).
+You can control the visibility of this field
+using [the conditions feature](/dynamicproduct/product-config/09-conditions.md).
 
-When an _Error message_ field is displayed, the module will not allow adding to cart and will scroll to the first error that is displayed
+When an _Error message_ field is displayed, the module will not allow adding to cart and will scroll
+to the first error that is displayed
 
 ---
+
 ## Value
 
 This is the default and initial value of the field
 
 ---
+
 ## Unit
 
 This is the field unit, it will be displayed in the product page like this
@@ -300,10 +341,13 @@ This is the field unit, it will be displayed in the product page like this
 You can configure the unit in the main configuration page of the module.
 
 ---
+
 ## Options
+
 Using this button, you can access the module settings
 
 ## Image
+
 You can assign an image to any field of your choice  
 Click the icon to upload an image.
 
@@ -323,6 +367,25 @@ You can also delete the field or duplicate it
 
 ## Reordering the field
 
-Using the sort handle, you can reorder the fields by dragging the desired field and re-positioning it.
+Using the sort handle, you can reorder the fields by dragging the desired field and re-positioning
+it.
 
 <img srcset="/dynamicproduct/images/fields/drag.jpg 2x" class="border">
+
+## Favorite field
+
+You can set a field as a favorite field if you want to use it in other products.
+
+<img srcset="/dynamicproduct/images/favorite-btn.jpg 2x" class="border padding">
+
+The field will be highlighted like this
+
+<img srcset="/dynamicproduct/images/favorite-field.jpg 2x" class="border padding">
+
+Then in another product, you can load the field from the favorite fields list
+
+<img srcset="/dynamicproduct/images/load-favorite-field.jpg 2x" class="border padding">
+
+When you load a field from the favorite list, it will be copied into the current product.
+
+You can find the list of favorite fields in the [main configuration page](/dynamicproduct/04-configuration.md#favorite-fields)

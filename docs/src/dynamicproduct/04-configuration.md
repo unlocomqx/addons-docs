@@ -38,3 +38,9 @@ The next step is to [configure the groups for any product](/dynamicproduct/produ
 The groups will be displayed like this in the product page
 
 <img srcset="/dynamicproduct/images/groups-preview.jpg 2x" class="border">
+
+## Favorite fields
+
+Shows the list of [favorite fields](/dynamicproduct/product-config/07-fields.md#favorite-field).
+
+<img srcset="/dynamicproduct/images/favorite-fields.jpg 2x">
