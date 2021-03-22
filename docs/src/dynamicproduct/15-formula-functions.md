@@ -138,7 +138,7 @@ To use this function, start by uploading your CSV file to the folder `[root of P
 Then in the formula, you can insert this function by clicking the CSV file
 
 1. Click the "**Show more**" button
-2. Click the CSCV file to insert the Grid function into the formula
+2. Click the CSV file to insert the Grid function into the formula
 3. Insert the two other fields that will act as the input to the grid
 
 In this case, we get a price based on the width and height values

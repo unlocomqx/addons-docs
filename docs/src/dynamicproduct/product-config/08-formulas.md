@@ -27,7 +27,7 @@ If statement for conditional calculation
 <code class="formula">IF(**[width]** > 100, 10, 12)</code>
 
 ::: tip
-The keyboard shortct to save a formula is **Ctrl** + **Enter**
+The keyboard shortcut to save a formula is **Ctrl** + **Enter**
 :::
 
 ## Price formula

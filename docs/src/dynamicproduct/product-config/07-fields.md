@@ -93,7 +93,7 @@ You can configure the options in the field settings
 
 <img srcset="/dynamicproduct/images/fields/image-list-settings.jpg 2x" class="border">
 
-You can allow multiselection, where the customer can pick more than one option
+You can allow multi-selection, where the customer can pick more than one option
 You can also display the label of each option by enabling the "Display label" option
 
 <img srcset="/dynamicproduct/images/fields/image-list-labels.jpg 2x" class="padding border">
@@ -193,11 +193,11 @@ You can configure the field like this
 
 <img srcset="/dynamicproduct/images/fields/file-settings.jpg 2x" class="border">
 
-The allowed extensions value if comma seprated without spaces.  
+The allowed extensions value if comma separated without spaces.  
 Example:  
-````text
+```
 svg,png,zip
-````
+```
 
 ---
 ### Fixed Value
@@ -206,7 +206,7 @@ This field can be used if you'd like to declare a fixed value that is not suppos
 
 <img srcset="/dynamicproduct/images/fields/fixed.jpg 2x" class="padding border">
 
-For example, if you'd like to store a convertion ratio between two units.  
+For example, if you'd like to store a conversion ratio between two units.  
 This field can be displayed to customers but it's not necessary in most cases.
 
 ---
@@ -293,11 +293,11 @@ This is the default and initial value of the field
 ---
 ## Unit
 
-This is the field unit, it will displayed in the product page like this
+This is the field unit, it will be displayed in the product page like this
 
 <img srcset="/dynamicproduct/images/fields/unit.jpg 2x" class="padding border">
 
-You can configure the unitd in the main configuration page of the module.
+You can configure the unit in the main configuration page of the module.
 
 ---
 ## Options

@@ -18,7 +18,7 @@ replace the [image prices](/productdesigner/03-configuration.md#price-per-m2)
 
 ## Image cost per m²
 
-Configure this price if you want to replac
+Configure this price if you want to replace
 the [image prices](/productdesigner/03-configuration.md#price-per-m2)
 
 ## Image cost intervals

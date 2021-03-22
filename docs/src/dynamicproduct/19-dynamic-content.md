@@ -17,6 +17,6 @@ The calculation is [width] * [height] = [total]
 
 <img srcset="/dynamicproduct/images/feature-config.jpg 2x" class="border">
 
-The fields will be dislayed like this
+The fields will be displayed like this
 
 <img srcset="/dynamicproduct/images/dynamic-content.jpg 2x" class="padding border">

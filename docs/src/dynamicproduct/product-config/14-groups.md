@@ -17,7 +17,7 @@ The fields that are not added to any group will be displayed in the bottom.
 
 ## Collapsible option
 
-You can choose to make the field collapsible and make it collpased initially.
+You can choose to make the field collapsible and make it collapsed initially.
 
 <img srcset="/dynamicproduct/images/groups-group.jpg 2x">
 

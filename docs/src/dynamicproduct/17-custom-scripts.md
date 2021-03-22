@@ -148,7 +148,7 @@ The value of `props` will have this shape
 ```
 
 ## Detecting a calculation result
-You can subscribe to the module stores in ordre to detect the calculation results.  
+You can subscribe to the module stores in order to detect the calculation results.  
 The module uses [`Svelte stores`](https://svelte.dev/docs#svelte_store) under the hood.
 
 Code example:

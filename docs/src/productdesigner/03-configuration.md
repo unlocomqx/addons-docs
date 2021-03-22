@@ -271,7 +271,7 @@ Here are the color properties
 You can also add a texture instead of a plain color. Make sure that your texture file is seamless so
 that it could be tiled properly by the module.
 
-The colors/textures will be dislayed like this in the interface
+The colors/textures will be displayed like this in the interface
 
 <img srcset="/productdesigner/images/colors-list.jpg 2x">
 
