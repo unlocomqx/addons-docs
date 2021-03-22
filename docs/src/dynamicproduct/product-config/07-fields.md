@@ -388,4 +388,23 @@ Then in another product, you can load the field from the favorite fields list
 
 When you load a field from the favorite list, it will be copied into the current product.
 
-You can find the list of favorite fields in the [main configuration page](/dynamicproduct/04-configuration.md#favorite-fields)
+You can find the list of favorite fields in
+the [main configuration page](/dynamicproduct/04-configuration.md#favorite-fields)
+
+## Common field
+
+If you want to use the same field in multiple products, then set it as a common field. That way,
+when you modify it in any product, it will be also modified in other products that use it.
+
+<img srcset="/dynamicproduct/images/common-btn.jpg 2x" class="border padding">
+
+The field will be highlighted like this
+
+<img srcset="/dynamicproduct/images/common-field.jpg 2x" class="border padding">
+
+Then, you can load the field in other products from the common fields list
+
+<img srcset="/dynamicproduct/images/load-common-field.jpg 2x" class="border padding">
+
+You can find the list of favorite fields in
+the [main configuration page](/dynamicproduct/04-configuration.md#common-fields)

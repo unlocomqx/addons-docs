@@ -39,6 +39,12 @@ The groups will be displayed like this in the product page
 
 <img srcset="/dynamicproduct/images/groups-preview.jpg 2x" class="border">
 
+## Common fields
+
+Shows the list of [common fields](/dynamicproduct/product-config/07-fields.md#common-field).
+
+<img srcset="/dynamicproduct/images/common-fields.jpg 2x">
+
 ## Favorite fields
 
 Shows the list of [favorite fields](/dynamicproduct/product-config/07-fields.md#favorite-field).
