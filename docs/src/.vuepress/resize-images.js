@@ -5,7 +5,7 @@ const path = require("path");
 const sharp = require("sharp");
 const sizeOf = require("image-size");
 const fileExtension = require("file-extension");
-const makeDir = require('make-dir');
+const makeDir = require("make-dir");
 
 module.exports = function lazy_loading_plugin(md, options) {
 
@@ -20,7 +20,7 @@ module.exports = function lazy_loading_plugin(md, options) {
       const imgPath = path.join(__dirname, "public", href);
       if (fs.existsSync(imgPath)) {
         const extension = fileExtension(href);
-        let destHref = href.replace(new RegExp(`\.${extension}$`), `-1x.${extension}`);
+        let destHref = "/optimized" + href.replace(new RegExp(`\.${extension}$`), `-1x.${extension}`);
         const destPath = path.join(__dirname, "dist", destHref);
         const destDir = path.dirname(destPath);
         makeDir.sync(destDir);
@@ -32,7 +32,12 @@ module.exports = function lazy_loading_plugin(md, options) {
         token.content = token.content.replace(
           "<img ",
           `<img src="${destHref}" width="${new_size.width}" height="${new_size.height}" loading="lazy" `
-        );
+        ).replace(
+          "srcset=\"/",
+          "srcset=\"/optimized/"
+        )
+        .replace(new RegExp(`\.${extension}"`), ".webp\"")
+        .replace(new RegExp(`\.${extension} 2x"`), ".webp\"");
       }
     }
 
