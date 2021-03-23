@@ -9,5 +9,3 @@ git add src/.vuepress/public/optimized/*
 git commit -m "Optimize images"
 
 popd
-
-exit 1
