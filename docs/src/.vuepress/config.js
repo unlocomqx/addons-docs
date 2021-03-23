@@ -27,7 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
+    repo: "https://github.com/unlocomqx/addons-docs",
     editLinks: false,
     docsDir: "",
     editLinkText: "",
