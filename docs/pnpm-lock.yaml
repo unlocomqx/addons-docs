@@ -2,7 +2,9 @@ dependencies:
   '@vuepress/theme-default': 1.8.2
 devDependencies:
   '@vuepress/plugin-google-analytics': 1.8.2
+  exec-sh: 0.3.5
   file-extension: 4.0.5
+  glob: 7.1.6
   image-size: 0.9.7
   make-dir: 3.1.0
   sharp: 0.27.2
@@ -3396,6 +3398,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-/f2Go4TognH/KvCISP7OUsHn85hT9nUkxxA9BEWxFn+Oj9o8ZNLm/40hdlgSLyuOimsrTKLUMEorQexp/aPQeA==
+  /exec-sh/0.3.5:
+    dev: true
+    resolution:
+      integrity: sha512-0hzpaUazv4mEccxdn3TXC+HWNeVXNKMCJRK6E7Xyg+LwGAYI3yFag6jTkd4injV+kChYDQS1ftqDhnDVWNhU8A==
   /execa/1.0.0:
     dependencies:
       cross-spawn: 6.0.5
@@ -8386,7 +8392,9 @@ packages:
 specifiers:
   '@vuepress/plugin-google-analytics': ^1.8.2
   '@vuepress/theme-default': ^1.8.2
+  exec-sh: ^0.3.5
   file-extension: ^4.0.5
+  glob: ^7.1.6
   image-size: ^0.9.7
   make-dir: ^3.1.0
   sharp: ^0.27.2
