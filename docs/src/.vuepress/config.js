@@ -61,6 +61,7 @@ module.exports = {
             "product-config/06-settings.md",
             "product-config/07-fields.md",
             "product-config/08-formulas.md",
+            "product-config/15-combinations.md",
             "product-config/09-conditions.md",
             "product-config/10-field-formulas.md",
             "product-config/11-proportions.md",
