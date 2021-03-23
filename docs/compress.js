@@ -8,6 +8,8 @@ const execShPromise = require("exec-sh").promise;
 const fileExtension = require("file-extension");
 const sizeOf = require("image-size");
 
+console.log('Compressing images');
+
 glob("src/.vuepress/public/**/*.+(jpg|png)", null, async function (er, files) {
 
   for (const file of files) {

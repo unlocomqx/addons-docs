@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+pushd docs
+
+node compress.js
+
+popd
+
+
+
+exit 1

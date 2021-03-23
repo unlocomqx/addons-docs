@@ -5,6 +5,7 @@ devDependencies:
   exec-sh: 0.3.5
   file-extension: 4.0.5
   glob: 7.1.6
+  husky: 5.2.0
   image-size: 0.9.7
   make-dir: 3.1.0
   sharp: 0.27.2
@@ -4235,6 +4236,13 @@ packages:
     dev: true
     resolution:
       integrity: sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
+  /husky/5.2.0:
+    dev: true
+    engines:
+      node: '>= 10'
+    hasBin: true
+    resolution:
+      integrity: sha512-AM8T/auHXRBxlrfPVLKP6jt49GCM2Zz47m8G3FOMsLmTv8Dj/fKVWE0Rh2d4Qrvmy131xEsdQnb3OXRib67PGg==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -8395,6 +8403,7 @@ specifiers:
   exec-sh: ^0.3.5
   file-extension: ^4.0.5
   glob: ^7.1.6
+  husky: ^5.2.0
   image-size: ^0.9.7
   make-dir: ^3.1.0
   sharp: ^0.27.2
