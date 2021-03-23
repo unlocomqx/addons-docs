@@ -27,6 +27,10 @@ We can of course hide more than one field
 
 <img srcset="/dynamicproduct/images/condition-more.jpg 2x" class="border">
 
+::: tip  
+When a field is hidden, its value will be 0 or empty so it doesn't have an effect on the price
+:::
+
 ## Hiding options
 Besides fields and groups, we can also hide individual options of a dropdown or radio or image list field.
 
