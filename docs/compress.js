@@ -21,7 +21,6 @@ glob("src/.vuepress/public/optimized/**/*.webp", null, function (er, files) {
     if (!exists) {
       fs.rmSync(file);
       const file1x = file.replace(/.webp$/, "1x.webp");
-      console.log(file1x);
       if (fs.existsSync(file1x)) {
         fs.rmSync(file1x);
       }
