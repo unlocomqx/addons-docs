@@ -8,7 +8,26 @@ const execShPromise = require("exec-sh").promise;
 const fileExtension = require("file-extension");
 const sizeOf = require("image-size");
 
-console.log('Compressing images');
+console.log("Compressing images");
+
+glob("src/.vuepress/public/optimized/**/*.webp", null, function (er, files) {
+  files.forEach(file => {
+    if (file.match(/1x.webp$/)) {
+      return;
+    }
+    const exists = ["jpg", "png"]
+    .map(ext => file.replace("/optimized/", "/").replace(".webp", `.${ext}`))
+    .filter(path => fs.existsSync(path)).length > 0;
+    if (!exists) {
+      fs.rmSync(file);
+      const file1x = file.replace(/.webp$/, "1x.webp");
+      console.log(file1x);
+      if (fs.existsSync(file1x)) {
+        fs.rmSync(file1x);
+      }
+    }
+  });
+});
 
 glob("src/.vuepress/public/**/*.+(jpg|png)", null, async function (er, files) {
 
