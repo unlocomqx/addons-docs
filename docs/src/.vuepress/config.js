@@ -28,10 +28,11 @@ module.exports = {
    */
   themeConfig: {
     repo: "https://github.com/unlocomqx/addons-docs",
-    editLinks: false,
-    docsDir: "",
+    editLinks: true,
+    docsBranch: "main",
+    docsDir: "docs/src",
     editLinkText: "",
-    lastUpdated: false,
+    lastUpdated: true,
     logo: "/images/tunisoft.png",
     nav: [
       {
