@@ -9,7 +9,6 @@
   },
   "repository": "https://github.com/unlocomqx/addons-docs/",
   "scripts": {
-    "prepare": "husky install",
     "dev": "vuepress dev src --no-cache",
     "build": "vuepress build src --no-cache"
   },
