@@ -18,7 +18,7 @@ the add to cart button that is inside the module.
 ::: details Advanced   
 If the module doesn't succeed in hiding the cart button then it means that your theme has a
 different html structure compared to the default theme.  
-For that you can use custom CSS to hide the cart button.  
+For that you can use [custom CSS](/productdesigner/06-custom-style.md) to hide the cart button.  
 The module adds a class to the `body` called `dsn-hide-cart-button` so you can write this CSS for
 example to hide the cart button
 
@@ -39,7 +39,7 @@ interface.
 ::: details Advanced   
 Sometimes, the theme has a different html structure than the default theme, so the module can't
 correctly hide the quantity input.  
-The solution is to add custom CSS code to hide the quantity input.  
+The solution is to add [custom CSS code](/productdesigner/06-custom-style.md) to hide the quantity input.  
 The module adds a class to the `body` which is called `dsn-hide-qty-input`, so you can write code
 like this
 
