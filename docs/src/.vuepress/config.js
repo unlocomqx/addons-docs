@@ -117,6 +117,7 @@ module.exports = {
           ],
         },
         "04-color-theme",
+        "06-custom-style",
       ]
     },
     sidebarDepth: 3
