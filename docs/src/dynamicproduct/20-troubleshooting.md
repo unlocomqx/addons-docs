@@ -25,7 +25,7 @@ the HTML code will be displayed.
 
 <img srcset="/dynamicproduct/images/customization-html.jpg 2x">
 
-To fix this, apply the template fixes in the troubleshoot page
+To fix this, apply the template fixes in the troubleshooting page
 
 <img srcset="/dynamicproduct/images/template-fix.jpg 2x">
 
