@@ -89,6 +89,13 @@ If enabled, the module will multiply the price by the quantity instead of displa
 
 <img srcset="/productdesigner/images/total-price.jpg 2x">
 
+### Show Dynamic Product in the product tab
+
+This option is only available if you have the Dynamic Product module installed.  
+It allows you to display the dynamic product fields in the designer interface like this
+
+<img srcset="/productdesigner/images/dynamic-designer.jpg 2x">
+
 ## Print settings
 
 ### Include base image in print

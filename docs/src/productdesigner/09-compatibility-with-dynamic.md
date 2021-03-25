@@ -16,3 +16,12 @@ these steps:
 - Add two [fields](/dynamicproduct/product-config/07-fields.md) named `width` and `height`
   in `Dynamic Product`
 - Make sure that the initial values as well as the min/max settings match between the two modules
+
+## Displaying Dynamic Product inside the Designer interface
+
+You can display the dynamic module inside the designer module by
+enabling [this option](/productdesigner/03-configuration.md#show-dynamic-product-in-the-product-tab)
+
+[<img srcset="/productdesigner/images/show-dynamic.jpg 2x" class="border padding">](/productdesigner/03-configuration.md#show-dynamic-product-in-the-product-tab)
+
+
