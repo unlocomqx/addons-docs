@@ -24,4 +24,8 @@ enabling [this option](/productdesigner/03-configuration.md#show-dynamic-product
 
 [<img srcset="/productdesigner/images/show-dynamic.jpg 2x" class="border padding">](/productdesigner/03-configuration.md#show-dynamic-product-in-the-product-tab)
 
+## Cart summary
 
+When a customization is added to cart, both module will display their respective summaries like this
+
+<img srcset="/productdesigner/images/summary.jpg 2x">
