@@ -1,4 +1,4 @@
-// find -E src/.vuepress/dist -regex '.*\.(jpg)' -exec sh -c 'pnpx squoosh-cli $1 --mozjpeg -d $(dirname $1)' sh {} \;
+// find -E src/.vuepress/dist -regex '.*\.(jpg)' -exec sh -c 'npx squoosh-cli $1 --mozjpeg -d $(dirname $1)' sh {} \;
 
 
 const path = require("path");
@@ -42,11 +42,11 @@ glob("src/.vuepress/public/**/*.+(jpg|png)", null, async function (er, files) {
         const size = sizeOf(file);
         const new_size = {width: Math.floor(size.width / 2), height: Math.floor(size.height / 2)};
 
-        const cmd = `pnpx squoosh-cli ${file} --webp -d ${result_dir}`;
+        const cmd = `npx squoosh-cli ${file} --webp -d ${result_dir}`;
         const output = await execShPromise(cmd);
         console.log(output.stdout);
 
-        const cmd1x = `pnpx squoosh-cli ${file} --webp --resize '${JSON.stringify(new_size)}' --suffix 1x -d ${result_dir}`;
+        const cmd1x = `npx squoosh-cli ${file} --webp --resize '${JSON.stringify(new_size)}' --suffix 1x -d ${result_dir}`;
         const output1x = await execShPromise(cmd1x);
         console.log(output1x.stdout);
       }
