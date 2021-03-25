@@ -3,9 +3,9 @@
 
 pushd docs
 
-#node compress.js
+node compress.js
 
-#git add src/.vuepress/public/optimized/* && git commit -m "Optimize images" || true
+git add src/.vuepress/public/optimized/* && git commit -m "Optimize images" || true
 
 popd
 
