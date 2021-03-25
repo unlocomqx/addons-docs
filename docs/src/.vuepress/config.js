@@ -123,7 +123,8 @@ module.exports = {
         "09-compatibility-with-dynamic.md",
       ]
     },
-    sidebarDepth: 3
+    sidebarDepth: 3,
+    activeHeaderLinks: false,
   },
 
   /**
