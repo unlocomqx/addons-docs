@@ -120,6 +120,7 @@ module.exports = {
         "06-custom-style",
         "07-downloads",
         "08-troubleshooting",
+        "09-compatibility-with-dynamic.md",
       ]
     },
     sidebarDepth: 3
