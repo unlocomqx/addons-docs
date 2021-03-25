@@ -36,3 +36,7 @@ The module will display this confirmation if the templates were fixed correctly
 ::: tip   
 After applying the template fix, clear the PrestaShop cache for the fix to have effect.
 :::
+
+The customization should then be displayed correctly like this
+
+<img srcset="/productdesigner/images/customization-summary.jpg 2x" class="padding border">
