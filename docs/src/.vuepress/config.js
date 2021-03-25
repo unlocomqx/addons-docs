@@ -118,6 +118,7 @@ module.exports = {
         },
         "04-color-theme",
         "06-custom-style",
+        "07-downloads",
       ]
     },
     sidebarDepth: 3
@@ -146,5 +147,5 @@ module.exports = {
         md.use(require('./resize-images'));
       }
     }
-  }
+  },
 };
