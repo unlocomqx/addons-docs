@@ -31,7 +31,7 @@ module.exports = function lazy_loading_plugin(md, options) {
         .toFile(destPath);
         token.content = token.content.replace(
           "<img ",
-          `<img src="${destHref}" width="${new_size.width}" height="${new_size.height}" loading="lazy" `
+          `<img src="${destHref}" width="${new_size.width}" height="${new_size.height}" loading="lazy" data-zoom-src="${href}" `
         ).replace(
           "srcset=\"/",
           "srcset=\"/optimized/"
