@@ -55,3 +55,22 @@ inkscape --version
 
 Please ask your hosting service or webmaster for assistance regarding the installation of inkscape
 on the server.
+
+#### Using docker
+
+If you can't install inkscape 1.0 on your system, try using it from a docker container.
+
+The module will pull this image in the background: `uvarc/inkscape:1.0`
+
+The command that the module will execute is roughly:
+
+```shell
+docker run -i -v /var/www/html/designer:/var/www/html/designer uvarc/inkscape:1.0 /usr/bin/inkscape "/var/www/html/designer/designer/output/18-design18/0-side0/design-18-0.svg" --export-type=pdf
+# /var/www/html/designer being the PrestaShop root dir in this case
+```
+
+If you get a permission error, try adding the `www-data` user to the `docker` group.
+```shell
+sudo usermod -aG docker www-data
+```
+
