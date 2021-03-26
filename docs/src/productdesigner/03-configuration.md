@@ -39,7 +39,8 @@ interface.
 ::: details Advanced   
 Sometimes, the theme has a different html structure than the default theme, so the module can't
 correctly hide the quantity input.  
-The solution is to add [custom CSS code](/productdesigner/06-custom-style.md) to hide the quantity input.  
+The solution is to add [custom CSS code](/productdesigner/06-custom-style.md) to hide the quantity
+input.  
 The module adds a class to the `body` which is called `dsn-hide-qty-input`, so you can write code
 like this
 
@@ -250,7 +251,8 @@ In this section, you can configure the available sides for your products
 
 <img srcset="/productdesigner/images/sides.jpg 2x">
 
-You can then enable specific sides for any product in the [Sides tab](/productdesigner/product-config/06-sides.md)
+You can then enable specific sides for any product in
+the [Sides tab](/productdesigner/product-config/06-sides.md)
 
 Here are the side properties
 
@@ -283,7 +285,8 @@ The colors/textures will be displayed like this in the interface
 <img srcset="/productdesigner/images/colors-list.jpg 2x">
 
 The module also allows you to choose which colors to enable for each product and also for each
-feature (text colors, image colors, etc...). This can be done in the [Product configuration](/productdesigner/product-config/).
+feature (text colors, image colors, etc...). This can be done in
+the [Product configuration](/productdesigner/product-config/).
 
 ::: tip Supported file types   
 The supported file types for textures are: `svg` `png` `jpg` `jpeg`
@@ -341,7 +344,8 @@ In this example the Mountains group belongs to the Nature group, it will be disp
 ### White image group
 
 Enable this option if the group will contain only white images. This is useful if you want to
-provide images that the customer can colorize using the [Image colors](/productdesigner/product-config/14-image-colors.md) feature.  
+provide images that the customer can colorize using
+the [Image colors](/productdesigner/product-config/14-image-colors.md) feature.  
 Images that belong to this group will be automatically colored using the first available color when
 inserted in the design.
 
@@ -370,7 +374,8 @@ The images will be displayed when the customer opens the corresponding image gro
 The module will apply the image cost by its size dynamically when it's added to the design or when
 it's resized
 
-You can configure the image pricing in a more advanced way under the [Image pricing](/productdesigner/product-config/22-image-pricing.md) tab
+You can configure the image pricing in a more advanced way under
+the [Image pricing](/productdesigner/product-config/22-image-pricing.md) tab
 
 ### Image width/height
 
@@ -407,5 +412,30 @@ In this section, you can customize the interface appearance to better match your
 
 <img srcset="/productdesigner/images/color-theme.jpg 2x">
 
-Furthermore, you can open the [color configurator](/productdesigner/04-color-theme.md) from any product that has the module enabled and
-edit the color theme directly in the product page.
+Furthermore, you can open the [color configurator](/productdesigner/04-color-theme.md) from any
+product that has the module enabled and edit the color theme directly in the product page.
+
+## Configs (Specific product configurations)
+
+This tab will only be displayed if you have specific product configurations.
+
+The main configuration of the module affects all products by default, but if you want to customize
+it, you can open the desired product, then click the configuration button.
+
+<img srcset="/productdesigner/images/configuration-btn.jpg 2x" class="padding border">
+
+The specific configuration page will be opened
+
+<img srcset="/productdesigner/images/specific-config.png 2x">
+
+The available tabs in the specific configuration are:
+
+- [Interface options](/productdesigner/03-configuration.md#interface-options)
+- [Print settings](/productdesigner/03-configuration.md#print-settings)
+- [Design options](/productdesigner/03-configuration.md#design-options)
+- [Text options](/productdesigner/03-configuration.md#text-options)
+
+In the Configs tabs, you can view the list of the products that have a specific configuration and
+you can delete any unneeded configuration.
+
+<img srcset="/productdesigner/images/specific-configs.jpg 2x">
