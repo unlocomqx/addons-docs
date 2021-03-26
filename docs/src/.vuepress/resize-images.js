@@ -37,7 +37,7 @@ module.exports = function lazy_loading_plugin(md, options) {
           "srcset=\"/optimized/"
         )
         .replace(new RegExp(`\.${extension}"`), ".webp\"")
-        .replace(new RegExp(`\.${extension} 2x"`), ".webp\"");
+        .replace(new RegExp(`\.${extension} 2x"`), ".webp 2x\"");
       }
     }
 
