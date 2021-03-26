@@ -12,7 +12,7 @@ console.log("Compressing images");
 
 glob("src/.vuepress/public/optimized/**/*.webp", null, function (er, files) {
   files.forEach(file => {
-    if (file.match(/1x.webp$/)) {
+    if (file.match(/-1x.webp$/)) {
       return;
     }
     const exists = ["jpg", "png"]
@@ -20,7 +20,7 @@ glob("src/.vuepress/public/optimized/**/*.webp", null, function (er, files) {
     .filter(path => fs.existsSync(path)).length > 0;
     if (!exists) {
       fs.rmSync(file);
-      const file1x = file.replace(/.webp$/, "1x.webp");
+      const file1x = file.replace(/.webp$/, "-1x.webp");
       if (fs.existsSync(file1x)) {
         fs.rmSync(file1x);
       }
@@ -46,7 +46,7 @@ glob("src/.vuepress/public/**/*.+(jpg|png)", null, async function (er, files) {
         const output = await execShPromise(cmd);
         console.log(output.stdout);
 
-        const cmd1x = `npx squoosh-cli ${file} --webp --resize '${JSON.stringify(new_size)}' --suffix 1x -d ${result_dir}`;
+        const cmd1x = `npx squoosh-cli ${file} --webp --resize '${JSON.stringify(new_size)}' --suffix -1x -d ${result_dir}`;
         const output1x = await execShPromise(cmd1x);
         console.log(output1x.stdout);
       }
