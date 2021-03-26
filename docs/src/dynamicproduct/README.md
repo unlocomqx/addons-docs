@@ -1,7 +1,5 @@
 # Introduction
 
-<img srcset="/dynamicproduct/images/test.jpg 2x" class="border">
-
 <div style="text-align: center; margin-bottom: 50px;">
   <div>
     <img srcset="/dynamicproduct/images/dynamicproduct-logo.png 2x">
