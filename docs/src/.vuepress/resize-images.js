@@ -20,6 +20,7 @@ module.exports = function lazy_loading_plugin(md, options) {
       const imgPath = path.join(__dirname, "public", href);
       if (fs.existsSync(imgPath)) {
         const extension = fileExtension(href);
+        let destWebp = "/optimized" + href.replace(new RegExp(`\.${extension}$`), `.webp`);
         let destHref = "/optimized" + href.replace(new RegExp(`\.${extension}$`), `-1x.${extension}`);
         const destPath = path.join(__dirname, "dist", destHref);
         const destDir = path.dirname(destPath);
@@ -31,7 +32,7 @@ module.exports = function lazy_loading_plugin(md, options) {
         .toFile(destPath);
         token.content = token.content.replace(
           "<img ",
-          `<img src="${destHref}" width="${new_size.width}" height="${new_size.height}" loading="lazy" data-zoom-src="${href}" `
+          `<img src="${destHref}" width="${new_size.width}" height="${new_size.height}" loading="lazy" data-zoom-src="${destWebp}" `
         ).replace(
           "srcset=\"/",
           "srcset=\"/optimized/"
