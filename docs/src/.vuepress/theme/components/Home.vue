@@ -8,6 +8,8 @@
           v-if="data.heroImage"
           :src="$withBase(data.heroImage)"
           :alt="data.heroAlt || 'hero'"
+          width="106"
+          height="100"
       >
 
       <h1
@@ -49,6 +51,8 @@
               v-if="documentation.logo"
               :src="$withBase(documentation.logo)"
               :alt="documentation.name"
+              width="100"
+              height="100"
           >
           <h2>{{ documentation.name }}</h2>
         </RouterLink>
