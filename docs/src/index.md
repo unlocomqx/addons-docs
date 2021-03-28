@@ -1,14 +1,14 @@
 ---
 home: true
-heroImage: /images/tunisoft.png
+heroImage: /optimized/images/tunisoft.webp
 tagline: PrestaShop Addons Manuals
 documentations:
 - name: Dynamic Product
-  logo: /dynamicproduct/images/dynamicproduct.png
+  logo: /optimized/dynamicproduct/images/dynamicproduct.webp
   text: View Docs →
   link: /dynamicproduct/
 - name: Product Designer
-  logo: /productdesigner/images/productdesigner.png
+  logo: /optimized/productdesigner/images/productdesigner.webp
   text: View Docs →
   link: /productdesigner/
 - name: PrestaShop Addons

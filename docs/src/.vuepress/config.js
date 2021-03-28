@@ -33,7 +33,7 @@ module.exports = {
     docsDir: "docs/src",
     editLinkText: "",
     lastUpdated: true,
-    logo: "/images/tunisoft.png",
+    logo: "/optimized/images/tunisoft.webp",
     nav: [
       {
         text: "Dynamic Product",
