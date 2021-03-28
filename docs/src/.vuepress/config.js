@@ -151,4 +151,6 @@ module.exports = {
       }
     }
   },
+
+  evergreen: true,
 };
