@@ -10,6 +10,8 @@
           v-if="$site.themeConfig.logo"
           class="logo"
           :src="$withBase($site.themeConfig.logo)"
+          width="37"
+          height="35"
           :alt="$siteTitle"
       >
       <span
