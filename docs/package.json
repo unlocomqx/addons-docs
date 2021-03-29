@@ -24,6 +24,7 @@
     "make-dir": "^3.1.0",
     "sharp": "^0.28.0",
     "vuepress": "^1.8.2",
+    "vuepress-plugin-fulltext-search": "^2.1.0",
     "vuepress-plugin-smooth-scroll": "^0.0.10",
     "vuepress-plugin-zooming": "^1.1.8"
   },

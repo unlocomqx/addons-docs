@@ -131,14 +131,15 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
+    "fulltext-search",
     "vuepress-plugin-zooming",
     "vuepress-plugin-smooth-scroll",
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
     [
-      '@vuepress/google-analytics',
+      "@vuepress/google-analytics",
       {
-        'ga': 'UA-177220990-1'
+        "ga": "UA-177220990-1"
       }
     ]
   ],
@@ -147,7 +148,7 @@ module.exports = {
     extendMarkdown: md => {
       // md.set({ breaks: true })
       if (process.env.NODE_ENV === "production") {
-        md.use(require('./resize-images'));
+        md.use(require("./resize-images"));
       }
     }
   },
