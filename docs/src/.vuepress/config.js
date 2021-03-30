@@ -124,7 +124,11 @@ module.exports = {
         "07-downloads",
         "08-troubleshooting",
         "09-compatibility-with-dynamic.md",
-      ]
+      ],
+      "/prestashop/": [
+        "",
+        "01-customization.md",
+      ],
     },
     sidebarDepth: 3,
     activeHeaderLinks: false,
