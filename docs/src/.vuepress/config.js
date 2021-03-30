@@ -1,5 +1,7 @@
 const {description} = require("../../package");
 
+const ogprefix = "og: http://ogp.me/ns#";
+
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -18,7 +20,8 @@ module.exports = {
   head: [
     ["meta", {name: "theme-color", content: "#00aff0"}],
     ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
-    ["meta", {name: "apple-mobile-web-app-status-bar-style", content: "black"}]
+    ["meta", {name: "apple-mobile-web-app-status-bar-style", content: "black"}],
+    ["meta", {prefix: ogprefix, property: "og:image", content: "/images/social-preview.jpg"}],
   ],
 
   /**
