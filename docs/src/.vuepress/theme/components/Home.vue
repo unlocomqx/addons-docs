@@ -180,6 +180,7 @@ export default {
   .home
     .documentations
       flex-direction column
+      align-items: center
 
     .documentation
       max-width 100%
