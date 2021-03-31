@@ -157,6 +157,10 @@ Here's an option that was colorized using an aluminium texture
 
 ## :arrows_counterclockwise: Sync with Dynamic Product
 
+:::tip  
+This option is only available if you have installed the [Dynamic Product](/dynamicproduct/) module
+:::
+
 If you want to display visual options in Dynamic Product by
 displaying [image lists](/dynamicproduct/product-config/07-fields.md#image-list), you can enable
 the `Sync with Dynamic Product` option.
