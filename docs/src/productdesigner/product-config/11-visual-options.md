@@ -154,3 +154,34 @@ could be tiled properly over the option image.
 Here's an option that was colorized using an aluminium texture
 
 <img srcset="/productdesigner/images/visual-options/alu.jpg 2x" class="border">
+
+## :arrows_counterclockwise: Sync with Dynamic Product
+
+If you want to display visual options in Dynamic Product by
+displaying [image lists](/dynamicproduct/product-config/07-fields.md#image-list), you can enable
+the `Sync with Dynamic Product` option.
+
+The module will tell you what to name
+the [Dynamic Product field](/dynamicproduct/product-config/07-fields.md)
+
+<img srcset="/productdesigner/images/sync-option.jpg 2x" class="border padding">
+
+::: tip  
+For the sync to work, the options must use the same images and in the same order
+:::
+
+Example:
+
+Board options group in Product Designer
+
+<img srcset="/productdesigner/images/board-options-designer.jpg 2x" class="border">
+
+Board image list field in Dynamic Product
+
+<img srcset="/productdesigner/images/border-image-list.jpg 2x" class="border">
+
+The image lists and the designer will be displayed like this
+
+<img srcset="/productdesigner/images/sync-result.jpg 2x">
+
+Notice that the Options tab in the designer was hidden to avoid displaying the options twice.
