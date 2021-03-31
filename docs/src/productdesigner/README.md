@@ -7,7 +7,7 @@
   <strong style="font-size: 2em;">Product Designer</strong>
 </div>
 
-**Product Designer** is a PrestaShop module that allows your customers to easily customize their products and order them directly.
+[**Product Designer**](https://addons.prestashop.com/product.php?id_product=30176) is a PrestaShop module that allows your customers to easily customize their products and order them directly.
 
 The module displays an interface which allows adding texts and images and changing various aspects of the product
 all white having a direct preview of the result.

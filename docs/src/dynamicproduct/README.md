@@ -7,7 +7,7 @@
   <strong style="font-size: 2em;">Dynamic Product</strong>
 </div>
 
-**Dynamic Product** is a PrestaShop module allowing you to offer highly customizable products.
+[**Dynamic Product**](https://addons.prestashop.com/product.php?id_product=19389) is a PrestaShop module allowing you to offer highly customizable products.
 
 <img srcset="/dynamicproduct/images/dynamic-product-addons.jpg 2x" class="border">
 
