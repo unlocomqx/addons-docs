@@ -1,6 +1,6 @@
 # Fields
 
-Product fields are rectangle that can contain design elements (texts or images)
+Product fields are rectangles that can contain design elements (texts or images)
 
 You can enable the fields feature and add the various fields to the designer.
 
