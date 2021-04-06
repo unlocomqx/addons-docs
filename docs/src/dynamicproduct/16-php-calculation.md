@@ -55,22 +55,22 @@ In addition to the fields, the module provides other variables in the PHP contex
 
 ```php
 // The ID of the current product
-$id_product
+global $id_product;
 
 // The selected combination ID
-$id_attribute
+global $id_attribute;
 
 // The current selected quantity
-$quantity
+global $quantity;
 
 // The product base price
-$product_price
+global $product_price;
 
 // The product base weight
-$product_weight
+global $product_weight;
 
 // The name of the field that the customer changed to trigger the calculation
-$changed
+global $changed;
 ```
 
 ## Assigning a value to a field (Field Allocation)
