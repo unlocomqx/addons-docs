@@ -66,63 +66,90 @@ If you'd like to retract by meter squared for example
 - **Numeric Input**  
   The value is the html field value
   <code class="formula">**[width]**</code>
+  
 - **Slider**  
   The value is the current slider value
   <code class="formula">**[slider]**</code>
+  
 - **Dropdown**  
   The value is the selected option value
   <code class="formula">**[dropdown]**</code>  
   To access the secondary value
   <code class="formula">**[[dropdown]]**</code>
+  
 - **Radio buttons**  
   The value is the selected option value
   <code class="formula">**[radio]**</code>
   To access the secondary value
   <code class="formula">**[[radio]]**</code>
+  
 - **Image list**  
   The value is the selected option value
   <code class="formula">**[list]**</code>
   To access the secondary value
   <code class="formula">**[[list]]**</code>
+  
 - **Checkbox**  
   The value is 1 if checked, 0 otherwise
   <code class="formula">**[checkbox]**</code>
+  
+  If you want to add an extra cost when the checkbox is checked:
+  <code class="formula">**[checkbox]** * 10</code>
+  This will add 10 to the formula result when the checkbox is on.
+  
 - **Text**  
   The value is the html field value. When using this field inside the formula, always surround it with quotes
   <code class="formula">"**[text]**"</code>
+  To get the text length  
+  <code class="formula">STRLEN("**[text]**")</code>
+  
+  To check if the text was filled
+  <code class="formula">CHECK("**[text]**")</code>
+  This will return 0 if the text is empty and 1 otherwise
+  
 - **Text Area**  
   The value is the html field value. When using this field inside the formula, always surround it with quotes
   <code class="formula">"**[textarea]**"</code>
+  
 - **Date**  
   The value is the html field value. When using this field inside the formula, always surround it with quotes
   <code class="formula">"**[date]**"</code>
+  
 - **Image**  
-  The value is the uploaded image name. You can check if there is an image that was uploaded by using the `CHECK` function 
-  ```xls
-  CHECK([image]) // will return 1 if there is an image, 0 otherwise
-  ```
+  The value is the uploaded image name. You can check if there is an image that was uploaded by using the `CHECK` function
+  
+  <code class="formula">CHECK("**[image]**")</code>
+  This will return 1 if there is an image, 0 otherwise
+  
 - **File**  
   The value is the uploaded file name. You can check if there is an file that was uploaded by using the `CHECK` function
-  ```xls
-  CHECK([file]) // will return 1 if there is an image, 0 otherwise
-  ```
+
+  <code class="formula">CHECK("**[file]**")</code>
+  This will return 1 if there is an image, 0 otherwise
+  
 - **Fixed Value**  
   The value is the current field value, that can be either the initial value of the value that was updated using PHP or using a field formula
   <code class="formula">**[fixed]**</code>
+  
 - **Price**  
   The value is the current field value, that can be either the initial value of the value that was updated using PHP or using a field formula
   <code class="formula">**[unit_price]**</code>
+  
 - **Dynamic Variable**  
   The value is the current field value, that can be either the initial value of the value that was updated using PHP or using a field formula
   <code class="formula">**[dynamic]**</code>
+  
 - **Feature**  
   The value is the feature value for the current language
   <code class="formula">**[feature]**</code>
+  
 - **Divider**  
   Cannot be used in the formula
+  
 - **Color picker**  
   The value is the html field value
   <code class="formula">**[picker]**</code>
+  
 - **Error message**  
   Can only be used in [conditions](/dynamicproduct/product-config/09-conditions.md)
 
