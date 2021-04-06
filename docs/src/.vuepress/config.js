@@ -128,6 +128,7 @@ module.exports = {
       "/prestashop/": [
         "",
         "01-customization.md",
+        "02-translation.md",
       ],
     },
     sidebarDepth: 3,
