@@ -1,7 +1,7 @@
 # PHP Calculation
 
-If your calculation is very complex or requires custom logic, then you can use a PHP file to do it. PHP can help you in
-these situations for example:
+If your calculation is very complex or requires custom logic, then you can use a PHP file to do it.
+PHP can help you in these situations for example:
 
 - Your calculation is too complex to be written in a formula
 - You want to access a PrestaShop variable that is not available in the formula
@@ -11,18 +11,23 @@ Here are the available methods to use a PHP file:
 
 - To calculate the [price formula](/dynamicproduct/product-config/08-formulas.md#price-formula)
 - To calculate the [weight formula](/dynamicproduct/product-config/08-formulas.md#weight-formula)
-- To calculate the [quantity formula](/dynamicproduct/product-config/08-formulas.md#quantity-formula)
-- To assign the value of a [dynamic field](/dynamicproduct/product-config/07-fields.md#dynamic-variable) from PHP
-- To [declare JavaScript variables](/dynamicproduct/16-php-calculation.md#declaring-javascript-variables-from-php) to use it in
-  a [custom script](/dynamicproduct/17-custom-scripts.md)
+- To calculate
+  the [quantity formula](/dynamicproduct/product-config/08-formulas.md#quantity-formula)
+- To assign the value of
+  a [dynamic field](/dynamicproduct/product-config/07-fields.md#dynamic-variable) from PHP
+-
+
+To [declare JavaScript variables](/dynamicproduct/16-php-calculation.md#declaring-javascript-variables-from-php)
+to use it in a [custom script](/dynamicproduct/17-custom-scripts.md)
 
 ## Accessing fields from PHP
 
-In any PHP file that you create inside the folder `/dynamicproduct`, the fields will be available with their current
-values. For example, if you have fields `width`, `length` and `height`, you can access them using the variables
+In any PHP file that you create inside the folder `/dynamicproduct`, the fields will be available
+with their current values. For example, if you have fields `width`, `length` and `height`, you can
+access them using the variables
 `$width`, `$length` and `$height` respectively.  
-In the same way, you can change a field value by directly assigning a new value to the corresponding variable, for
-example:
+In the same way, you can change a field value by directly assigning a new value to the corresponding
+variable, for example:
 
 ```php
 $width = 10;
@@ -32,7 +37,8 @@ $text = 'Hello';
 
 Additionally, the module provides a variable named `$changed`
 which indicates the name of the field that was changed by the customer.  
-This can be useful if you want to only update the field that wasn't changed when two fields depend on each other.
+This can be useful if you want to only update the field that wasn't changed when two fields depend
+on each other.
 
 ## Accessing PrestaShop functions
 
@@ -73,6 +79,10 @@ global $product_weight;
 global $changed;
 ```
 
+::: tip  
+You can copy the above code to your script to help you with autocompletion (optional)
+:::
+
 ## Assigning a value to a field (Field Allocation)
 
 You can assign a value to field dynamically using PHP.  
@@ -81,11 +91,12 @@ First, create a php file in the folder `/dynamicproduct/allocations`
 - Name the file `products.php` if you want to target all products
 - Name the file `productX.php` if you want to target only the product with ID=**X**
 
-You can [access fields by name](/dynamicproduct/16-php-calculation.md#accessing-fields-from-php) and you can also assign a value to
-fields by name, here are some examples:
+You can [access fields by name](/dynamicproduct/16-php-calculation.md#accessing-fields-from-php) and
+you can also assign a value to fields by name, here are some examples:
 
-- Assign a value to an area field (this can be done using [Field formulas](/dynamicproduct/product-config/10-field-formulas.md) but it's
-  here only as an example)
+- Assign a value to an area field (this can be done
+  using [Field formulas](/dynamicproduct/product-config/10-field-formulas.md) but it's here only as
+  an example)
 
 ```php
 // Assuming you have fields named area, width and length
@@ -101,12 +112,14 @@ $logged_in = (int)Context::getContext()->customer->isLogged();
 // It can be used to show/hide fields using the conditions feature for example
 ```
 
-::: tip
-Don't forget to create a [dynamic variable](/dynamicproduct/product-config/07-fields.md#dynamic-variable) field before assigning its value
+::: tip  
+Don't forget to create
+a [dynamic variable](/dynamicproduct/product-config/07-fields.md#dynamic-variable) field before
+assigning its value
 :::
 
-Once you assign a value to a field, you can use it in the price formula and all other formulas and functions such as the
-intervals, the conditions and the grids etc...
+Once you assign a value to a field, you can use it in the price formula and all other formulas and
+functions such as the intervals, the conditions and the grids etc...
 
 ## Price calculation using PHP
 
@@ -118,12 +131,12 @@ To calculate the price, place a PHP file in the folder `/dynamicproduct/calculat
   `product1.php` will target product `#1`  
   `product42.php` will target product `#42`  
   The product **ID** is displayed in the product list in the backoffice
-  
+
   <img srcset="/dynamicproduct/images/php-ids.jpg 2x" class="padding border">
 
 In the price calculation, you need to assign a `$result` variable at the end of the calculation.
 
-::: tip
+::: tip   
 Initially, the `$result` variable will contain the price formula result
 :::
 
@@ -150,7 +163,8 @@ $result = $length * $unit_price;
 ## Weight calculation using PHP
 
 The weight calculation is done exactly in the same way
-as [the price calculation](/dynamicproduct/16-php-calculation.md#price-calculation-using-php), except for two differences.
+as [the price calculation](/dynamicproduct/16-php-calculation.md#price-calculation-using-php),
+except for two differences.
 
 - The variable that has to be assigned is called `$weight`
 - The file names are `weights.php` and `weightX.php` to target a product with ID=**X**
@@ -162,14 +176,15 @@ Here's an example
 $weight = $width * $length * $depth * 5;
 ```
 
-::: tip
+::: tip  
 Initially, the `$weight` variable will contain the weight formula result
 :::
 
 ## Quantity calculation using PHP
 
 The quantity calculation is also very similar
-to [the price calculation](/dynamicproduct/16-php-calculation.md#price-calculation-using-php), but here's the two differences:
+to [the price calculation](/dynamicproduct/16-php-calculation.md#price-calculation-using-php), but
+here's the two differences:
 
 - The variable that you need to assign is called `$qty`
 - The file names are `quantity.php` and `quantityX.php` to target a product with ID=**X**  
@@ -180,7 +195,7 @@ to [the price calculation](/dynamicproduct/16-php-calculation.md#price-calculati
 $qty = $width * $length;
 ```
 
-::: tip
+::: tip  
 Initially, the `$qty` variable will contain the quantity formula result
 :::
 
