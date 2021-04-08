@@ -22,6 +22,7 @@ module.exports = {
     ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
     ["meta", {name: "apple-mobile-web-app-status-bar-style", content: "black"}],
     ["meta", {prefix: ogprefix, property: "og:image", content: "/images/social-preview.jpg"}],
+    ["script", {src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-phpdoc.js'}],
   ],
 
   /**

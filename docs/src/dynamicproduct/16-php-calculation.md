@@ -59,25 +59,29 @@ $id_category = (new Product($id_product))->id_category_default;
 
 In addition to the fields, the module provides other variables in the PHP context:
 
-```php
+```phpdoc
 // The ID of the current product
-$id_product;
+/** @var int $id_product */
 
 // The selected combination ID
-$id_attribute;
+/** @var int $id_attribute */
 
 // The current selected quantity
-$quantity;
+/** @var int $quantity */
 
 // The product base price
-$product_price;
+/** @var float $product_price */
 
 // The product base weight
-$product_weight;
+/** @var float $product_weight */
 
 // The name of the field that the customer changed to trigger the calculation
-$changed;
+/** @var string $changed */
 ```
+
+::: tip  
+You can copy the above code to help you with autocompletion
+:::
 
 ## Assigning a value to a field (Field Allocation)
 
