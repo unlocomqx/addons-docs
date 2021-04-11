@@ -10,6 +10,8 @@ Below are the various configuration sections
 
 ## Interface options
 
+<img srcset="/productdesigner/images/configuration.jpg 2x" class="pt-1">
+
 ### Hide standard cart button
 
 This option hides the PrestaShop cart button so that the customer customizes the product then uses
@@ -99,6 +101,8 @@ It allows you to display the dynamic product fields in the designer interface li
 
 ## Print settings
 
+<img srcset="/productdesigner/images/print-settings.jpg 2x" class="pt-1">
+
 ### Include base image in print
 
 Determines whether to include the base image in the final SVG file.
@@ -136,6 +140,8 @@ Will show more details about the design in the invoice
 Will show the design preview in the order confirmation mail sent to the customer
 
 ## Design options
+
+<img srcset="/productdesigner/images/design-options-panel.jpg 2x" class="pt-1">
 
 ### Show download button
 
@@ -196,6 +202,8 @@ If enabled, then the module will show this error
 This option sets the maximum file size for customer uploads
 
 ## Text options
+
+<img srcset="/productdesigner/images/text-options-panel.jpg 2x" class="pt-1">
 
 ### Show fonts in the text tab directly
 
