@@ -125,6 +125,7 @@ module.exports = {
         "07-downloads",
         "08-troubleshooting",
         "09-compatibility-with-dynamic.md",
+        "10-combination-images.md",
       ],
       "/prestashop/": [
         "",
