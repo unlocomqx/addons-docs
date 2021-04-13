@@ -12,9 +12,21 @@ The file name should be:
 - `customX.js` (if you want to only target the product with ID=**X**)  
   For example, if you want to target product `#10`, you can create a file named `custom10.js`
 
+## Detecting when the module is loaded
+
+Since the module loading is deferred, you need to listen for the `dp-loaded` event in order to
+execute your custom script correctly
+
+```js
+$(document).on("dp-loaded", function () {
+  // ... your custom script
+});
+```
+
 ## Detecting a field change
 
-To detect a field change, you can create a function with the same name as the field but prefixed with `dp_`.  
+To detect a field change, you can create a function with the same name as the field but prefixed
+with `dp_`.  
 For example, if you have a field named `width`, you can create a function named `dp_width`.  
 Code example:
 
@@ -25,7 +37,8 @@ function dp_width(value) {
 }
 ```
 
-If you have a field which has options, the selected options will also be passed to the custom function
+If you have a field which has options, the selected options will also be passed to the custom
+function
 
 ```js
 function dp_dropdown(value, selected_options) {
@@ -36,7 +49,8 @@ function dp_dropdown(value, selected_options) {
 
 ## Updating the properties of a field
 
-You can change a field properties from the custom script, for that you need to use the `updateField` function.  
+You can change a field properties from the custom script, for that you need to use the `updateField`
+function.  
 Code example:
 
 ```js
@@ -73,12 +87,16 @@ export interface IFieldSettings {
 ```
 
 ## Get a field properties
+
 You can use the `getField` function to get the properties of a field.
+
 ```js
 getField(field_name);
 var props = getField("width");
 ```
+
 The value of `props` will have this shape
+
 ```js
 {
   active: 1
@@ -148,17 +166,20 @@ The value of `props` will have this shape
 ```
 
 ## Detecting a calculation result
+
 You can subscribe to the module stores in order to detect the calculation results.  
 The module uses [`Svelte stores`](https://svelte.dev/docs#svelte_store) under the hood.
 
 Code example:
+
 ```js
-dp_calc.subscribe(function(data) {
+dp_calc.subscribe(function (data) {
   console.log(data);
 });
 ```
 
 The data is have this shape
+
 ```js
 {
   customization_prices: {
@@ -216,7 +237,15 @@ The data is have this shape
   met_conditions: []
   oos: false
   success: 1
-  unit_prices: {price_ht: 20, price_ht_nr: 20, price_ttc: 24, price_ttc_nr: 24}
+  unit_prices: {
+    price_ht: 20, price_ht_nr
+  :
+    20, price_ttc
+  :
+    24, price_ttc_nr
+  :
+    24
+  }
   use_tax: true
   visibility: {
     groups: []
@@ -227,16 +256,18 @@ The data is have this shape
 ```
 
 ## Detecting any change on fields
+
 You can subscribe to the fields store to detect any change on the fields.  
-The result will be an object containing each field
-Example code
+The result will be an object containing each field Example code
+
 ```js
 dp_fields.subscribe(function (fields) {
-    console.log(fields);
+  console.log(fields);
 });
 ```
 
 The fields variable will have this shape
+
 ```js
 {
   width: {
@@ -263,18 +294,22 @@ The fields variable will have this shape
     value: "width"
     value_formatted: "width"
     visible: 0
-  },
-  height: { 
+  }
+,
+  height: {
     // same shape as the width field 
-  },
+  }
+,
   // ...
 }
 ```
 
 ## Validating the fields
+
 If you need to validate the fields programmatically, you can use the `validateFields` function.
 
 Example code:
+
 ```js
 var isValid = validateFields();
 // isValid will be either true or false based on the validity of the fields
@@ -282,24 +317,35 @@ var isValid = validateFields();
 ```
 
 ## Saving the customization
+
 If you need to save the customization programmatically, then you can use the `dpSaveCustomization`
 
 Example code
+
 ```ts
 // Signature
-dpSaveCustomization (add_to_cart: boolean): Promise<any>;
+dpSaveCustomization(add_to_cart
+:
+boolean
+):
+Promise<any>;
 ```
+
 Usage
+
 ```js
-dpSaveCustomization(true).then(function(response){
+dpSaveCustomization(true).then(function (response) {
   // response is either true or false based on the success of the operation
 });
 ```
 
 ## Changing the module position in the page
-You can change the module position by changing the `dp_hook` variable and set it to any selector or html element.  
+
+You can change the module position by changing the `dp_hook` variable and set it to any selector or
+html element.  
 The module will then be positioned after the selected hook.  
 Examples:
+
 ```js
 window.dp_hook = "#my_location"; // A jQuery selector
 window.dp_hook = $("#my_location"); // A jQuery element
@@ -307,12 +353,13 @@ window.dp_hook = document.getElementById("my_location"); // A DOM element
 ```
 
 ## Setting the price element
-Sometimes, the module can't find the price element to update it 
-because the theme has a different html structure than the default theme,
-for that, you can set the variable `dp_price_hook` to tell the module which element
-to update when updating the price.
+
+Sometimes, the module can't find the price element to update it because the theme has a different
+html structure than the default theme, for that, you can set the variable `dp_price_hook` to tell
+the module which element to update when updating the price.
 
 Code example
+
 ```js
 window.dp_price_hook = ".product-prices span.price";
 ```
