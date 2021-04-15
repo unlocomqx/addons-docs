@@ -129,5 +129,6 @@ calculated after the grids
 This is useful when you have a field that is modified by a grid and that you want to use it in a
 field formula.
 
-::: tip You can add a calculation step more than once if needed
+::: tip  
+You can add a calculation step more than once if needed
 :::
