@@ -12,10 +12,11 @@ Then you will be able to translate all the module phrases easily
 
 <img srcset="/prestashop/images/phrases.jpg 2x">
 
-::: tip  
-If you can't find all the phases, make [this modification](https://github.com/PrestaShop/PrestaShop/pull/12903/files)
+## Some translations are not displayed
+
+If you can't find all the phases, then you need to
+make [this modification](https://github.com/PrestaShop/PrestaShop/pull/12903/files)
 
 The file path is `controllers/admin/AdminTranslationsController.php`
 
 This fix is already included PrestaShop `1.7.7.3` and newer
-:::
