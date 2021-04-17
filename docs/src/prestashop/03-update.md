@@ -1,14 +1,14 @@
 # Updates
 
 ::: tip
-Updating the module is easy, you simply need to import the module zip
+Updating a module is easy, you simply need to import the module zip
 :::
 
 ::: warning
 Creating a full backup before updating the module is highly recommended
 :::
 
-::: danger Don't reset the module
+::: danger Don't reset a module
 **You will lose ALL your settings!**
 :::
 
@@ -21,4 +21,5 @@ Here are the steps to follow:
 3. **Reload the page** and click on **"Upgrade"** (if displayed)
 
    <img srcset="/dynamicproduct/images/upgrade-btn.jpg 2x" class="border"/>
+
 4. **Clear the PrestaShop cache** and the **browser cache** to reload the module
