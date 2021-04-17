@@ -7,8 +7,8 @@ Let's say we want to vary the value of the **price_m2** field which is a price f
 
 <img srcset="/dynamicproduct/images/intervals.jpg 2x">
 
-The intervals that we used are 0 → 3, 3 → 5, 5 → 7, 7 → ∞.  
-This symbol ∞ signifies infinity which means, when area is 7 or greater.
+The intervals that we used are `0 → 3`, `3 → 5`, `5 → 7`, `7 → ∞`.  
+This symbol `∞` signifies infinity which means, when area is 7 or greater.
 
 To add intervals, click the plus sign in the top right corner, the module will add a new interval automatically.  
 To edit it, click it, then this popup will be displayed
