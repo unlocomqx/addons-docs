@@ -85,6 +85,7 @@ module.exports = {
         "21-debug-mode.md",
         "22-custom-style.md",
         "23-extra-fields.md",
+        "24-migration.md",
       ],
       "/productdesigner/": [
         "",
