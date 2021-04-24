@@ -189,3 +189,25 @@ The image lists and the designer will be displayed like this
 <img srcset="/productdesigner/images/sync-result.jpg 2x">
 
 Notice that the Options tab in the designer was hidden to avoid displaying the options twice.
+
+## :asterisk: Using sub-groups
+
+You can add sub-groups to any option group by clicking the subgroup button
+
+<img srcset="/productdesigner/images/add-subgroup.jpg 2x">
+
+A new sub-group will be adding inside the option group
+
+<img srcset="/productdesigner/images/new-subgroup.jpg 2x">
+
+You can add the options and import them as normal, the sub-group is identical to a normal group.
+
+::: tip  
+It's preferred that the parent group does not contain any options but only sub-groups
+:::
+
+The sub-groups will be displayed like this
+
+<img srcset="/productdesigner/images/subgroups-display.jpg 2x">
+
+In this case the `Board` group contains two sub-groups which are `Color` and `Artwork`
