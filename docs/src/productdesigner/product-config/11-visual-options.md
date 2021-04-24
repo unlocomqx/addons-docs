@@ -211,3 +211,15 @@ The sub-groups will be displayed like this
 <img srcset="/productdesigner/images/subgroups-display.jpg 2x">
 
 In this case the `Board` group contains two sub-groups which are `Color` and `Artwork`
+
+### Single choice
+
+You can enable the single choice setting on the parent group to allow only one option inside the
+group and its sub-groups to be selected.
+
+<img srcset="/productdesigner/images/single-choice.png 2x" class="border">
+
+::: tip  
+Setting a sub-group that belongs to a single choice group as required will have no effect on the
+validation.
+:::
