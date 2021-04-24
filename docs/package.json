@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/unlocomqx/addons-docs/",
   "scripts": {
-    "dev": "vuepress dev src",
+    "dev": "vuepress dev src --no-cache",
     "build": "vuepress build src"
   },
   "license": "MIT",

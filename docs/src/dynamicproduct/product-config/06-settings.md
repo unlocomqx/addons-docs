@@ -88,6 +88,29 @@ You can copy a product configuration to the current product by picking a product
 :::warning The configuration of the current product will be overwritten
 :::
 
+### Linked configurations
+
+You can use the same configuration in multiple products by checking the link checkbox show below
+
+<img srcset="/dynamicproduct/images/link-configuration.jpg 2x" class="border padding">
+
+The module will then link the configuration instead of copying it, making it easier to modify the
+configuration for multiple products at once.
+
+You can also clear the configuration of the target product by enabling the checkbox
+
+<img srcset="/dynamicproduct/images/clear-config.jpg 2x" class="border padding">
+
+A product that has a linked configuration will display this notice
+
+<img srcset="/dynamicproduct/images/linked-config-target.jpg 2x">
+
+The source product will display this notice
+
+<img srcset="/dynamicproduct/images/linked-config-source.jpg 2x">
+
+When you unlink a configuration, the original product configuration will be restored.
+
 ### Copy configuration
 
 You can copy the current product configuration to any category of your choice.
