@@ -10,7 +10,7 @@ Below are the various configuration sections
 
 ## Interface options
 
-<img srcset="/productdesigner/images/configuration.jpg 2x" class="pt-1">
+<img srcset="/productdesigner/images/configuration.jpg 2x" class="mt-1">
 
 ### Hide standard cart button
 
@@ -101,7 +101,7 @@ It allows you to display the dynamic product fields in the designer interface li
 
 ## Print settings
 
-<img srcset="/productdesigner/images/print-settings.jpg 2x" class="pt-1">
+<img srcset="/productdesigner/images/print-settings.jpg 2x" class="mt-1">
 
 ### Include base image in print
 
@@ -141,7 +141,7 @@ Will show the design preview in the order confirmation mail sent to the customer
 
 ## Design options
 
-<img srcset="/productdesigner/images/design-options-panel.jpg 2x" class="pt-1">
+<img srcset="/productdesigner/images/design-options-panel.jpg 2x" class="mt-1">
 
 ### Show download button
 
@@ -203,7 +203,7 @@ This option sets the maximum file size for customer uploads
 
 ## Text options
 
-<img srcset="/productdesigner/images/text-options-panel.jpg 2x" class="pt-1">
+<img srcset="/productdesigner/images/text-options-panel.jpg 2x" class="mt-1">
 
 ### Show fonts in the text tab directly
 
