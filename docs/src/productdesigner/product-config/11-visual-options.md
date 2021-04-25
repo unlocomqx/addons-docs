@@ -196,7 +196,7 @@ You can add sub-groups to any option group by clicking the subgroup button
 
 <img srcset="/productdesigner/images/add-subgroup.jpg 2x">
 
-A new sub-group will be adding inside the option group
+A new sub-group will be added inside the option group
 
 <img srcset="/productdesigner/images/new-subgroup.jpg 2x">
 
