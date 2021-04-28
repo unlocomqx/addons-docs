@@ -9,7 +9,7 @@ In this section, you can configure the images that are displayed in the designer
 This is the image that will be displayed in the designer interface. You can configure a base image
 for each side and for each combination image.
 
-<img srcset="/productdesigner/images/combination-images.jpg 2x">
+<img srcset="/productdesigner/images/combination-images.png 2x">
 
 ## Mask image
 
@@ -39,7 +39,13 @@ only the design that is in the product area will be visible.
 
 Only the part of the design that is under the transparency is visible.
 
+## Production canvas
+
+The production canvas is only included in the final SVG. It's useful when you want to use a large
+background image for production but only show a smaller image in the production page to ensure a
+faster page load.
+
 ## Production mask
 
-The production mask follows the same principles are the [mask image](#mask-image) but is only included in the
-production SVG.
+The production mask follows the same principles are the [mask image](#mask-image) but is only
+included in the production SVG.
