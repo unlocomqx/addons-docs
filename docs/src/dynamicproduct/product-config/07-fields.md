@@ -117,6 +117,21 @@ the label of each option by enabling the "Display label" option
 
 You can also change the height of the thumbnails in pixels
 
+#### Usage in conditions
+
+If you want to use the image list in
+the [conditions](/dynamicproduct/product-config/09-conditions.md) with multi-selection enabled, you
+can assign string values to the image list options, then use
+the [`CONTAINS`](/dynamicproduct/15-formula-functions.md#contains) function in the conditions
+formulas.
+
+The module assembles the selected values into a single string and use a semicolon `;` to join them,
+so your condition has to look something like this:
+
+```xls
+  CONTAINS("[image_list]", "apple;") → This means if the option with value = "apple" is selected
+```
+
 ---
 
 ### Checkbox
