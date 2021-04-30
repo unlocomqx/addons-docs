@@ -134,10 +134,11 @@ new configuration as if they were loaded from the common fields list.
 
 ## Advanced configuration
 
+### Calculation order
+
 In the advanced configuration, you can change the calculation order if needed.  
-You can access the advanced configuration from the `Settings` tab and you can find it in the bottom
-of this tab.  
-This is the default calculation order that the module follows:
+You can access the advanced configuration in the bottom of the the `Settings` tab. This is the
+default calculation order that the module follows:
 
 1. [Intervals](/dynamicproduct/product-config/12-intervals.md)
 2. [Field formulas](/dynamicproduct/product-config/10-field-formulas.md)
