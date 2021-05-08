@@ -146,15 +146,6 @@ STRLEN('Hello') → 6
 STRLEN('World') → 5
 ```
 
-### **CHECK**
-
-Checks if a string if not empty, return 0 if string is empty, 1 otherwise
-
-```xls
-CHECK("Hello") → 1
-CHECK("") → 0
-```
-
 ### **SUBSTR**
 
 Extract a string from another string
@@ -162,17 +153,6 @@ Extract a string from another string
 ```xls
 SUBSTR(string, start, length)
 SUBSTR("Hello world!", 0, 6) → "Hello"
-```
-
-### **CONTAINS**
-
-Check if a string is contained withing another string
-
-```xls
-CONTAINS(string, partial)
-CONTAINS("Hello world!", "Hello") → 1
-CONTAINS("Hello world!", "Hello!") → 0
-CONTAINS("Hello world!", "Test") → 0
 ```
 
 ### **REPLACE**
@@ -193,6 +173,34 @@ CONCAT("A great ", "day") → "A great day"
 CONCAT( "A great ", "day ", "today" ) → "A great day today"
 ```
 
+---
+
+## Custom functions
+
+These custom functions are added by the module for convenience and to satisfy some specific use
+cases.
+
+### **CONTAINS**
+
+Check if a string is contained withing another string
+
+```xls
+CONTAINS(string, partial)
+CONTAINS("Hello world!", "Hello") → 1
+CONTAINS("Hello world!", "Hello!") → 0
+CONTAINS("Hello world!", "Test") → 0
+```
+
+### **CHECK**
+
+Checks if a string if not empty, return 0 if string is empty, 1 otherwise
+
+```xls
+CHECK("Hello") → 1
+CHECK("") → 0
+```
+---
+
 ### **BINARY_AND**
 
 Performs
@@ -212,8 +220,6 @@ a [bitwise OR operation](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 BINARY_OR(4, 1) → 5
 BINARY_OR(6, 2) → 6
 ```
-
----
 
 ## The Grid function
 
