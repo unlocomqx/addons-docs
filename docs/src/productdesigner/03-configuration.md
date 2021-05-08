@@ -251,6 +251,27 @@ Will hide the outline section
 
 ## Image options
 
+### Show colors in the image tab directly
+
+If enabled, the image colors will be displayed like this
+
+<img srcset="/productdesigner/images/image-colors-inline.jpg 2x">
+
+If it's disabled, the colors will be displayed behind this
+button <img style="vertical-align: middle" srcset="/productdesigner/images/color-btn.png 2x">
+
+### Pixabay key
+
+Pixabay is a free image search service. To enable it, you need to configure your key in this
+field.  
+To get a Pixabay key, visit the [API](https://pixabay.com/api/docs/) page, then create an account
+and copy the key.  
+You can find the key in the [Search Images section](https://pixabay.com/api/docs/#api_search_images)
+
+<img srcset="/productdesigner/images/pixabay-key.jpg 2x" class="border padding">
+
+You can then enable Pixabay search for any product of your choice in the [product configuration](add_link).
+
 ## Tabs
 
 You can enable or disable tabs globally in this section
