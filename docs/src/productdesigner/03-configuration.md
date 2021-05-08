@@ -214,6 +214,15 @@ If enabled, then the fonts will be displayed directly like this
 If it's disabled, the fonts will be displayed behind a
 button <img style="vertical-align: middle" srcset="/productdesigner/images/font-btn.png 2x">
 
+### Show colors in the text tab directly
+
+If enabled, the text colors will be displayed like this
+
+<img srcset="/productdesigner/images/text-colors-inline.jpg 2x">
+
+If it's disabled, the colors will be displayed behind this
+button <img style="vertical-align: middle" srcset="/productdesigner/images/color-btn.png 2x">
+
 ### Hide text size input <Badge text="Active recommended" type="error"/>
 
 Will hide the size input
@@ -239,6 +248,8 @@ Will hide these buttons
 Will hide the outline section
 
 <img srcset="/productdesigner/images/outline.jpg 2x">
+
+## Image options
 
 ## Tabs
 
