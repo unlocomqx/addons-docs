@@ -9,14 +9,6 @@ In this tab, we have many options that are related to the design in general.
 This option will override the global option
 for [displaying the item dimension](/productdesigner/03-configuration.md#show-design-items-dimensions)
 
-## Allow image upload
-
-Enabled customer uploads. You can
-control [the maximum upload size](/productdesigner/03-configuration.md#upload-max-size) in the main
-configuration page
-
-<img srcset="/productdesigner/images/image-upload.jpg 2x" class="border">
-
 ## Save current side only
 
 This will allow you to use product sides as if they were product variants.  

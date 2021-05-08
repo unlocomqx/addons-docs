@@ -4,6 +4,14 @@ In this tab, you can configure options related to the design images
 
 <img srcset="/productdesigner/images/image-options.jpg 2x" class="border">
 
+## Allow image upload
+
+Enabled customer uploads. You can
+control [the maximum upload size](/productdesigner/03-configuration.md#upload-max-size) in the main
+configuration page
+
+<img srcset="/productdesigner/images/image-upload.jpg 2x" class="border">
+
 ## Enable image background remover
 
 The background remover icon will be displayed in the image tab as well as in the design image icons.
