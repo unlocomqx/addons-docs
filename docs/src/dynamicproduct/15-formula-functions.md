@@ -220,6 +220,12 @@ BINARY_OR(6, 2) → 6
 **Grid**: Allows reading a CSV file and getting a result based on two values  
 This function is very similar to [the Grid feature](/dynamicproduct/product-config/13-grids.md).
 
+The function format is as follows
+
+```xls
+Grid( database, row value, column value ) 
+```
+
 Here's a [CSV sample](/dynamicproduct/files/sample.csv ':ignore')
 
 To use this function, start by uploading your CSV file to the
