@@ -24,13 +24,32 @@ We can remove the background like this
 
 <img srcset="/productdesigner/images/bg-remover-btn.jpg 2x" class="border">
 
-We can adjust the sensitivity to better match the background color variations 
+We can adjust the sensitivity to better match the background color variations
 
 <img srcset="/productdesigner/images/bg-remover.jpg 2x" class="border">
 
 Then we apply to get the result
 
 <img srcset="/productdesigner/images/bg-remover-result.jpg 2x" class="border">
+
+## Enable Pixabay search
+
+Pixabay is a free image search service. Before you enable this service, make sure to configure
+your [Pixabay key](/productdesigner/03-configuration.md#pixabay-key).
+
+When enabled, the module will display a search field in the Image tab.
+
+<img srcset="/productdesigner/images/pixabay-search.jpg 2x">
+
+The customer can enter a search term then submit. The search results will be displayed like this.
+
+<img srcset="/productdesigner/images/pixabay-results.jpg 2x">
+
+When the customer clicks and image, it will be magnified and displayed inside an image gallery like this
+
+<img srcset="/productdesigner/images/pixabay-gallery.jpg 2x">
+
+The customer can add the image to the design by clicking the insert button
 
 ## Enable image transparency
 
