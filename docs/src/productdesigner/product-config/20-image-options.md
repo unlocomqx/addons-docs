@@ -45,11 +45,30 @@ The customer can enter a search term then submit. The search results will be dis
 
 <img srcset="/productdesigner/images/pixabay-results.jpg 2x">
 
-When the customer clicks and image, it will be magnified and displayed inside an image gallery like this
+When the customer clicks and image, it will be magnified and displayed inside an image gallery like
+this
 
 <img srcset="/productdesigner/images/pixabay-gallery.jpg 2x">
 
 The customer can add the image to the design by clicking the insert button
+
+## Enable Instagram image import
+
+Make sure to configure your Instagram App details in
+the [main configuration section](/productdesigner/03-configuration.md#instagram-app-id)
+
+When enabled, this button will be displayed
+
+<img srcset="/productdesigner/images/instagram-btn.jpg 2x">
+
+When the customer clicks the button, a popup will open to allow the customer to confirm the app
+access to their images
+
+<img srcset="/productdesigner/images/instagram-popup.png 2x"/>
+
+The images will be displayed like this
+
+<img srcset="/productdesigner/images/instagram-images.jpg 2x" class="border">
 
 ## Enable image transparency
 
