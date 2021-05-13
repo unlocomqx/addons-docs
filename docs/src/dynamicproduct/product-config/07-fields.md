@@ -288,6 +288,12 @@ languages.
 
 <img srcset="/dynamicproduct/images/fields/feature-settings.jpg 2x" class="border">
 
+::: tip  
+You can reference fields in the description, this allows you to have a dynamic description.  
+Example: The area is [width] x [height] = [area]  
+Result: The area is 10 x 10 = 100
+:::
+
 ---
 
 ### Divider
@@ -322,6 +328,12 @@ You can configure the content in the field settings
 
 :::warning    
 For **security** purposes, only paste html from trusted sources
+:::
+
+::: tip  
+You can reference fields in the description, this allows you to have a dynamic description.  
+Example: The area is [width] x [height] = [area]  
+Result: The area is 10 x 10 = 100
 :::
 
 ---
