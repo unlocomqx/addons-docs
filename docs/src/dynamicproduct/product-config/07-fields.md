@@ -320,7 +320,8 @@ You can configure the content in the field settings
 
 <img srcset="/dynamicproduct/images/fields/html-settings.jpg 2x" class="padding border">
 
-:::warning For **security** purposes, only paste html from trusted sources
+:::warning    
+For **security** purposes, only paste html from trusted sources
 :::
 
 ---

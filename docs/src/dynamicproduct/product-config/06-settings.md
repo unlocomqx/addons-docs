@@ -29,7 +29,8 @@ The price will be displayed like this
 
 <img srcset="/dynamicproduct/images/display-price.jpg 2x">
 
-::: tip The module applies the configured tax to the displayed price
+::: tip  
+The module applies the configured tax to the displayed price
 :::
 
 ### Price unit

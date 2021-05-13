@@ -248,6 +248,7 @@ In this case, we get a price based on the width and height values
 
 This method allows you to use a single CSV file for multiple products
 
-::: tip For decimal numbers, use the dot instead of the comma.  
+::: tip  
+For decimal numbers, use the dot instead of the comma.  
 For example, write `10.5` instead of `10,5`
 :::
