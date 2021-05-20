@@ -324,7 +324,7 @@ Example code
 
 ```ts
 // Signature
-dpSaveCustomization(add_to_cart: boolean): Promise<any>;
+declare function dpSaveCustomization (add_to_cart: boolean): Promise<any>;
 ```
 
 Usage
