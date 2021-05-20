@@ -324,11 +324,7 @@ Example code
 
 ```ts
 // Signature
-dpSaveCustomization(add_to_cart
-:
-boolean
-):
-Promise<any>;
+dpSaveCustomization(add_to_cart: boolean): Promise<any>;
 ```
 
 Usage
