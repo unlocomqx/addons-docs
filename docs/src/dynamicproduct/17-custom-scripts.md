@@ -178,7 +178,7 @@ dp_calc.subscribe(function (data) {
 });
 ```
 
-The data is have this shape
+The data will have this shape
 
 ```js
 {
