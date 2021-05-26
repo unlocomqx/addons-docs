@@ -199,6 +199,20 @@ Checks if a string if not empty, return 0 if string is empty, 1 otherwise
 CHECK("Hello") → 1
 CHECK("") → 0
 ```
+
+---
+
+### **PRICE**
+
+Formats a number as a price, useful when
+displaying [dynamic content](/dynamicproduct/19-dynamic-content.md)
+
+```xls
+PRICE("29.5") → €29.50
+PRICE("120") → €120.00
+PRICE("10000") → €10,000.00
+```
+
 ---
 
 ### **BINARY_AND**
