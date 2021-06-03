@@ -40,3 +40,13 @@ After applying the template fix, clear the PrestaShop cache for the fix to have 
 The customization should then be displayed correctly like this
 
 <img srcset="/productdesigner/images/customization-summary.jpg 2x" class="padding border">
+
+If this doesn't work, it means that either that the module couldn't fix the files because of a
+permission problem on your server or that PrestaShop could not clear the cache properly due to
+insufficient permissions.
+
+In that case, you need to perform the edits manually by
+following [this guide](https://gist.github.com/unlocomqx/f0b86a1ce938405c315d5de979011b95)
+
+After applying the fix, make sure to also delete or rename the folder `/var/cache` manually if
+needed.
