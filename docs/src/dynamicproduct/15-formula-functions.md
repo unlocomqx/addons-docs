@@ -113,7 +113,7 @@ POW(5, 3) → 125
 
 ### **MIN**
 
-Return the smallest value among the passed parameters (accept two parameters or more)
+Return the smallest value among the passed parameters (accepts two parameters or more)
 
 ```xls
 MIN(10, 5, 14, 3) → 3
