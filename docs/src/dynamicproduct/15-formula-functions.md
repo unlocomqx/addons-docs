@@ -175,6 +175,16 @@ CONCAT( "A great ", "day ", "today" ) → "A great day today"
 
 ---
 
+## Available variables
+
+### **PI**
+
+The PI constant
+
+```xls
+PI * SQR([diameter] / 2)
+```
+
 ## Custom functions
 
 These custom functions are added by the module for convenience and to satisfy some specific use
