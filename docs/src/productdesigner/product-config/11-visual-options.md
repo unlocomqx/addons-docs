@@ -223,3 +223,32 @@ group and its sub-groups to be selected.
 Setting a sub-group that belongs to a single choice group as required will have no effect on the
 validation.
 :::
+
+## :framed_picture: Design layer
+
+By default, the design items will be inserted on top of the visual options layers.
+
+To have more control on the order, you can insert a design layer between the option groups.
+
+<img srcset="/productdesigner/images/design-layer-btn.jpg 2x">
+
+In this example, we want to display the image item under the frame which comes as a visual option.
+
+<img srcset="/productdesigner/images/frames.jpg 2x">
+
+To insert the image under the frame, we can add a design layer and move it to the top of list.
+
+<img srcset="/productdesigner/images/frames-layers.jpg 2x">
+
+::: tip  
+The visual order on the product page will be reversed. So the top layer will be displayed on the
+bottom and so on.
+:::
+
+The result will look like this depending on the selected frame
+
+<img srcset="/productdesigner/images/frame-flowers.jpg 2x">
+
+<img srcset="/productdesigner/images/layers-random.jpg 2x">
+
+<img srcset="/productdesigner/images/frames-circle.jpg 2x">
