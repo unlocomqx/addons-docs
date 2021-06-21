@@ -253,8 +253,11 @@ This function is very similar to [the Grid feature](/dynamicproduct/product-conf
 The function format is as follows
 
 ```xls
-Grid( database, row value, column value ) 
+Grid( database, row value, column value, default value ) 
 ```
+
+The `default value` parameter is optional, it will be used when no cell matches the passed
+parameters. If no default value is passed to the function, then 0 will be the default value.
 
 Here's a [CSV sample](/dynamicproduct/files/sample.csv ':ignore')
 
