@@ -142,8 +142,8 @@ IF(5 > 10, 1, 2) → 2
 Return the number of characters in a string (supports UTF-8)
 
 ```xls
-STRLEN('Hello') → 6
-STRLEN('World') → 5
+STRLEN('Hello') → 5
+STRLEN('World!') → 6
 ```
 
 ### **SUBSTR**
@@ -152,7 +152,7 @@ Extract a string from another string
 
 ```xls
 SUBSTR(string, start, length)
-SUBSTR("Hello world!", 0, 6) → "Hello"
+SUBSTR("Hello world!", 0, 5) → "Hello"
 ```
 
 ### **REPLACE**
