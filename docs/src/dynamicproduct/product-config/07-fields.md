@@ -24,6 +24,29 @@ Here are some examples:
 - option1
 - option2
 
+### Special naming conventions
+
+#### Underscore prefix
+
+You can use the underscore prefix if you want to show the field in the product page but not in the
+customization summary.  
+
+Example:
+
+```text
+_area
+```
+
+#### Admin prefix
+
+This prefix is useful if you want to display the field in the admin summary even though it's
+visibility is turned off.
+
+Example:  
+```text
+admin_result
+```
+
 ---
 
 ## Label
