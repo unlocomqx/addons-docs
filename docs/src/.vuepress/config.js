@@ -74,6 +74,7 @@ module.exports = {
             "product-config/12-intervals.md",
             "product-config/13-grids.md",
             "product-config/14-groups.md",
+            "product-config/17-steps.md",
           ],
         },
         "15-formula-functions.md",
