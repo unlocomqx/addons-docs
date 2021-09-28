@@ -271,7 +271,13 @@ You can find the key in the [Search Images section](https://pixabay.com/api/docs
 <img srcset="/productdesigner/images/pixabay-key.jpg 2x" class="border padding">
 
 You can then enable Pixabay search for any product of your choice in
-the [product configuration](add_link).
+the [product configuration](/productdesigner/product-config/20-image-options.md#enable-pixabay-search)
+.
+
+### Use Pixabay full size images
+
+This requires full API access, you can get it [here](https://pixabay.com/api/docs/) (search for full
+API access)
 
 ### Instagram App ID
 
