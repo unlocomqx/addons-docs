@@ -4,12 +4,12 @@ To make dynamic calculations, the module uses a formula system.
 
 <img srcset="/dynamicproduct/images/formula.jpg 2x">
 
-The concept is to reference the fields by name between brackets, so if the field has the name **width**,
-then it can be referenced as **[width]**
+The concept is to reference the fields by name between brackets, so if the field has the name
+**width**, then it can be referenced as **[width]**
 
 The module will then replace the field references with their corresponding values
 
-::: tip
+::: tip  
 The module formulas use the same syntax as **Excel**
 :::
 
@@ -26,32 +26,36 @@ Many Excel functions can be used
 If statement for conditional calculation
 <code class="formula">IF(**[width]** > 100, 10, 12)</code>
 
-::: tip
+::: tip   
 The keyboard shortcut to save a formula is **Ctrl** + **Enter**
 :::
 
 ## Price formula
-This formula is used to calculate the cost of the customization.  
 
-::: tip
+This formula is used to calculate the cost of the customization.
+
+::: tip  
 The result of this formula will be added to the base price of the product
 :::
 
 The module applies the taxes and the reductions to this result.  
 The reductions that the module supports are:
+
 - Product specific prices
 - Group reductions
 - Category reductions
 
-
 ## Weight formula
+
 This formula is used to calculate the extra weight that the customization adds.  
-The result of this formula affects the shipping cost.
-To display the result of this formula, you can enable [the weight display option](/dynamicproduct/product-config/06-settings.md#display-weight-to-customers).
+The result of this formula affects the shipping cost. To display the result of this formula, you can
+enable [the weight display option](/dynamicproduct/product-config/06-settings.md#display-weight-to-customers)
+.
 
 ## Quantity formula
+
 This formula affects the quantity that is retracted from the stock when the order is validated.  
-This is useful when you want to retract meters for example instead of units.  
+This is useful when you want to retract meters for example instead of units.
 
 Example:  
 You have a field named length that you would like to use to retract the number of ordered meters.  
@@ -61,100 +65,121 @@ You can configure this formula:
 If you'd like to retract by meter squared for example
 <code class="formula">**[width]** * **[length]**</code>
 
+## Cost formula
+
+This formula allows you to vary the product cost dynamically. It's useful to get a correct profit
+reporting.
+
+For example, if you sell a product by the meter, you can configure this formula to calculate the
+cost based on the length.
+
+Example:
+<code class="formula">**[height]** * **[cost_per_m]**</code>
+
 ## Field values for each type
 
 - **Numeric Input**  
   The value is the html field value
   <code class="formula">**[width]**</code>
-  
+
 - **Slider**  
   The value is the current slider value
   <code class="formula">**[slider]**</code>
-  
+
 - **Dropdown**  
   The value is the selected option value
   <code class="formula">**[dropdown]**</code>  
   To access the secondary value
   <code class="formula">**[[dropdown]]**</code>
-  
+
 - **Radio buttons**  
   The value is the selected option value
   <code class="formula">**[radio]**</code>
   To access the secondary value
   <code class="formula">**[[radio]]**</code>
-  
+
 - **Image list**  
   The value is the selected option value
   <code class="formula">**[list]**</code>
   To access the secondary value
   <code class="formula">**[[list]]**</code>
-  
+
 - **Checkbox**  
   The value is 1 if checked, 0 otherwise
   <code class="formula">**[checkbox]**</code>
-  
+
   If you want to add an extra cost when the checkbox is checked:
   <code class="formula">**[checkbox]** * 10</code>
   This will add 10 to the formula result when the checkbox is on.
-  
+
 - **Text**  
-  The value is the html field value. When using this field inside the formula, always surround it with quotes
+  The value is the html field value. When using this field inside the formula, always surround it
+  with quotes
   <code class="formula">"**[text]**"</code>
   To get the text length  
   <code class="formula">STRLEN("**[text]**")</code>
-  
+
   To check if the text was filled
   <code class="formula">CHECK("**[text]**")</code>
   This will return 0 if the text is empty and 1 otherwise
-  
+
 - **Text Area**  
-  The value is the html field value. When using this field inside the formula, always surround it with quotes
+  The value is the html field value. When using this field inside the formula, always surround it
+  with quotes
   <code class="formula">"**[textarea]**"</code>
-  
+
 - **Date**  
-  The value is the html field value. When using this field inside the formula, always surround it with quotes
+  The value is the html field value. When using this field inside the formula, always surround it
+  with quotes
   <code class="formula">"**[date]**"</code>
-  
+
 - **Image**  
-  The value is the uploaded image name. You can check if there is an image that was uploaded by using the `CHECK` function
-  
+  The value is the uploaded image name. You can check if there is an image that was uploaded by
+  using the `CHECK` function
+
   <code class="formula">CHECK("**[image]**")</code>
   This will return 1 if there is an image, 0 otherwise
-  
+
 - **File**  
-  The value is the uploaded file name. You can check if there is an file that was uploaded by using the `CHECK` function
+  The value is the uploaded file name. You can check if there is an file that was uploaded by using
+  the `CHECK` function
 
   <code class="formula">CHECK("**[file]**")</code>
   This will return 1 if there is an image, 0 otherwise
-  
+
 - **Fixed Value**  
-  The value is the current field value, that can be either the initial value of the value that was updated using PHP or using a field formula
+  The value is the current field value, that can be either the initial value of the value that was
+  updated using PHP or using a field formula
   <code class="formula">**[fixed]**</code>
-  
+
 - **Price**  
-  The value is the current field value, that can be either the initial value of the value that was updated using PHP or using a field formula
+  The value is the current field value, that can be either the initial value of the value that was
+  updated using PHP or using a field formula
   <code class="formula">**[unit_price]**</code>
-  
+
 - **Dynamic Variable**  
-  The value is the current field value, that can be either the initial value of the value that was updated using PHP or using a field formula
+  The value is the current field value, that can be either the initial value of the value that was
+  updated using PHP or using a field formula
   <code class="formula">**[dynamic]**</code>
-  
+
 - **Feature**  
   The value is the feature value for the current language
   <code class="formula">**[feature]**</code>
-  
+
 - **Divider**  
   Cannot be used in the formula
-  
+
 - **Color picker**  
   The value is the html field value
   <code class="formula">**[picker]**</code>
-  
+
 - **Error message**  
   Can only be used in [conditions](/dynamicproduct/product-config/09-conditions.md)
 
 ## Secondary values
-For the fields of type **Dropdown**, **Radio buttons** and **Image list**, you can assign a secondary value to each option.  
+
+For the fields of type **Dropdown**, **Radio buttons** and **Image list**, you can assign a
+secondary value to each option.  
 The way you use this secondary value in the formula is by using double brackets  
 Example
 <code class="formula">**[[dropdown]]**</code>
