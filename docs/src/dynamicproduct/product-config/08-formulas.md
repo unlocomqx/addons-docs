@@ -35,7 +35,7 @@ The keyboard shortcut to save a formula is **Ctrl** + **Enter**
 This formula is used to calculate the cost of the customization.
 
 ::: tip  
-The result of this formula will be added to the base price of the product
+The result of this formula will be added to the base price of the product/combination
 :::
 
 The module applies the taxes and the reductions to this result.  
