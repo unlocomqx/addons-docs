@@ -152,6 +152,7 @@ module.exports = {
     "vuepress-plugin-smooth-scroll",
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
+    "@snowdog/vuepress-plugin-pdf-export",
     [
       "@vuepress/google-analytics",
       {
