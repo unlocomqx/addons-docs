@@ -1,7 +1,7 @@
 # Troubleshooting
 
-The module has a a troubleshooting page to fix common problems, to access this page, open the main
-configuration page of the module then click the **Troubleshooting** button
+The module has a a troubleshooting page to fix common problems.  
+To access this page, open the main configuration page of the module then click the **Troubleshooting** button
 
 <img srcset="/dynamicproduct/images/troubleshooting.jpg 2x" class="border">
 
