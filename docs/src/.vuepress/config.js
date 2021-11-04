@@ -137,6 +137,7 @@ module.exports = {
         "01-customization.md",
         "02-translation.md",
         "03-update.md",
+        "04-support.md",
       ],
     },
     sidebarDepth: 3,
