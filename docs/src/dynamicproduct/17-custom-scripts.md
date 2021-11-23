@@ -72,6 +72,7 @@ The props object can have these items
 // The props interface has this shape
 export interface IFieldSettings {
   value: string | number;
+  value_formatted: string;
   min: number;
   max: number;
   step: number;
@@ -84,6 +85,17 @@ export interface IFieldSettings {
   display_secondary_value_price: number;
   display_in_popup: number;
 }
+```
+
+Some field types display the `value_formatted` property, such as the price field.
+
+To update it, you can use this code for example
+
+```js
+updateField("price_field", {
+  value: 50,
+  value_formatted: '50€'
+});
 ```
 
 ## Get a field properties
