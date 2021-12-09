@@ -98,7 +98,7 @@ You can use the same configuration in multiple products by checking the "link" c
 The module will then link the configuration instead of copying it, making it easier to modify the
 configuration for multiple products at once.
 
-You can also clear the configuration of the target product by enabling the checkbox
+You can also clear the configuration of the target product by enabling this checkbox
 
 <img srcset="/dynamicproduct/images/clear-config.jpg 2x" class="border padding">
 
