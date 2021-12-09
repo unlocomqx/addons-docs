@@ -91,7 +91,7 @@ You can copy a product configuration to the current product by picking a product
 
 ### Linked configurations
 
-You can use the same configuration in multiple products by checking the link checkbox show below
+You can use the same configuration in multiple products by checking the "link" checkbox shown below
 
 <img srcset="/dynamicproduct/images/link-configuration.jpg 2x" class="border padding">
 
