@@ -47,6 +47,13 @@ Example:
 admin_result
 ```
 
+#### Preview field
+Used to sync the product image with the field selected image. Can be used with image lists.
+
+Field name:
+```text
+preview
+```
 ---
 
 ## Label
