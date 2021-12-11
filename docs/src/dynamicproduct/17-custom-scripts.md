@@ -371,3 +371,14 @@ Code example
 ```js
 window.dp_price_hook = ".product-prices span.price";
 ```
+
+## Other custom jQuery selectors
+
+You can set custom jQuery selectors for a few elements, such as the cart button and the product image
+
+Code example
+
+```js
+window.dp_cart_btn_selector = "...";
+window.dp_product_image_selector = "...";
+```
