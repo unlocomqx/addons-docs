@@ -179,6 +179,21 @@ conditional cost.
 
 ---
 
+### Switch
+
+Display a switch
+
+<img srcset="/dynamicproduct/images/fields/switch.jpg 2x" class="padding border">
+
+You can configure the switch in the settings popup
+
+<img srcset="/dynamicproduct/images/fields/checkbox-settings.jpg 2x" class="border">
+
+The value of the switch if either 0 or 1, so you can use its value like an on/off switch to add a
+conditional cost.
+
+---
+
 ### Text
 
 Displays a text field

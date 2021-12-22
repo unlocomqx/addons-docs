@@ -112,6 +112,10 @@ Example:
   <code class="formula">**[checkbox]** * 10</code>
   This will add 10 to the formula result when the checkbox is on.
 
+- **Switch**  
+  The value is 1 if checked, 0 otherwise
+  <code class="formula">**[my_switch]**</code>
+
 - **Text**  
   The value is the html field value. When using this field inside the formula, always surround it
   with quotes
