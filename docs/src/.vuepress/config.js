@@ -125,6 +125,7 @@ module.exports = {
         },
         "04-color-theme",
         "06-custom-style",
+        "12-custom-hook",
         "07-downloads",
         "08-troubleshooting",
         "09-compatibility-with-dynamic.md",
