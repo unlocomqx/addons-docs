@@ -111,6 +111,7 @@ module.exports = {
             "product-config/13-text-colors.md",
             "product-config/14-image-colors.md",
             "product-config/15-image-filters.md",
+            "product-config/25-image-shapes.md",
             "product-config/15-image-groups.md",
             "product-config/16-areas.md",
             "product-config/17-fields.md",

@@ -440,18 +440,17 @@ The images will be displayed when the customer opens the corresponding image gro
 
 <img srcset="/productdesigner/images/images-display.jpg 2x">
 
-### Price per m²
+## Shapes
 
-The module will apply the image cost by its size dynamically when it's added to the design or when
-it's resized
+You can add shapes to be used to crop images in the designer
 
-You can configure the image pricing in a more advanced way under
-the [Image pricing](/productdesigner/product-config/22-image-pricing.md) tab
+<img srcset="/productdesigner/images/image-shapes.jpg 2x">
 
-### Image width/height
+The shapes will be displayed like this when the customer adds an image to the design
 
-Set these values if the image is meant to be used at a fixed size only. Leave these values to 0 to
-ignore them.
+<img srcset="/productdesigner/images/images-shapes-display.jpg 2x">
+
+You can enable the shapes for the products of your choice in the [product configuration](/productdesigner/product-config/25-image-shapes.md)
 
 ## Help content
 
