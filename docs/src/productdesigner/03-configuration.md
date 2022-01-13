@@ -450,7 +450,22 @@ The shapes will be displayed like this when the customer adds an image to the de
 
 <img srcset="/productdesigner/images/images-shapes-display.jpg 2x">
 
-You can enable the shapes for the products of your choice in the [product configuration](/productdesigner/product-config/25-image-shapes.md)
+You can enable the shapes for the products of your choice in
+the [product configuration](/productdesigner/product-config/25-image-shapes.md)
+
+In order for the shapes to work properly, you need to set the svg `viewBox` to `0 0 1 1`
+
+In Inkscape for example, you can set this in the `Document Properties` window.
+
+`File` > `Document Properties`
+
+<img srcset="/productdesigner/images/shape-viewbox.jpg 2x" class="border">
+
+The reason for this is that the clip path in SVG is applied relative to parent SVG size.  
+
+So `0 → 1` represents `0% → 100%` of the parent SVG size.  
+
+Thus allowing the shape to adapt to any SVG or image that the client may use.
 
 ## Help content
 
