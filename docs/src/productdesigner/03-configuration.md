@@ -459,7 +459,7 @@ The shape will be applied as a SVG mask.
 
 Everything under white pixels will be visible.  
 Everything under black pixels will be invisible.  
-Shades in between white and black will apply an opacity effect relative to how light the shade is.
+Shades in between white and black will apply a transparency effect relative to how light the shade is.
 
 *It's recommended to use white shapes with a black contour/stroke.*
 
