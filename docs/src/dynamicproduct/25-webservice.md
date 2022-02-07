@@ -1,20 +1,28 @@
 # Webservice
 
-The module has a basic integration with [the PrestaShop webservice API](https://devdocs.prestashop.com/1.7/webservice/)
+The module has a basic integration
+with [the PrestaShop webservice API](https://devdocs.prestashop.com/1.7/webservice/)
 
 To start, fetch the order details by order ID, for example
+
 ```
 /api/order_details/[order ID]
 ```
+
 Then read the `id_customization` value and fetch the customization like so
+
 ```
 /api/customizations/[customization ID]
 ```
+
 Then read the customization value and use it to fetch the dynamic customization like this
+
 ```
 /api/dynamic_inputs/[customization value]
 ```
+
 A list of `dynamic_input_fields` will be returned, containing each a label and a value
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <prestashop
@@ -63,3 +71,8 @@ A list of `dynamic_input_fields` will be returned, containing each a label and a
   </dynamic_input>
 </prestashop>
 ```
+
+::: tip  
+By default, only the visible fields will be returned. If you want to display all the fields, add the
+parameter `display` = `full` to your request.
+::: 
