@@ -121,7 +121,7 @@ MIN(10, 5, 14, 3) → 3
 
 ### **MAX**
 
-Return the biggest value among the passed parameters (accept two parameters or more)
+Return the biggest value among the passed parameters (accepts two parameters or more)
 
 ```xls
 MAX(10, 5, 14, 3) → 14
