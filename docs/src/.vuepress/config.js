@@ -144,6 +144,7 @@ module.exports = {
       "/imagecomposer/": [
         "",
         "01-product-config.md",
+        "02-settings.md",
       ],
     },
     sidebarDepth: 3,
