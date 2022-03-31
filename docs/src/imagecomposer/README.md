@@ -13,3 +13,7 @@ Shopify App allowing you to generate variant images from separate layers.
 It even allows you to colorize layers automatically if needed.
 
 <img srcset="/imagecomposer/images/app.jpg 2x">
+
+It also assigns generated image to variants automatically
+
+<img srcset="/imagecomposer/images/variants.jpg 2x">

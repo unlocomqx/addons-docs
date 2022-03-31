@@ -7,3 +7,7 @@ That way, you can see the preview directly and check if it's correct.
 You can cancel at any time and start over.
 
 <img srcset="/imagecomposer/images/generating-images.jpg 2x" class="border">
+
+The app will assign the images to the product variants automatically.
+
+<img srcset="/imagecomposer/images/variants.jpg 2x">
