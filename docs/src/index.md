@@ -18,7 +18,7 @@ documentations:
   text: View Docs →
   link: /prestashop/
 
-- name: Image Composer
+- name: Variant Image Generator
   logo: /optimized/imagecomposer/images/imagecomposer.webp
   text: View Docs →
   link: /imagecomposer/

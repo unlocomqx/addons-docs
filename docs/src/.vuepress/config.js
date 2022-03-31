@@ -1,6 +1,6 @@
-const {description} = require("../../package");
+const {description} = require("../../package")
 
-const ogprefix = "og: http://ogp.me/ns#";
+const ogprefix = "og: http://ogp.me/ns#"
 
 module.exports = {
   /**
@@ -141,6 +141,10 @@ module.exports = {
         "03-update.md",
         "04-support.md",
       ],
+      "/imagecomposer/": [
+        "",
+        "01-product-config.md",
+      ],
     },
     sidebarDepth: 3,
     activeHeaderLinks: false,
@@ -167,10 +171,10 @@ module.exports = {
     extendMarkdown: md => {
       // md.set({ breaks: true })
       if (process.env.NODE_ENV === "production") {
-        md.use(require("./resize-images"));
+        md.use(require("./resize-images"))
       }
     }
   },
 
   evergreen: true,
-};
+}
