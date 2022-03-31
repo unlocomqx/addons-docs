@@ -68,3 +68,9 @@ Then select the similar options.
 The similar options will use the same image as the base option, thus producing fewer variant images.
 
 <img srcset="/imagecomposer/images/grouped-options.jpg 2x">
+
+## Reordering variants
+
+You can reorder the variants to configure the layers order by clicking on this icon.
+
+<img srcset="/imagecomposer/images/reordering.jpg 2x">
