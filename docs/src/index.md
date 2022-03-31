@@ -8,12 +8,17 @@ documentations:
   text: View Docs →
   link: /dynamicproduct/
 - name: Product Designer
-  logo: /optimized/productdesigner/images/productdesigner.webp
+  logo: /productdesigner/images/productdesigner.png
   text: View Docs →
   link: /productdesigner/
 - name: PrestaShop Addons
-  logo: /prestashop/images/prestashop.png
+  logo: /optimized/prestashop/images/prestashop.webp
   text: View Docs →
   link: /prestashop/
+
+- name: Image Composer
+  logo: /imagecomposer/images/imagecomposer.png
+  text: View Docs →
+  link: /imagecomposer/
 footer: ©️ TuniSoft Solutions
 ---
