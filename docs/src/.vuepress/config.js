@@ -145,6 +145,7 @@ module.exports = {
         "",
         "01-product-config.md",
         "02-settings.md",
+        "03-options.md",
       ],
     },
     sidebarDepth: 3,
