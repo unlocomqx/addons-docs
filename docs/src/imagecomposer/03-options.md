@@ -36,3 +36,35 @@ button like so:
 
 <img srcset="/imagecomposer/images/colorize-option.jpg 2x" class="border">
 :::
+
+## Combining variants
+
+If your images depend on the combination of two variants, you can group these variants to be able to
+configure an image for each combination.
+
+<img srcset="/imagecomposer/images/group-btn.jpg 2x">
+
+Then select the subgroup(s).
+
+<img srcset="/imagecomposer/images/subgroups-modal.jpg 2x">
+
+The two variants in this case will be combined, thus allowing you more control over the option
+images.
+
+<img srcset="/imagecomposer/images/subgroups.jpg 2x">
+
+## Grouping similar options
+
+If you have options that are visually similar, you can group them like this.
+
+First, select a base option.
+
+<img srcset="/imagecomposer/images/similar-options.jpg 2x">
+
+Then select the similar options.
+
+<img srcset="/imagecomposer/images/similar-options-modal.jpg 2x">
+
+The similar options will use the same image as the base option, thus producing fewer variant images.
+
+<img srcset="/imagecomposer/images/grouped-options.jpg 2x">
