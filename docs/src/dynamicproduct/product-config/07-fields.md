@@ -158,7 +158,7 @@ formulas.
 The module assembles the selected values into a single string and use a semicolon `;` to join them,
 so your condition has to look something like this:
 
-```xls
+```xls`
   CONTAINS("[image_list]", "apple;") → This means if the option with value = "apple" is selected
 ```
 
