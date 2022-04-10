@@ -1,4 +1,4 @@
-# PHP Calculation
+# PHP calculation
 
 If your calculation is very complex or requires custom logic, then you can use a PHP file to do it.
 PHP can help you in these situations for example:

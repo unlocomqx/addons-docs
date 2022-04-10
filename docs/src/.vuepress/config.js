@@ -59,7 +59,7 @@ module.exports = {
         "03-updates.md",
         "04-configuration.md",
         {
-          title: "Product Configuration",
+          title: "Product configuration",
           path: "/dynamicproduct/product-config/",
           collapsable: true,
           children: [
@@ -78,6 +78,7 @@ module.exports = {
           ],
         },
         "15-formula-functions.md",
+        "26-dynamic-preview.md",
         "16-php-calculation.md",
         "17-custom-scripts.md",
         "18-carrier-filtering.md",
