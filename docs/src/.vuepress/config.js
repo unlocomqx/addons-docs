@@ -1,6 +1,6 @@
-const {description} = require("../../package");
+const {description} = require("../../package")
 
-const ogprefix = "og: http://ogp.me/ns#";
+const ogprefix = "og: http://ogp.me/ns#"
 
 module.exports = {
   /**
@@ -59,7 +59,7 @@ module.exports = {
         "03-updates.md",
         "04-configuration.md",
         {
-          title: "Product Configuration",
+          title: "Product configuration",
           path: "/dynamicproduct/product-config/",
           collapsable: true,
           children: [
@@ -78,6 +78,7 @@ module.exports = {
           ],
         },
         "15-formula-functions.md",
+        "26-dynamic-preview.md",
         "16-php-calculation.md",
         "17-custom-scripts.md",
         "18-carrier-filtering.md",
@@ -141,6 +142,13 @@ module.exports = {
         "03-update.md",
         "04-support.md",
       ],
+      "/imagecomposer/": [
+        "",
+        "01-product-config.md",
+        "02-settings.md",
+        "03-options.md",
+        "04-generating.md",
+      ],
     },
     sidebarDepth: 3,
     activeHeaderLinks: false,
@@ -167,10 +175,10 @@ module.exports = {
     extendMarkdown: md => {
       // md.set({ breaks: true })
       if (process.env.NODE_ENV === "production") {
-        md.use(require("./resize-images"));
+        md.use(require("./resize-images"))
       }
     }
   },
 
   evergreen: true,
-};
+}

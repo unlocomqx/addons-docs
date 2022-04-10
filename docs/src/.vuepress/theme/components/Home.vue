@@ -151,11 +151,12 @@ export default {
     display flex
     flex-wrap wrap
     align-items flex-start
-    align-content stretch
-    justify-content space-between
+    align-content center
+    justify-content space-around
+    gap 2em
 
   .documentation
-    text-align: center
+    text-align center
     flex-grow 1
     flex-basis 30%
     max-width 30%
