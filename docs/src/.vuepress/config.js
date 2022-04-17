@@ -142,7 +142,7 @@ module.exports = {
         "03-update.md",
         "04-support.md",
       ],
-      "/imagecomposer/": [
+      "/layerstack/": [
         "",
         "01-product-config.md",
         "02-settings.md",

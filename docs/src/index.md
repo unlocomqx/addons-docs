@@ -18,9 +18,9 @@ documentations:
   text: View Docs →
   link: /prestashop/
 
-- name: Variant Images Generator
-  logo: /optimized/imagecomposer/images/imagecomposer.webp
+- name: LayerStack
+  logo: /optimized/layerstack/images/layerstack.webp
   text: View Docs →
-  link: /imagecomposer/
+  link: /layerstack/
 footer: ©️ TuniSoft Solutions
 ---
