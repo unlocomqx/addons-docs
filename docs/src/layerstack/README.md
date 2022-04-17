@@ -17,3 +17,15 @@ It even allows you to colorize layers automatically if needed.
 It also assigns generated image to variants automatically
 
 <img srcset="/layerstack/images/variants.jpg 2x">
+
+--- 
+
+See it in action
+
+<div class="video-block">
+    <iframe width="1280" height="720"
+      src="https://www.youtube.com/embed/iKZAsqFmBWo?ecver=1" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+</div>
