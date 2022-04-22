@@ -65,6 +65,7 @@ module.exports = {
           children: [
             "product-config/06-settings.md",
             "product-config/07-fields.md",
+            "product-config/18-calculation.md",
             "product-config/08-formulas.md",
             "product-config/15-combinations.md",
             "product-config/16-visibility.md",
