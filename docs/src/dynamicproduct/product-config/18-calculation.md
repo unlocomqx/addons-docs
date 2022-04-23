@@ -45,4 +45,4 @@ You can also mix the steps and the items freely
 <img srcset="/dynamicproduct/images/calculation-items-list.jpg 2x">
 
 In the above example, all the conditions will be interpreted then the specified field formula then
-the specified grid and so on...
+the specified grid and so on, thus allowing a finer control over the calculation order.
