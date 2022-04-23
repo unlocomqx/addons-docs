@@ -3,7 +3,7 @@
 The calculation tab presents a unified interface that groups the conditions, field formulas,
 intervals and grids.
 
-It allow you to fix the different steps and items to implement your custom logic.
+It allow you to pick the different steps and items to implement your custom logic.
 
 <img srcset="/dynamicproduct/images/calculation.png 2x">
 
@@ -32,11 +32,12 @@ If your logic requires executing, for example, a field formula then an interval 
 formula then you can add individual items from each corresponding dialog and organize them however
 you like.
 
-Start by clicking on the desired button, then pick an item or add a new one.
+Start by clicking on one of the buttons in the tab footer, then pick from the available items or add
+a new one.
 
 <img srcset="/dynamicproduct/images/select-condition.jpg 2x" class="border">
 
-You can click on the desired items then add them to the calculation.
+You can click on the items in the desired order then add them to the calculation.
 
 You can also add all the items to be able to easily organize them as you need.
 
@@ -46,3 +47,9 @@ You can also mix the steps and the items freely
 
 In the above example, all the conditions will be interpreted then the specified field formula then
 the specified grid and so on, thus allowing a finer control over the calculation order.
+
+## Reordering the items
+
+You can always drag the items to reorganize them. The module will execute the steps from top to
+bottom in order.
+
