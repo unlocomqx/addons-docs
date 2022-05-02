@@ -20,7 +20,7 @@ Here are some formula example to get an idea about the syntax
 
 <code class="formula">(**[width]** + **[height]**) * 2</code>
 
-Many Excel functions can be used
+[Many Excel functions](/dynamicproduct/15-formula-functions.md) can be used
 <code class="formula">POW(**[width]**, 2)</code>
 
 If statement for conditional calculation
