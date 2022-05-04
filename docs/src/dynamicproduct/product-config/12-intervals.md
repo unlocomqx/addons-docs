@@ -52,3 +52,10 @@ This is how to configure the condition using **Values**
 ::: tip
 The **Values** must be separated by commas and without spaces
 :::
+
+
+::: tip
+String values are also supported. This is useful when you have a dropdown field with string values instead of numbers.
+
+<img srcset="/dynamicproduct/images/interval-strings.jpg 2x" class="padding border bg-white">
+:::
