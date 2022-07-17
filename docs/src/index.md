@@ -18,9 +18,9 @@ documentations:
   text: View Docs →
   link: /prestashop/
 
-- name: LayerStack
-  logo: /optimized/layerstack/images/layerstack.webp
+- name: DevTools
+  logo: /optimized/devtools/images/devtools.webp
   text: View Docs →
-  link: /layerstack/
+  link: /devtools/
 footer: ©️ TuniSoft Solutions
 ---
