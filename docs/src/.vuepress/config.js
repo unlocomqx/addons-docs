@@ -150,6 +150,10 @@ module.exports = {
         "03-options.md",
         "04-generating.md",
       ],
+      "/devtools/": [
+        "",
+        "01-getting-started.md",
+      ],
     },
     sidebarDepth: 3,
     activeHeaderLinks: false,
