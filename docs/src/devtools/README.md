@@ -17,3 +17,5 @@ When you enable the module, you will see the <span style="color:#0ea5e9">**hooks
 see the theme structure and edit it easily.
 
 <img srcset="/devtools/images/preview.jpg 2x" class="border padding">
+
+<img srcset="/devtools/images/editor.jpg 2x">
