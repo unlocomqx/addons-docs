@@ -156,7 +156,7 @@ module.exports = {
         "02-hooks-list.md",
         "03-tools.md",
         "04-overriding-files.md",
-        // "06-backup.md",
+        "05-backups.md",
       ],
     },
     sidebarDepth: 3,
