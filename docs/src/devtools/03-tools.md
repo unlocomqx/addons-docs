@@ -15,7 +15,7 @@ Check
 the [PrestaShop documentation](https://devdocs.prestashop.com/1.7/themes/reference/template-inheritance/parent-child-feature/)
 for more information.
 
-## Picking a dev Folder
+## Configuring a dev Folder
 
 The module allows you to pick a dev folder where the templates will be stored.
 
