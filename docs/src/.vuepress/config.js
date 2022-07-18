@@ -154,7 +154,7 @@ module.exports = {
         "",
         "01-getting-started.md",
         "02-hooks-list.md",
-        // "03-tools.md",
+        "03-tools.md",
         // "04-dev-folder.md",
         // "05-overriding-files.md",
         // "06-backup.md",
