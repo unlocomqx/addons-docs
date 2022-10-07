@@ -61,3 +61,28 @@ If we enable the rounded field option, we will have this display
 are inside the field.
 
 <img srcset="/productdesigner/images/field-cost.jpg 2x" class="border">
+
+## Configuring zones
+
+Zones are useful if you'd like to have a custom field shape. Start by importing a SVG file
+containing your fields outline.
+
+<img srcset="/productdesigner/images/zones-svg.jpg 2x">
+
+Here's a [file sample](/productdesigner/files/sample.svg ':ignore')
+
+After importing the file, you can create a field for each path of your choosing.
+
+<img loading="lazy" srcset="/productdesigner/images/zone-create-field.gif 2x" class="border">
+
+Then the zones that you created will be outlined and displayed to your customers.
+<img srcset="/productdesigner/images/zones-outline.jpg 2x" class="border">
+
+::: tip  
+By default, the field will stretch the image that is added inside it. You can change this in the
+field settings.
+:::
+
+When the customer adds images, they will be cropped to the configured shape.
+
+<img srcset="/productdesigner/images/zones-collage.jpg 2x" class="border">

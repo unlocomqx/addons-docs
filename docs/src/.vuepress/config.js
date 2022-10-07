@@ -177,7 +177,8 @@ module.exports = {
       {
         "ga": "UA-177220990-1"
       }
-    ]
+    ],
+    "@snowdog/vuepress-plugin-pdf-export",
   ],
 
   markdown: {
