@@ -86,3 +86,7 @@ field settings.
 When the customer adds images, they will be cropped to the configured shape.
 
 <img srcset="/productdesigner/images/zones-collage.jpg 2x" class="border">
+
+:cd: Here's a video tutorial to see how to configure the svg path outlines in Illustrator
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/psqLMEG-BSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
