@@ -133,8 +133,9 @@ module.exports = {
         "08-troubleshooting",
         "09-compatibility-with-dynamic.md",
         "10-combination-images.md",
-        "12-initial-design.md",
+        "13-initial-design.md",
         "11-migration.md",
+        "14-pricing-plugin.md",
       ],
       "/prestashop/": [
         "",
