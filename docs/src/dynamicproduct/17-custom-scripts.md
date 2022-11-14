@@ -372,6 +372,20 @@ Code example
 window.dp_price_hook = ".product-prices span.price";
 ```
 
+## Customizing the discount table
+
+You can change the prices that are displayed on the discount table by changing these variables:
+
+```ts
+// The index of the column that contains the discount. 
+// Default: -1 (last column)
+window.dp_discounts_td_index = -1
+
+// The type of the discount. Can be "totals" | "unit_prices" | "savings" | "disabled". 
+// Default: "totals"
+window.dp_discounts_display_type = "totals"
+```
+
 ## Other custom jQuery selectors
 
 You can set custom jQuery selectors for a few elements, such as the cart button and the product image
