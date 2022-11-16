@@ -63,8 +63,11 @@ In this example, we will add a cost based on the element's perimeter.
 
 ```php 
 $cost = 0
+// The containers are the fields or areas
 foreach ($design->getContainers() as $container) {
+    // The design elements are wrappers around the design items
     foreach ($container->getDesignElements() as $design_element) {
+        // The design items are the actual elements
         $design_item = $design_element->getDesignItem();
         // Get the permiter of the design item in m2
         $perimeter = ($design_item->width + $design_item->height) * 2 / 100;
