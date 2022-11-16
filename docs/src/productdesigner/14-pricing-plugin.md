@@ -1,7 +1,12 @@
 # Custom pricing
 
-You can add a custom pricing plugin if needed, by creating a plugin file in module `plugins/pricing`
+You can add a custom pricing plugin if needed, by creating a plugin file in the module `plugins/pricing`
 directory.
+
+Here's the folder path
+```
+[PrestaShop root]/modules/productdesigner/plugins/pricing
+```
 
 You can find a sample file in `plugins/pricing/CustomPricing.php` that you can use as a template.
 
@@ -49,5 +54,22 @@ class CustomPricing
 }
 ```
 
-Open the `Design` in `/modules/productdesigner/classes/models/design/Design` to set all available
+Open the `Design` in `/modules/productdesigner/classes/models/design/Design` to see all available
 methods.
+
+Here's an example code to show you how to read the properties of the design elements.
+
+In this example, we will add a cost based on the element's perimeter. 
+
+```php 
+$cost = 0
+foreach ($design->getContainers() as $container) {
+    foreach ($container->getDesignElements() as $design_element) {
+        $design_item = $design_element->getDesignItem();
+        // Get the permiter of the design item in m2
+        $perimeter = ($design_item->width + $design_item->height) * 2 / 100;
+        $cost += $perimeter * 3;
+    }
+}
+return $cost;
+```
