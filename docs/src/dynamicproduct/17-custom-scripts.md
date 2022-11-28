@@ -403,7 +403,7 @@ window.dp_product_images_selector = ".product-images"
 ### Image container section
 ```ts
 // The whole product preview section. 
-// Default: ".product-images"
+// Default: ".images-container"
 window.dp_images_container_selector = ".images-container"
 ```
 

@@ -21,3 +21,7 @@ Here are some image examples
 When the images are combined, the result will look like this
 
 <img srcset="/dynamicproduct/images/layers/combined.png 2x" class="border transparent">
+
+:::tip  
+You can customize the [preview DOM selectors](/dynamicproduct/17-custom-scripts.md#customizing-the-preview-function) to match your theme structure if needed
+:::
