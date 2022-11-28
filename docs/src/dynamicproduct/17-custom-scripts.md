@@ -386,9 +386,40 @@ window.dp_discounts_td_index = -1
 window.dp_discounts_display_type = "totals"
 ```
 
+## Customizing the preview function
+
+You can set the selectors for the product images section if your theme has a different html
+structure than the default theme.
+
+### Product images section
+```ts
+// The selector for the product images section. 
+// Default: ".product-images"
+window.dp_product_images_selector = ".product-images"
+```
+
+<img srcset="/dynamicproduct/images/product_images_selector.png 2x" class="border">
+
+### Image container section
+```ts
+// The whole product preview section. 
+// Default: ".product-images"
+window.dp_images_container_selector = ".images-container"
+```
+
+### Product cover section 
+```ts
+// The cover image section. 
+// Default: ".images-container .product-cover"
+window.dp_product_cover_selector = ".images-container .product-cover"
+```
+
+<img srcset="/dynamicproduct/images/product_cover_selector.png 2x" class="border">
+
 ## Other custom jQuery selectors
 
-You can set custom jQuery selectors for a few elements, such as the cart button and the product image
+You can set custom jQuery selectors for a few elements, such as the cart button and the product
+image
 
 Code example
 
