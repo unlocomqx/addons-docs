@@ -52,3 +52,19 @@ following [this guide](https://gist.github.com/unlocomqx/f0b86a1ce938405c315d5de
 
 After applying the fix, make sure to also delete or rename the folder `/var/cache` manually if
 needed.
+
+## Upgrade checker
+
+You can check the module installation using the upgrade checker
+
+To access it, click this button which you can find in the module configuration page
+
+<img srcset="/dynamicproduct/images/upgrade-checker-btn.png 2x">
+
+The versions will be displayed like this
+
+<img srcset="/dynamicproduct/images/versions-list.jpg 2x">
+
+If an upgrade has previously failed, you can retry it like this
+
+<img srcset="/dynamicproduct/images/retry-upgrade.png 2x">
