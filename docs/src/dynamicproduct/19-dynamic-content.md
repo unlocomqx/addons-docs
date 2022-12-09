@@ -13,12 +13,6 @@ The calculation is [width] * [height] = [total]
 
 You can add reference your fields in the html field by following these conventions:
 
-```html
-[field]: field value
-[[field]]: field secondary value
-{field}: field options label (useful for dropdown fields for example)
-```
-
 | Tag       | Content                                                      |
 |-----------|:-------------------------------------------------------------|
 | [field]   | field value                                                  |
