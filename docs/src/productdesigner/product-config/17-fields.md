@@ -90,3 +90,23 @@ When the customer adds images, they will be cropped to the configured shape.
 :cd: Here's a video tutorial to see how to configure the svg path outlines in Illustrator
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/psqLMEG-BSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Using templates
+
+You can enable models which are field templates that your customer can pick from.
+
+First, enable the models like this
+
+<img srcset="/productdesigner/images/models-switch.jpg 2x" class="border">
+
+Then add any number of models by the clicking the add button
+
+<img srcset="/productdesigner/images/add-model.jpg 2x" class="border">
+
+Then you can add fields to each model. The fields layout will be displayed directly.
+
+<img srcset="/productdesigner/images/fields-preview.jpg 2x" class="border">
+
+You can even load different [zones](/productdesigner/product-config/17-fields.md#configuring-zones) for each model
+
+<img srcset="/productdesigner/images/models-zones.jpg 2x" class="padding border">
