@@ -110,3 +110,7 @@ Then you can add fields to each model. The fields layout will be displayed direc
 You can even load different [zones](/productdesigner/product-config/17-fields.md#configuring-zones) for each model
 
 <img srcset="/productdesigner/images/models-zones.jpg 2x" class="padding border">
+
+The models will be displayed in a separate tab in the customer interface
+
+<img srcset="/productdesigner/images/models-tab.png 2x">
