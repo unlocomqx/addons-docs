@@ -102,6 +102,7 @@ module.exports = {
           collapsable: true,
           children: [
             "product-config/04-main.md",
+            "product-config/26-combinations.md",
             "product-config/05-tabs.md",
             "product-config/06-sides.md",
             "product-config/07-images.md",
