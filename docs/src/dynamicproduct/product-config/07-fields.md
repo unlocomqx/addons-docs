@@ -467,7 +467,7 @@ the [main configuration page](/dynamicproduct/04-configuration.md#favorite-field
 ## Common field
 
 If you want to use the same field in multiple products, then set it as a common field. That way,
-when you modify it in any product, it will be also modified in other products that use it.
+when you modify it in any product, it will also be modified in other products that use it.
 
 <img srcset="/dynamicproduct/images/common-btn.jpg 2x" class="border padding">
 
