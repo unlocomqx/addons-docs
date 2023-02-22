@@ -362,7 +362,7 @@ window.dp_hook = document.getElementById("my_location"); // A DOM element
 
 ## Setting the price element
 
-Sometimes, the module can't find the price element because the theme has a different
+In some cases, the module isn't able to find the price element because the theme has a different
 html structure than the default theme. To fix that, you can set the variable `dp_price_hook` to tell
 the module which element to update after calculating the price.
 
