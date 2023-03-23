@@ -252,3 +252,28 @@ The result will look like this depending on the selected frame
 <img srcset="/productdesigner/images/layers-random.jpg 2x">
 
 <img srcset="/productdesigner/images/frames-circle.jpg 2x">
+
+## Importing layers
+
+You can import layers by uploading multiple images at once.
+
+<img srcset="/productdesigner/images/visual-options/import-files.jpg 2x" class="border">
+
+You can also import icons by naming the files like this
+
+```text
+file1.png
+file1-icon.png
+
+file2.png
+file2-icon.png
+
+file3.png
+file3-icon.png
+```
+
+The module will automatically detect the icon files and import them and assign them to the corresponding image.
+
+::: tip  
+The icon extension does not have to be the same as the image extension.
+:::
