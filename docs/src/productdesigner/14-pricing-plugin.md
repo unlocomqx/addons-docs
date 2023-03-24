@@ -21,7 +21,7 @@ You will need to implement your logic in the `getPricing` method.
 ```php
 <?php
 
-namespace plugins\pricing;
+namespace designer\plugins\pricing;
 
 use classes\models\design\Design;
 use classes\models\DesignerProductPricing;
