@@ -427,3 +427,7 @@ Code example
 window.dp_cart_btn_selector = "...";
 window.dp_product_image_selector = "...";
 ```
+
+## Custom fields
+
+Check how to create custom fields [here](/dynamicproduct/27-custom-fields.md)
