@@ -87,6 +87,7 @@ module.exports = {
         "20-troubleshooting.md",
         "21-debug-mode.md",
         "22-custom-style.md",
+        "28-custom-hook.md",
         "23-extra-fields.md",
         "24-migration.md",
         "25-webservice.md",

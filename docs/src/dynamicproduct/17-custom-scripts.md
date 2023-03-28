@@ -360,6 +360,10 @@ window.dp_hook = $("#my_location"); // A jQuery element
 window.dp_hook = document.getElementById("my_location"); // A DOM element
 ```
 
+::: tip
+You can also use the [custom hook](/dynamicproduct/28-custom-hook.md) in your theme tpl.
+:::
+
 ## Setting the price element
 
 In some cases, the module isn't able to find the price element because the theme has a different
@@ -392,6 +396,7 @@ You can set the selectors for the product images section if your theme has a dif
 structure than the default theme.
 
 ### Product images section
+
 ```ts
 // The selector for the product images section. 
 // Default: ".product-images"
@@ -401,13 +406,15 @@ window.dp_product_images_selector = ".product-images"
 <img srcset="/dynamicproduct/images/product_images_selector.png 2x" class="border">
 
 ### Image container section
+
 ```ts
 // The whole product preview section. 
 // Default: ".images-container"
 window.dp_images_container_selector = ".images-container"
 ```
 
-### Product cover section 
+### Product cover section
+
 ```ts
 // The cover image section. 
 // Default: ".images-container .product-cover"
