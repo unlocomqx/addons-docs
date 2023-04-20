@@ -88,7 +88,7 @@ Example:
 
 - **Dropdown**  
   The value is the selected option value
-  <code class="formula">**[dropdown]**</code>  
+  <code class="formula">**[dropdown]**</code>
   To access the secondary value
   <code class="formula">**[[dropdown]]**</code>
 
