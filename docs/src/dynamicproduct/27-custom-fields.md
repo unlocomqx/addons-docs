@@ -142,7 +142,7 @@ Sample content:
 ```php
 <?php
 
-namespace dynamicproduct_data\scripts\[script name];
+namespace DynamicProductData\scripts\[script name];
 
 use classes\models\DynamicInputField;
 
@@ -163,7 +163,7 @@ Skip the field in cart:
 ```php
 <?php
 
-namespace dynamicproduct_data\scripts\time_picker;
+namespace DynamicProductData\scripts\time_picker;
 
 use classes\models\DynamicInputField;
 
@@ -183,7 +183,7 @@ Display the field value in lowercase:
 ```php
 <?php
 
-namespace dynamicproduct_data\scripts\time_picker;
+namespace DynamicProductData\scripts\time_picker;
 
 use classes\models\DynamicInputField;
 
@@ -206,7 +206,7 @@ Display a custom value:
 ```php
 <?php
 
-namespace dynamicproduct_data\scripts\time_picker;
+namespace DynamicProductData\scripts\time_picker;
 
 use classes\models\DynamicInputField;
 
