@@ -21,10 +21,10 @@ You will need to implement your logic in the `getPricing` method.
 ```php
 <?php
 
-namespace designer\plugins\pricing;
+namespace ProductDesignerData\plugins\pricing;
 
-use classes\models\design\Design;
-use classes\models\DesignerProductPricing;
+use ProductDesigner\classes\models\design\Design;
+use ProductDesigner\classes\models\DesignerProductPricing;
 use Context;
 use ProductDesigner;
 
