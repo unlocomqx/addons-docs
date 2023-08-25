@@ -25,8 +25,6 @@ namespace ProductDesignerData\plugins\pricing;
 
 use ProductDesigner\classes\models\design\Design;
 use ProductDesigner\classes\models\DesignerProductPricing;
-use Context;
-use ProductDesigner;
 
 // Impotant: If you change the file name, make sure to change the class name as well
 class CustomPricing
