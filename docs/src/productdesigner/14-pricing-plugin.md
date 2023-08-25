@@ -32,9 +32,9 @@ use ProductDesigner;
 class CustomPricing
 {
 
-    /** @var ProductDesigner $module */
+    /** @var \ProductDesigner */
     private $module;
-    /** @var Context $context */
+    /** @var \Context */
     private $context;
 
     public function __construct($module, $context)
