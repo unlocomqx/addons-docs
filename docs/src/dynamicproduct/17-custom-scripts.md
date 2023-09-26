@@ -376,6 +376,13 @@ Code example
 window.dp_price_hook = ".product-prices span.price";
 ```
 
+To indicate the regular price element (in case you have a discount that is displayed), you can set the
+variable `dp_regular_price_hook`
+
+```js
+window.dp_regular_price_hook = ".product-prices span.regular-price";
+```
+
 ## Customizing the discount table
 
 You can change the prices that are displayed on the discount table by changing these variables:
