@@ -12,10 +12,6 @@ Here's the folder path
 You can find a sample file in `/designer/plugins/pricing/CustomPricing.php` that you can use as a
 template.
 
-::: warning
-Do not modify the sample file directly, as it will be overwritten when you update the module.
-:::
-
 You will need to implement your logic in the `getPricing` method.
 
 ```php
