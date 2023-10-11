@@ -171,7 +171,20 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    "fulltext-search",
+    ["@vuepress/plugin-search",
+      {
+        // Placeholder for the search input box
+        placeholder: "Search",
+
+        // The depth of headings to include in search index
+        maxSuggestions: 10,
+
+        // Custom search options (Optional)
+        //algolia: {
+        //  apiKey: '<YOUR_ALGOLIA_API_KEY>',
+        //  indexName: '<YOUR_ALGOLIA_INDEX_NAME>'
+        //},
+      }],
     "vuepress-plugin-zooming",
     "vuepress-plugin-smooth-scroll",
     "@vuepress/plugin-back-to-top",
