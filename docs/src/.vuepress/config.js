@@ -131,6 +131,7 @@ module.exports = {
         },
         "04-color-theme",
         "06-custom-style",
+        "15-custom-script",
         "12-custom-hook",
         "07-downloads",
         "08-troubleshooting",
