@@ -4,6 +4,8 @@ Currently, the module only has this flag that can be set using JavaScript:
 
 ## Skipping the summary modification
 
+_(Available since v1.178.24)_
+
 Normally, the module moves the summary out of the modal dialog and displays it in the page content.
 
 If your theme already has a summary block in the page content, you can skip this modification by setting
