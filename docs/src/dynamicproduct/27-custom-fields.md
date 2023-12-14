@@ -120,6 +120,7 @@ function dpInitTimePicker(field_name, config) {
 ```
 
 The field will be displayed like this
+
 <img srcset="/dynamicproduct/images/custom-fields/time-picker.jpg 2x" class="padding border">
 
 :::tip  
