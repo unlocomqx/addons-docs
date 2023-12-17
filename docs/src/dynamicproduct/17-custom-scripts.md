@@ -351,7 +351,8 @@ dpSaveCustomization(true).then(function (response) {
 
 You can change the module position by changing the `dp_hook` variable and set it to any selector or
 html element.  
-The module will then be positioned after the selected hook.  
+The module will then be positioned inside the selected hook. If you want to position the module after the hook, you can
+use the `dp_hook_after` variable.  
 Examples:
 
 ```js
