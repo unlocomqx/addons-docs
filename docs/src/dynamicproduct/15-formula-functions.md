@@ -245,6 +245,25 @@ BINARY_OR(4, 1) → 5
 BINARY_OR(6, 2) → 6
 ```
 
+### **LABEL**
+
+Returns the label of the current selected option of a field.
+The returned label will be in the default language of the shop.
+
+This function makes it easier to reference the selected option in a formula.
+
+```xls
+LABEL("dropdown") → "Option 1" // for example
+```
+
+### **REF**
+
+Returns the reference of the current selected option of a field.
+
+```xls
+REF("dropdown") → "opt1" // for example
+```
+
 ## The Grid function
 
 **Grid**: Allows reading a CSV file and getting a result based on two values  
