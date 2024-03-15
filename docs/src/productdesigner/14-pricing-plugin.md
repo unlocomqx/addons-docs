@@ -59,7 +59,7 @@ Here's an example code to show you how to read the properties of the design elem
 In this example, we will add a cost based on the element's perimeter.
 
 ```php 
-$cost = 0
+$cost = 0;
 // The containers are the fields or areas
 foreach ($design->getContainers() as $container) {
     // The design elements are wrappers around the design items
