@@ -42,7 +42,7 @@ Only the part of the design that is under the transparency is visible.
 ## Production canvas
 
 The production canvas is only included in the final SVG. It's useful when you want to use a large
-background image for production but only show a smaller image in the production page to ensure a
+background image for production but only show a smaller image in the product page to ensure a
 faster page load.
 
 ## Production mask
