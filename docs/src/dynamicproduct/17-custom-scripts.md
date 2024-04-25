@@ -47,6 +47,10 @@ function dp_dropdown(value, selected_options) {
 }
 ```
 
+::: warning
+The functions that listen to field changes should be defined in the global scope, not inside the dp-loaded event handler.
+:::
+
 ## Updating the properties of a field
 
 You can change a field properties from the custom script, for that you need to use the `updateField`
