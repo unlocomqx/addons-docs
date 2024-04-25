@@ -10,11 +10,10 @@
   "repository": "https://github.com/unlocomqx/addons-docs/",
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
-    "build": "vuepress build src"
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
-    "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
     "@squoosh/cli": "^0.6.3",
     "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/plugin-search": "^1.9.10",
@@ -26,7 +25,6 @@
     "make-dir": "^3.1.0",
     "sharp": "^0.28.0",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-export": "^0.2.0",
     "vuepress-plugin-fulltext-search": "^2.1.0",
     "vuepress-plugin-right-anchor": "^0.4.9",
     "vuepress-plugin-smooth-scroll": "^0.0.10",
