@@ -10,7 +10,7 @@
   "repository": "https://github.com/unlocomqx/addons-docs/",
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build src"
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
