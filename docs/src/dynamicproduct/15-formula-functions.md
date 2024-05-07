@@ -253,7 +253,7 @@ The returned label will be in the default language of the shop.
 This function makes it easier to reference the selected option in a formula.
 
 ```xls
-LABEL("dropdown") → "Option 1" // for example
+LABEL("{dropdown}") → "Option 1" // for example
 ```
 
 ### **REF**
@@ -261,8 +261,21 @@ LABEL("dropdown") → "Option 1" // for example
 Returns the reference of the current selected option of a field.
 
 ```xls
-REF("dropdown") → "opt1" // for example
+REF("{dropdown}") → "opt1" // for example
 ```
+
+### **NUM_SELECTED**
+
+Returns the reference of the current selected option of a field.
+
+```xls
+NUM_SELECTED("{images}") → 4 // for example
+```
+
+::: tip
+The `LABEL`, `REF`, and `NUM_SELECTED` need the field ID. That's why the field name is surrounded by curly braces. It's
+a placeholder that will be replaced by the actual field ID when the formula is executed.
+:::
 
 ## The Grid function
 
