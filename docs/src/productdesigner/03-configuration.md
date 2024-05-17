@@ -464,6 +464,14 @@ Shades in between white and black will apply a transparency effect relative to h
 *It's recommended to use white shapes with a black contour/stroke.*
 
 The shape will be stretched to fill the current image.
+
+The shape must have these dimensions 
+
+```svg
+<svg width="1" height="1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Your shape here -->
+</svg>
+```
 :::
 
 ## Help content
