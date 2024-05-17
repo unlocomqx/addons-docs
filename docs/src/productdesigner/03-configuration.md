@@ -474,6 +474,8 @@ The shape must have these dimensions
 ```
 :::
 
+Here's a [sample file](/productdesigner/files/shape.svg ':ignore') that you can use as a shape
+
 ## Help content
 
 In this section, you can configure different help areas in the interface
