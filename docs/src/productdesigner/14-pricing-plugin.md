@@ -66,7 +66,7 @@ foreach ($design->getContainers() as $container) {
     foreach ($container->getDesignElements() as $design_element) {
         // The design items are the actual elements
         $design_item = $design_element->getDesignItem();
-        // Get the permiter of the design item in m2
+        // Get the perimiter of the design item in meters
         $perimeter = ($design_item->width + $design_item->height) * 2 / 100;
         $cost += $perimeter * 3;
     }
