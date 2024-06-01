@@ -1,6 +1,6 @@
 # Custom pricing
 
-You can add a custom pricing plugin if needed, by creating a plugin file in the `plugins/pricing`
+You can add a custom pricing plugin by creating a plugin file in the `plugins/pricing`
 directory.
 
 Here's the folder path
