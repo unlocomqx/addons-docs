@@ -51,7 +51,7 @@ class CustomPricing
 }
 ```
 
-Open the `Design` in `/modules/productdesigner/classes/models/design/Design` to see all available
+Open the `Design` class in `/modules/productdesigner/classes/models/design/Design` to see all available
 methods.
 
 Here's an example code to show you how to read the properties of the design elements.
