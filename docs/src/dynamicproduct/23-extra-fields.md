@@ -69,7 +69,21 @@ each field will contain the value of the corresponding product feature.
 
 ## Hidden fields
 
+
+### changed 
+
 The module provides a field with the name `changed` which holds the name of the field that the
 customer changed in order to trigger the calculation
 
 This field is also available in [php](/dynamicproduct/16-php-calculation.md#other-available-variables), via the variable `$changed`
+
+### step
+
+You can create a field called step to use it to control the selected step.
+
+Make sure to give your [steps](/dynamicproduct/04-configuration.md#steps) a unique name each.
+
+Example: If the material picked is wood, then jump to step 3 called color, otherwise don't change the step
+```xls
+[step] = IF( "[changed]" = "material" & "[material]" = "wood", "color", "[step]" )
+```
