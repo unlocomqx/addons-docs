@@ -85,7 +85,7 @@ Here are the steps to follow:
 2- Add this line to the file `config/defines.inc.php`
 
 ```php
-define('_DSN_API_URL_', 'https://converter.prestalife.net/modules/productdesigner/plugins/converter/remote/');
+define('_DSN_API_URL_', 'https://converter.prestalife.net/');
 ```
 
 ::: tip
