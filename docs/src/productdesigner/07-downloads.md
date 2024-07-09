@@ -74,3 +74,20 @@ If you get a permission error, try adding the `www-data` user to the `docker` gr
 sudo usermod -aG docker www-data
 ```
 
+### Using the remote converter (Paid API)
+
+You can use my online converter to convert the SVG files to PDF or PNG.
+
+Here are the steps to follow:
+
+1- Make a subscription to the API by following this payment link: [💳 API Subscription](https://buy.stripe.com/aEUaGa1Mc327cww4gl)
+
+2- Add this line to the file `config/defines.inc.php`
+
+```php
+    define('_DSN_API_URL_', 'https://converter.prestalife.net/modules/productdesigner/plugins/converter/remote/');
+```
+
+::: tip
+Make sure to insert the above line after the `<?php` tag
+:::
