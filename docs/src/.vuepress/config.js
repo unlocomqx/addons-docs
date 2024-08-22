@@ -26,11 +26,6 @@ module.exports = {
             src: "https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-phpdoc.js",
             defer: true
         }],
-        ["script", {
-            src: "https://plausible.prestalife.net/js/script.js",
-            "data-domain": "docs.prestalife.net",
-            defer: true
-        }],
     ],
 
     /**
@@ -148,6 +143,7 @@ module.exports = {
                 "13-initial-design.md",
                 "11-migration.md",
                 "14-pricing-plugin.md",
+                "16-translation.md"
             ],
             "/prestashop/": [
                 "",
@@ -204,7 +200,9 @@ module.exports = {
                 "ga": "UA-177220990-1"
             }
         ],
-        "@snowdog/vuepress-plugin-pdf-export",
+        ["@snowdog/vuepress-plugin-pdf-export", {
+
+        }],
     ],
 
     markdown: {
