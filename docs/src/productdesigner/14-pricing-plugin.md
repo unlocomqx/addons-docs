@@ -42,9 +42,10 @@ class CustomPricing
      * 
      * @param DesignerProductPricing $pricing Contains your pricing rules for the product
      * @param Design $design Contains all information about the customer design
+     * @param float $current_price The current cost of the design
      * @return float The price to add to the design cost
      */
-    public function getPricing(DesignerProductPricing $pricing, Design $design)
+    public function getPricing(DesignerProductPricing $pricing, Design $design, float $current_price)
     {
         return 0;
     }
