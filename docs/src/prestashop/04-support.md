@@ -2,6 +2,12 @@
 
 To ensure the fastest and best support, please follow this guide
 
+### Use English or French as much as possible
+
+Send me your message in English or French. Also, set the backoffice language to either of these languages.
+In the case of the [Dynamic Product module](/dynamicproduct/), name your fields in one the mentioned languages. It will
+make it easier for me to understand the calculation logic and to better assist you.
+
 ### Include a product link in your message
 
 Sometimes, the issue is caused by a conflict between the module and the theme that is installed on your shop.  
