@@ -1,0 +1,47 @@
+# Common cases
+
+Here are some common cases that many merchants encounter. It can be a simpler way to get you started with the module.
+
+Each feature will have a link to the corresponding documentation page. You can find more detailed information there.
+
+You can also find many product examples in the [examples demo](https://dynamic-front.prestalife.net/)
+
+## Examples
+
+- [Charge based on a product area](#charge-based-on-a-product-area)
+
+## Charge based on a product area
+
+Create a width and height [field](/dynamicproduct/product-config/07-fields.md) then configure
+this [price formula](/dynamicproduct/product-config/08-formulas.md) for example:
+
+```xls
+[width] * [height] * 10
+```
+
+But in most cases, the fields are in centimeters, so you need to convert them to meters:
+
+```xls
+[width] * [height] / 10000 * 10
+```
+
+In this case, you are charging 10€ for each square meter.
+
+::: tip
+In the docs, Euros are used, but it depends on your shop's default currency.
+:::
+
+You can even create a [dynamic variable field](/dynamicproduct/product-config/07-fields.html#dynamic-variable) called *
+*area** and assign the area to it using a [field formula](/dynamicproduct/product-config/10-field-formulas.md).
+
+Then you can use this variable in the price formula:
+
+```xls
+[area] = [width] * [height] / 10000
+```
+
+Then the price formula becomes:
+
+```xls
+[area] * 10
+```
