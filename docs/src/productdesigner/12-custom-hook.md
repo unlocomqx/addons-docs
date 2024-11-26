@@ -34,3 +34,5 @@ Or other template files such as
 ```text
 /themes/[current theme]/templates/catalog/_partials/product-add-to-cart.tpl
 ```
+
+You may want to unhook the module from `displayProductAdditionalInfo` to avoid displaying the module twice.
