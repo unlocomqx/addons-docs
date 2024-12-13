@@ -11,6 +11,7 @@ You can also find many product examples in the [examples demo](https://dynamic-f
 - [Charge based on a product area](#charge-based-on-a-product-area)
 - [Add extra cost based on a selected option](#add-extra-cost-based-on-a-selected-option)
 - [Charge a minimum price](#charge-a-minimum-price)
+- [Display a custom error message](#display-a-custom-error-message)
 
 ## Charge based on a product area
 
@@ -87,4 +88,24 @@ you want to charge at least 10€:
 MAX(10, [area] * 10)
 ```
 
-The `max` function will return the highest value between the two. 
+The `max` function will return the highest value between the two.
+
+## Display a custom error message
+
+You can use the [error message field](/dynamicproduct/product-config/07-fields.md#error-message) to display a custom
+error.
+
+Then you can control the visibility of the error message using
+a [condition](/dynamicproduct/product-config/09-conditions.md).
+
+### Example
+
+Display an error when the ordered area is less than 1 square meter:
+
+Condition formula:
+
+```xls
+[area] >= 1
+```
+
+Then you can hide the error message in the condition fields.
