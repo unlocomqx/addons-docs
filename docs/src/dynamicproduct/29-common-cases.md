@@ -109,3 +109,5 @@ Condition formula:
 ```
 
 Then you can hide the error message in the condition fields.
+
+<img srcset="/dynamicproduct/images/error-message-condition.jpg 2x" class="border">
