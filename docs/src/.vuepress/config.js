@@ -152,6 +152,7 @@ module.exports = {
                 "02-translation.md",
                 "03-update.md",
                 "04-support.md",
+                "05-editing-files.md",
             ],
             "/layerstack/": [
                 "",
