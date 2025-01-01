@@ -12,7 +12,7 @@ To check if the smart cache is enabled, go to
 
 and look for the `Smart cache for CSS` and `Smart cache for JavaScript` options.
 
-<img srcset="/prestashop/images/smart-cache.png 2x" class="border">
+<img srcset="/prestashop/images/smart-cache.jpg 2x" class="border">
 
 To clear the PrestaShop cache, go to
 
