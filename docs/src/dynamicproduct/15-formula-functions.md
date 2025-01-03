@@ -1,6 +1,28 @@
 # Formula functions
 
-The module supports many Excel functions that you can use in your calculations
+The module supports many Excel functions and operators that you can use in your calculations
+
+## Operators
+
+### **OR**
+
+You can use the `OR` operator to check if at least one of the conditions is true
+
+```xls
+[width] > 10 | [height] > 10
+```
+
+It means that if the width is greater than 10 **OR** the height is greater than 10, the condition will be true
+
+### **AND**
+
+You can use the `AND` operator to check if all the conditions are true
+
+```xls
+[width] > 10 & [height] > 10
+```
+
+It means that if the width is greater than 10 **AND** the height is greater than 10, the condition will be true
 
 ## Standard functions
 
