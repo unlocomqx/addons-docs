@@ -253,7 +253,7 @@ The result will look like this depending on the selected frame
 
 <img srcset="/productdesigner/images/frames-circle.jpg 2x">
 
-## Importing layers
+## :arrow_down: Importing layers
 
 You can import layers by uploading multiple images at once.
 
@@ -277,3 +277,20 @@ The module will automatically detect the icon files and import them and assign t
 ::: tip  
 The icon extension does not have to be the same as the image extension.
 :::
+
+## 🪄 Dynamic colors
+
+If you want to allow the customer to change the color of an option freely, you can enable the
+`Dynamic colors` option in any layer settings.
+
+<img srcset="/productdesigner/images/layer-dynamic-color.png 2x">
+
+The icon color will be used as the initial color of the layer.
+
+<img srcset="/productdesigner/images/admin-layers-preview.png 2x">
+
+The customer can change the layer color by choosing from the color picker.
+
+<img srcset="/productdesigner/images/layer-color-picker.png 2x">
+
+Make sure to use the white version of the layer to allow the colorization to be effective.

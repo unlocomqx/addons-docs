@@ -6,7 +6,7 @@ The module supports many Excel functions and operators that you can use in your 
 
 ### **OR**
 
-You can use the `OR` operator to check if at least one of the conditions is true
+You can use the o`OR` operator to check if at least one of the conditions is true
 
 ```xls
 [width] > 10 | [height] > 10
