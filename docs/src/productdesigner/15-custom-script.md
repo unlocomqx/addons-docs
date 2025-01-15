@@ -39,3 +39,12 @@ window.dsn_stores.design.subscribe(function (design_data) {
   console.log('Design store value changed:', design_data);
 });
 ```
+## Detect the interface display
+
+You can detect when the designer is loaded by listening for the `dsn-loaded` event.
+
+```js
+document.addEventListener('dsn-loaded', function () {
+  console.log('Designer loaded');
+});
+```
