@@ -12,6 +12,7 @@ You can also find many product examples in the [examples demo](https://dynamic-f
 - [Add extra cost based on a selected option](#add-extra-cost-based-on-a-selected-option)
 - [Charge a minimum price](#charge-a-minimum-price)
 - [Display a custom error message](#display-a-custom-error-message)
+- [Read any variable from PrestaShop](#read-any-variable-from-prestashop)
 
 ## Charge based on a product area
 
@@ -111,3 +112,42 @@ Condition formula:
 Then you can hide the error message in the condition fields.
 
 <img srcset="/dynamicproduct/images/error-message-condition.jpg 2x" class="border">
+
+## Read any variable from PrestaShop
+
+In this example, we will read the customer group and apply a discount based on it.
+
+1- Create a dynamic field called `customer_group` and set the type to `Dynamic Variable`.
+2- Create a php file in `[Root of PrestaShop]/dynamicproduct/allocations/products.php` and add this code:
+
+```php
+<?php
+if (isset($customer_group)){
+    $context = Context::getContext();
+    $default_lang = Configuration::get('PS_LANG_DEFAULT');
+    $id_customer_group = (int)$context->customer->id_default_group;
+    if($id_customer_group){
+        $group = new Group($id_customer_group, $default_lang);
+         // customer_group will contain assign Guest, Visitor, etc...
+        $customer_group = $group->name;
+    }
+}
+```
+
+Then you can easily create discounts for each group of your choice using the [Intervals](/dynamicproduct/product-config/12-intervals.md) for example
+
+### Example
+
+An interval that varies the value of a discount field
+
+<img srcset="/dynamicproduct/images/customer-groups-interval.png 2x" class="border">
+
+Finally, you can use this discount field in your price formula
+
+```xls
+[width] * [height] * ( ( 100 - [discount] ) / 100 )
+```
+
+This will apply a discount based on the customer group.
+
+<img srcset="/dynamicproduct/images/customer-group-discount.png 2x" class="border">
