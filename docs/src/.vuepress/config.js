@@ -144,7 +144,8 @@ module.exports = {
                 "13-initial-design.md",
                 "11-migration.md",
                 "14-pricing-plugin.md",
-                "16-translation.md"
+                "16-translation.md",
+                "17-common-issues.md",
             ],
             "/prestashop/": [
                 "",
