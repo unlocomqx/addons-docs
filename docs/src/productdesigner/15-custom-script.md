@@ -39,6 +39,7 @@ window.dsn_stores.design.subscribe(function (design_data) {
   console.log('Design store value changed:', design_data);
 });
 ```
+
 ## Detect the interface display
 
 You can detect when the designer is loaded by listening for the `dsn-loaded` event.
@@ -47,4 +48,13 @@ You can detect when the designer is loaded by listening for the `dsn-loaded` eve
 document.addEventListener('dsn-loaded', function () {
   console.log('Designer loaded');
 });
+```
+
+## Load the interface
+
+You can load the interface by calling the `loadProductDesigner` function. The page will scroll to the designer
+automatically.
+
+```js
+window.loadProductDesigner();
 ```
