@@ -52,7 +52,7 @@ Then the price formula becomes:
 
 ## Add extra cost based on a selected option
 
-You can create a [dropdown field](http://localhost:8080/dynamicproduct/product-config/07-fields.md#dropdown) called *
+You can create a [dropdown field](/dynamicproduct/product-config/07-fields.md#dropdown) called *
 *material** with
 options like:
 
