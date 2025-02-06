@@ -288,7 +288,7 @@ REF("{dropdown}") → "opt1" // for example
 
 ### **NUM_SELECTED**
 
-Returns the reference of the current selected option of a field.
+Returns the number of selected options in a multiple selection field.
 
 ```xls
 NUM_SELECTED("{images}") → 4 // for example
