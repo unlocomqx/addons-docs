@@ -12,7 +12,7 @@ In this case, we created a custom field named `time_picker`, which will allow th
 
 In the field settings, you can configure the script name and the JSON config. Both are optional.
 
-<img srcset="/dynamicproduct/images/custom-fields/settings.jpg.jpg 2x" class="">
+<img srcset="/dynamicproduct/images/custom-fields/settings.jpg 2x" class="">
 
 ### Script name
 
