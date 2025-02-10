@@ -18,4 +18,10 @@ files etc...
 
 :four: (Optional) Upgrade the module to the latest version to get the new feature and bugfixes.
 
-:warning: In some cases, this step is necessary to ensure the compatibility of the module with the version of PrestaShop that you are using.
+:warning: In some cases, this step is necessary to ensure the compatibility of the module with the version of PrestaShop
+that you are using.
+
+::: details Advanced
+Compare the module id in the `ps_module` table. If it's different between the two shops, then update the `id_module`
+column is the table `ps_customized_data` to match the new module id.
+:::
