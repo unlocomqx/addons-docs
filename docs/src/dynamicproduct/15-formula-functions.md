@@ -225,7 +225,7 @@ CONTAINS("Hello world!", "Test") → 0
 
 ### **CHECK**
 
-Checks if a string if not empty, return 0 if string is empty, 1 otherwise
+Checks if a string is not empty, return 0 if string is empty, 1 otherwise
 
 ```xls
 CHECK("Hello") → 1
