@@ -10,6 +10,7 @@ You can also find many product examples in the [examples demo](https://dynamic-f
 
 - [Charge based on a product area](#charge-based-on-a-product-area)
 - [Add extra cost based on a selected option](#add-extra-cost-based-on-a-selected-option)
+- [Add extra cost based on a checkbox](#add-extra-cost-based-on-a-checkbox)
 - [Charge a minimum price](#charge-a-minimum-price)
 - [Display a custom error message](#display-a-custom-error-message)
 - [Read any variable from PrestaShop](#read-any-variable-from-prestashop)
@@ -78,6 +79,22 @@ You can even charge based on the **area** and **material** like this
 
 ```xls
 [area] * [material]
+```
+
+## Add extra cost based on a checkbox
+
+You can create a [checkbox field](/dynamicproduct/product-config/07-fields.md#checkbox) called *gift_wrap* for example.
+
+Then you can use it in the price formula like this:
+
+```xls
+[gift_wrap] * 5
+```
+
+or you can use the [IF](/dynamicproduct/15-formula-functions.md#if) function to add a cost only if the checkbox is checked
+
+```xls
+IF([gift_wrap], 5, 0)
 ```
 
 ## Charge a minimum price
