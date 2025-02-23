@@ -37,9 +37,9 @@ Include the front-office login if the issue occurs when you are logged in.
 
 ### Disable any cache system
 
-If you use a CDN or use memcached or similar, please disable them.
+If you use a CDN or use memcached or a module that caches the pages html, please disable them.
 
-Also if you use opcache or any other php cache system, please disable them.
+Also if you use **PHP OPcache** or any other php cache system, please disable them.
 
 Testing with a cache system enabled will make it impossible to know whether changing an option or a file has any effect
 on the problem, so it will be impossible to determine the true cause of the issue.
