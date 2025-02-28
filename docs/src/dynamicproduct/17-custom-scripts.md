@@ -363,6 +363,9 @@ Examples:
 window.dp_hook = "#my_location"; // A jQuery selector
 window.dp_hook = $("#my_location"); // A jQuery element
 window.dp_hook = document.getElementById("my_location"); // A DOM element
+
+// Or
+window.dp_hook_after = '#my_location';
 ```
 
 ::: tip
