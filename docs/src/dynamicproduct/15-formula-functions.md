@@ -301,7 +301,7 @@ a placeholder that will be replaced by the actual field ID when the formula is e
 
 ## The Grid function
 
-**Grid**: Allows reading a CSV file and getting a result based on two values  
+Allows reading a CSV file and getting a result based on two values  
 This function is very similar to [the Grid feature](/dynamicproduct/product-config/13-grids.md).
 
 The function format is as follows
