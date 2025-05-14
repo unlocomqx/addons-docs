@@ -14,6 +14,7 @@ You can also find many product examples in the [examples demo](https://dynamic-f
 - [Charge a minimum price](#charge-a-minimum-price)
 - [Display a custom error message](#display-a-custom-error-message)
 - [Read any variable from PrestaShop](#read-any-variable-from-prestashop)
+- [Invert the tax calculation](#invert-the-tax-calculation)
 
 ## Charge based on a product area
 
@@ -168,3 +169,40 @@ Finally, you can use this discount field in your price formula
 This will apply a discount based on the customer group.
 
 <img srcset="/dynamicproduct/images/customer-group-discount.png 2x" class="border">
+
+## Invert the tax calculation
+
+By default, the module applies the tax to the calculated price.  
+If you want to invert the tax calculation, you can use the [PHP calculation](/dynamicproduct/16-php-calculation.md) feature.
+
+:one: Create a dynamic field called `tax_rate` and set the type to `Dynamic Variable`. 
+
+:two: Create a php file in `[Root of PrestaShop]/dynamicproduct/allocations/products.php` and add this code:
+
+```php
+<?php
+// Will continue only if you have a field called tax_rate
+if (isset($tax_rate)){
+    // first read the tax rate of the current product
+    /** @var $module DynamicProduct */
+    $tax_rate = $module->calculator->getTax($id_product);
+}
+```
+
+Now, you can use the `tax_rate` field in your [price formula](./product-config/08-formulas.md#price-formula) or in any [field formula](./product-config/10-field-formulas.md) to invert the tax calculation.
+
+:three: Use the field in your price formula 
+
+```xls
+([width] * [height]) / (1 + [tax_rate] / 100)
+```
+
+::: tip 
+If you want to invert the tax calculation for any product that has a tax_rate field, you can add this code in the `[Root of PrestaShop]/dynamicproduct/calculator/products.php` file
+
+```php
+<?php
+$result = $result / (1 + $tax_rate / 100);
+```
+:::
+
