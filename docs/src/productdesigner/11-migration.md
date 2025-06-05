@@ -1,4 +1,4 @@
-# Data migration
+y# Data migration
 
 To migrate the module data from one shop to another, you need to follow these steps
 
@@ -17,4 +17,10 @@ The `designer` folder contains the module files such as the images and the fonts
 ::: tip
 Compare the module id in the `ps_module` table. If it's different between the two shops, then update the `id_module`
 column is the table `ps_customized_data` to match the new module id.
+
+```sql
+# Backup your database before manipulating your data
+UPDATE `ps_customized_data` SET `id_module`= NEW_ID WHERE `id_module`= OLD_ID
+# UPDATE `ps_customized_data` SET `id_module`= 88 WHERE `id_module`= 77
+```
 :::
