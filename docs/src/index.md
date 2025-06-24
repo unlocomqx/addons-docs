@@ -17,10 +17,6 @@ documentations:
   logo: /optimized/prestashop/images/prestashop.webp
   text: View Docs →
   link: /prestashop/
-
-- name: DevTools
-  logo: /optimized/devtools/images/devtools.webp
-  text: View Docs →
-  link: /devtools/
+  
 footer: ©️ TuniSoft Solutions
 ---
