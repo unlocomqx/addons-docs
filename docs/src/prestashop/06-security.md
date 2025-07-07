@@ -19,12 +19,13 @@ In accordance with
 the [TouchWeb Charter for Responsible Cybersecurity](https://www.touchweb.fr/cybersecurity-prestashop/responsible-cybersecurity-charter),
 our team applies the following principles:
 
-Acknowledgement of any relevant report within 7 days maximum. (CVSS ≥ 4.0 – Scoring at your discretion with a maximum of
-7.5)
-Impact analysis and fix planning within 30 days maximum.
-Publication of a security advisory with a CVE ID if the CVSS score is ≥ 7.5. (Scoring at your discretion with a maximum
-of 7.5)
-No fix will ever be released silently.
+- Acknowledgement of any relevant report within 7 days maximum. (CVSS ≥ 4.0)
+
+- Impact analysis and fix planning within 30 days maximum.
+
+- Publication of a security advisory with a CVE ID if the CVSS score is ≥ 7.5.
+
+- No fix will ever be released silently.
 
 In parallel, we make the following commitments to ensure responsible and ethical vulnerability handling:
 
