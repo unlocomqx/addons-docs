@@ -53,7 +53,7 @@ An easy-to-apply patch where updates are difficult to implement.
 Any useful information to help users and agencies protect themselves quickly.
 
 <p style="text-align: center;">
-<a href="./06-security.html" target="_blank">
+<a href="./06-security.html">
     <img srcset="/prestashop/images/touchweb.png 2x" class="no-zoom" width="300">
 </a>
 </p>
