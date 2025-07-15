@@ -16,7 +16,7 @@ The module tables start with `ps_dynamicproduct_` or generally `[prefix]_dynamic
 The `dynamicproduct` folder contains the module files such as the images and the php calculation
 files etc...
 
-:four: (Optional) Upgrade the module to the latest version to get the new feature and bugfixes.
+:four: (Optional) Upgrade the module to the latest version to get new features and bugfixes.
 
 :warning: In some cases, this step is necessary to ensure the compatibility of the module with the version of PrestaShop
 that you are using.
