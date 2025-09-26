@@ -89,5 +89,5 @@ define('_DSN_API_URL_', 'https://converter.prestalife.net/');
 ```
 
 ::: tip
-Make sure to insert the above line after the `<?php` tag
+Make sure to insert this line after the `<?php` tag
 :::
