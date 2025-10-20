@@ -1,0 +1,8 @@
+onlyBuiltDependencies:
+  - core-js
+  - esbuild
+  - fsevents
+  - highlight.js
+  - puppeteer
+  - sharp
+  - vuepress
