@@ -31,7 +31,10 @@ jobs:
           # cache: pnpm
 
       - name: Install deps
-        run: pnpm --prefix docs install --frozen-lockfile
+        run: pnpm --prefix docs install --frozen-lockfile --shamefully-hoist
+
+      - name: Rebuild sharp
+        run: pnpm --prefix docs rebuild sharp
 
       # run build script
       - name: Build VuePress site
