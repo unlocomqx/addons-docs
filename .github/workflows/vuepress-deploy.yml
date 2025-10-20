@@ -31,11 +31,11 @@ jobs:
           # cache: pnpm
 
       - name: Install deps
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile -C docs
 
       # run build script
       - name: Build VuePress site
-        run: pnpm build
+        run: pnpm build -C docs
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
