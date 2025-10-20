@@ -23,9 +23,6 @@ jobs:
       - name: Install deps
         run: bun install --cwd docs
 
-      - name: Rebuild sharp
-        run: cd docs && bun rebuild sharp
-
       # run build script
       - name: Build VuePress site
         run: bun --cwd docs run build
