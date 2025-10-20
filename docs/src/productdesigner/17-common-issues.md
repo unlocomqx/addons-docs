@@ -9,4 +9,4 @@ design preview is not displayed correctly in the invoice.
 
 The solution is to convert the SVG format to PNG by [installing inkscape on server](/productdesigner/07-downloads.md#inkscape-installation).
 
-You can also [disable the design preview in the invoice](/productdesigner/03-configuration.md#print-settings).
+You can also [disable the design preview in the invoice](/productdesigner/03-configuration/print-settings.md#show-preview-in-invoice).

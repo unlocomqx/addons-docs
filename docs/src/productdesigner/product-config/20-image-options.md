@@ -7,7 +7,7 @@ In this tab, you can configure options related to the design images
 ## Allow image upload
 
 Enabled customer uploads. You can
-control [the maximum upload size](/productdesigner/03-configuration.md#upload-max-size) in the main
+control [the maximum upload size](/productdesigner/03-configuration/design-options.md#upload-max-size) in the main
 configuration page
 
 <img srcset="/productdesigner/images/image-upload.jpg 2x" class="border">
@@ -35,7 +35,7 @@ Then we apply to get the result
 ## Enable Pixabay search
 
 Pixabay is a free image search service. Before you enable this service, make sure to configure
-your [Pixabay key](/productdesigner/03-configuration.md#pixabay-key).
+your [Pixabay key](/productdesigner/03-configuration/image-options.md#pixabay-key).
 
 When enabled, the module will display a search field in the Image tab.
 
@@ -55,7 +55,7 @@ The customer can add the image to the design by clicking the insert button
 ## Enable Instagram image import
 
 Make sure to configure your Instagram App details in
-the [main configuration section](/productdesigner/03-configuration.md#instagram-app-id)
+the [main configuration section](/productdesigner/03-configuration/image-options.md#instagram-app-id)
 
 When enabled, this button will be displayed
 

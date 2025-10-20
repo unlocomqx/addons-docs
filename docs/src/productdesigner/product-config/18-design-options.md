@@ -7,7 +7,7 @@ In this tab, we have many options that are related to the design in general.
 ## Show design item dimension
 
 This option will override the global option
-for [displaying the item dimension](/productdesigner/03-configuration.md#show-design-items-dimensions)
+for [displaying the item dimension](/productdesigner/03-configuration/design-options.md#show-design-items-dimensions)
 
 ## Save current side only
 

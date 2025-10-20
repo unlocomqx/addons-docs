@@ -1,6 +1,6 @@
 # Sides
 
-You can choose which [sides](/productdesigner/03-configuration.md#sides) to enable for the current product
+You can choose which [sides](/productdesigner/03-configuration/sides.md) to enable for the current product
 
 <img srcset="/productdesigner/images/product-sides.jpg 2x" class="padding border">
 

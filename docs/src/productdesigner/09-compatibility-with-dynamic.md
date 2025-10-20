@@ -20,9 +20,9 @@ these steps:
 ## Displaying Dynamic Product inside the Designer interface
 
 You can display the dynamic module inside the designer module by
-enabling [this option](/productdesigner/03-configuration.md#show-dynamic-product-in-the-product-tab)
+enabling [this option](/productdesigner/03-configuration/interface-options.md#show-dynamic-product-in-the-product-tab)
 
-[<img srcset="/productdesigner/images/show-dynamic.jpg 2x" class="border padding">](/productdesigner/03-configuration.md#show-dynamic-product-in-the-product-tab)
+[<img srcset="/productdesigner/images/show-dynamic.jpg 2x" class="border padding">](/productdesigner/03-configuration/interface-options.md#show-dynamic-product-in-the-product-tab)
 
 ## Cart summary
 

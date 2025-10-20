@@ -6,20 +6,18 @@ In this tab, you can configure the various aspects of image pricing.
 
 ## Use image cost directly
 
-This will allow using the [image price](/productdesigner/03-configuration.md#price-per-m2) without
+This will allow using the image price without
 multiplying it by the area of the image.
 
 If the image is a customer upload, then the [upload cost](#upload-cost) will be used.
 
 ## Image cost
 
-This will be added to the total for every image that is added to the design. This cost will not
-replace the [image prices](/productdesigner/03-configuration.md#price-per-m2)
+This will be added to the total for every image that is added to the design.
 
 ## Image cost per m²
 
-Configure this price if you want to replace
-the [image prices](/productdesigner/03-configuration.md#price-per-m2)
+Configure this price if you want to replace the image prices
 
 ## Image cost intervals
 

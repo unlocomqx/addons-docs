@@ -9,7 +9,7 @@ For an effective colorization, you need to provide white images or light colored
 :::
 
 ::: tip White image groups  
-You can flag an image group as [containing white images](/productdesigner/03-configuration.md#white-image-group)
+You can flag an image group as [containing white images](/productdesigner/03-configuration/image-groups.md#white-image-group)
 
 When an image is added from this group, it will be automatically colorized using the first available color.
 :::

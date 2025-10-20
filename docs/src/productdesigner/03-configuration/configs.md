@@ -13,10 +13,10 @@ The specific configuration page will be opened
 
 The available tabs in the specific configuration are:
 
-- [Interface options](/productdesigner/03-configuration.md#interface-options)
-- [Print settings](/productdesigner/03-configuration.md#print-settings)
-- [Design options](/productdesigner/03-configuration.md#design-options)
-- [Text options](/productdesigner/03-configuration.md#text-options)
+- [Interface options](/productdesigner/03-configuration/interface-options.md)
+- [Print settings](/productdesigner/03-configuration/print-settings.md)
+- [Design options](/productdesigner/03-configuration/design-options.md)
+- [Text options](/productdesigner/03-configuration/text-options.md)
 
 In the Configs tabs, you can view the list of the products that have a specific configuration and
 you can delete any unneeded configuration.

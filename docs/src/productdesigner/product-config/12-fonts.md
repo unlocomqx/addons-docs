@@ -1,6 +1,6 @@
 # Fonts
 
-In this section, you can choose which [fonts](/productdesigner/03-configuration.md#fonts) to enable for the current product.
+In this section, you can choose which [fonts](/productdesigner/03-configuration/fonts.md) to enable for the current product.
 
 <img srcset="/productdesigner/images/product-fonts.jpg 2x" class="border">
 
