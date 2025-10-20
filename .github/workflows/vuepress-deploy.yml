@@ -5,14 +5,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
 
-      - name: vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@master
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: unlocomqx/addons-docs
-          TARGET_BRANCH: gh-pages
-          BUILD_SCRIPT: cd docs && yarn && node compress.js && yarn build
-          BUILD_DIR: src/.vuepress/dist/
-          CNAME: docs.prestalife.net
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: cd docs && bun install
+
+      - name: Compress
+        run: cd docs && bun node compress.js
+
+      - name: Build
+        run: cd docs && bun run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/src/.vuepress/dist
+          cname: docs.prestalife.net
