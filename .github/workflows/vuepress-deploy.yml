@@ -17,15 +17,17 @@ jobs:
           # fetch all commits to get last updated time or other git log info
           fetch-depth: 0
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
       - name: Install deps
-        run: bun install --cwd docs
+        run: npm install --prefix docs
 
       # run build script
       - name: Build VuePress site
-        run: bun --cwd docs run build
+        run: npm run build --prefix docs
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
