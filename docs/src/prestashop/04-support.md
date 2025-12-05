@@ -58,4 +58,4 @@ on the problem, so it will be impossible to determine the true cause of the issu
 Smart cache combines all the files in your shop into one file, which can make it difficult to debug issues or to
 determine which module is causing the problem.
 
-Please open the Performance page in the backoffice and disable the Smart Cache for JS & CSS.
+Please open the **Performance** page in the backoffice and disable the **Smart Cache** for JS & CSS.
