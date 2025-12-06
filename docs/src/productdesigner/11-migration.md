@@ -1,4 +1,4 @@
-y# Data migration
+# Data migration
 
 To migrate the module data from one shop to another, you need to follow these steps
 
