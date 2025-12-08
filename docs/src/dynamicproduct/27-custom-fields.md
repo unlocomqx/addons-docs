@@ -227,3 +227,4 @@ class InputField extends DynamicInputField
 ```
 
 <img srcset="/dynamicproduct/images/custom-fields/time-picker-icon.jpg 2x" class="border">
+
