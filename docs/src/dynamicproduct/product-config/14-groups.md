@@ -43,3 +43,4 @@ If the customer sets the control field to 0, the duplicated group will be remove
 The value of the original fields will be the sum of the values of the duplicated fields.  
 For example, based on the values displayed in the above screenshot, the value of the diameter field will be equal to 25.
 :::
+
