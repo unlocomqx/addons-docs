@@ -115,7 +115,15 @@ Rounds a number down using PrestaShop's rounding method
 ROUNDDOWN(number, decimals)
 ROUNDDOWN(5.16, 0) → 5
 ROUNDDOWN(5.11, 1) → 5.1
-```     
+```   
+
+### **RND**
+
+Generate a random number between 0 and 1
+
+```xls
+RND() → 0.567894872498
+```
 
 ### **VAL**
 
