@@ -35,7 +35,9 @@ Or other template files such as
 /themes/[current theme]/templates/catalog/_partials/product-add-to-cart.tpl
 ```
 
-You may want to unhook the module from `displayProductAdditionalInfo` to avoid displaying the module twice.
+::: tip
+You may want to unhook the module from `displayProductAdditionalInfo` to avoid displaying the module button twice.
+:::
 
 ## Custom button 
 
