@@ -36,3 +36,13 @@ Or other template files such as
 ```
 
 You may want to unhook the module from `displayProductAdditionalInfo` to avoid displaying the module twice.
+
+## Custom button 
+
+You can add a custom button anywhere you like, here's a html example. Make sure that the button has the class `dsn-customize`
+
+```html
+<button type="button" class="btn btn-primary dsn-customize">
+  Customize your product!
+</button>
+```
