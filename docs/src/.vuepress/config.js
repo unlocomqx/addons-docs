@@ -120,6 +120,7 @@ module.exports = {
             "03-configuration/shapes.md",
             "03-configuration/help-content.md",
             "03-configuration/color-theme.md",
+            "03-configuration/cleanup.md",
             "03-configuration/configs.md",
           ],
         },

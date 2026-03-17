@@ -22,4 +22,5 @@ Below are the various configuration sections
 - [Shapes](03-configuration/shapes.md)
 - [Help content](03-configuration/help-content.md)
 - [Color theme](03-configuration/color-theme.md)
+- [Cleanup](03-configuration/cleanup.md)
 - [Configs (Specific product configurations)](03-configuration/configs.md)
