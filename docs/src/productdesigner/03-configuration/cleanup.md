@@ -1,6 +1,6 @@
 # Cleanup
 
-<img srcset="/productdesigner/images/cleanup.png 2x" class="border">
+<img srcset="/productdesigner/images/cleanup.jpg 2x" class="border">
 
 The cleanup page lets you remove unused files and database records to free up space.
 
