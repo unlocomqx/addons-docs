@@ -16,7 +16,7 @@ To ensure the fastest and best support, please follow this guide:
 
 If your shop is in maintenance mode, please add my IP so I can view your shop.
 
-Here's my current IP:
+Visit the following link to view my current IP:
 
 [https://tinyurl.com/tunisoft-ip](https://tinyurl.com/tunisoft-ip)
 
