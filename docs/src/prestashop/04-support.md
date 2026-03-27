@@ -4,12 +4,21 @@ To ensure the fastest and best support, please follow this guide:
 
 ## Quick links
 
+- [Add my IP to the maintenance mode](#add-my-ip-to-the-maintenance-mode)
 - [Use English or French as much as possible](#use-english-or-french-as-much-as-possible)
 - [Include a product link in your message](#include-a-product-link-in-your-message)
 - [Include a backoffice and ftp access if necessary](#include-a-backoffice-and-ftp-access-if-necessary)
 - [List the steps to follow in order to reproduce the issue](#list-the-steps-to-follow-in-order-to-reproduce-the-issue)
 - [Disable any cache system](#disable-any-cache-system)
 - [Disable smart cache for JS & CSS](#disable-smart-cache-for-js-and-css)
+
+### Add my IP to the maintenance mode
+
+If your shop is in maintenance mode, please add my IP so I can view your shop.
+
+Here's my current IP
+
+https://tinyurl.com/tunisoft-ip
 
 ### Use English or French as much as possible
 
