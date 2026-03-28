@@ -145,7 +145,7 @@ Sample content:
 
 namespace DynamicProductData\scripts\[script name];
 
-use classes\models\DynamicInputField;
+use DynamicProduct\classes\models\DynamicInputField;
 
 class InputField extends DynamicInputField
 {
@@ -166,7 +166,7 @@ Skip the field in cart:
 
 namespace DynamicProductData\scripts\time_picker;
 
-use classes\models\DynamicInputField;
+use DynamicProduct\classes\models\DynamicInputField;
 
 class InputField extends DynamicInputField
 {
@@ -186,7 +186,7 @@ Display the field value in lowercase:
 
 namespace DynamicProductData\scripts\time_picker;
 
-use classes\models\DynamicInputField;
+use DynamicProduct\classes\models\DynamicInputField;
 
 class InputField extends DynamicInputField
 {
@@ -209,7 +209,7 @@ Display a custom value:
 
 namespace DynamicProductData\scripts\time_picker;
 
-use classes\models\DynamicInputField;
+use DynamicProduct\classes\models\DynamicInputField;
 
 class InputField extends DynamicInputField
 {
