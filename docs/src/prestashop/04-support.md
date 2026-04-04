@@ -32,6 +32,8 @@ make it easier for me to understand the calculation logic and to better assist y
 Please include a product link so I can check the issue directly. Sometimes the issue is related to your theme or to
 another module that is installed on your shop.
 
+Even if the issue happens on all products, I will still need an example link to check the issue directly.
+
 ::: tip  
 Generally, when an issue is fixed for a product, it will also be fixed for other products.
 :::
