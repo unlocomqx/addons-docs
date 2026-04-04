@@ -25,6 +25,10 @@ jobs:
       - name: Install deps
         run: npm install --prefix docs
 
+      - name: Generate optimized images
+        run: node generate-webp.js
+        working-directory: docs
+
       # run build script
       - name: Build VuePress site
         run: npm run build --prefix docs
