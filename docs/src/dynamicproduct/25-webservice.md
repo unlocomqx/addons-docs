@@ -3,10 +3,16 @@
 The module has a basic integration
 with [the PrestaShop webservice API](https://devdocs.prestashop.com/1.7/webservice/)
 
-To start, fetch the order details by order ID, for example
+To start, fetch the order data
 
 ```
-/api/order_details/[order ID]
+/api/orders/[order ID]
+```
+
+Then fetch an order detail row
+
+```
+/api/order_details/[order detail ID]
 ```
 
 Then read the `id_customization` value and fetch the customization like so
