@@ -62,6 +62,7 @@ module.exports = {
         "03-updates.md",
         "04-configuration.md",
         "29-common-cases.md",
+        "30-advanced-scenarios.md",
         {
           title: "Product configuration",
           path: "/dynamicproduct/product-config/",
