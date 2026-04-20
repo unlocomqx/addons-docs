@@ -1,8 +1,8 @@
 # Advanced pricing
 
-## Using a grid for pricing
+## Configuring a pricing grid
 
-If your pricing depends on two fields, then you can use a pricing grid to easily configure it.
+If your pricing depends on two fields, then you can use a [pricing grid](/dynamicproduct/product-config/13-grids.md) to easily configure it.
 
 1. Add a width, height and cost fields
 2. Configure your grid like the screen capture below
