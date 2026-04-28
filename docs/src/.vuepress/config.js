@@ -122,6 +122,7 @@ module.exports = {
             "03-configuration/help-content.md",
             "03-configuration/color-theme.md",
             "03-configuration/cleanup.md",
+            "03-configuration/tools.md",
             "03-configuration/configs.md",
           ],
         },
@@ -169,7 +170,7 @@ module.exports = {
         "14-pricing-plugin.md",
         "16-translation.md",
         "17-common-issues.md",
-        "18-webservice.md",
+        "18-webservice.md"
       ],
       "/prestashop/": [
         "",
