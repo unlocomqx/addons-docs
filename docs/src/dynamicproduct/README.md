@@ -1,4 +1,4 @@
-# Introduction
+# Dynamic Product PrestaShop Module
 
 <div style="text-align: center; margin-bottom: 50px;">
   <div>
