@@ -11,6 +11,7 @@ To ensure the fastest and best support, please follow this guide:
 - [List the steps to follow in order to reproduce the issue](#list-the-steps-to-follow-in-order-to-reproduce-the-issue)
 - [Disable any cache system](#disable-any-cache-system)
 - [Disable smart cache for JS & CSS](#disable-smart-cache-for-js-and-css)
+- [Enable conditional debug mode](#enable-conditional-debug-mode)
 
 ### Add my IP to the maintenance mode
 
@@ -70,3 +71,28 @@ Smart cache combines all the files in your shop into one file, which can make it
 determine which module is causing the problem.
 
 Please open the **Performance** page in the backoffice and disable the **Smart Cache** for JS & CSS.
+
+### Enable conditional debug mode
+
+Debug mode shows the real error messages instead of a blank page or a generic "500" error, which is often the only way
+to find the cause of an issue. But enabling it for everyone would expose those errors to your customers.
+
+Conditional debug mode solves this: debug mode is enabled only for visitors who have a specific cookie, while everyone
+else keeps seeing the normal shop.
+
+Edit the file `/config/defines.inc.php` and replace
+
+```php
+define('_PS_MODE_DEV_', false);
+```
+
+With
+
+```php
+define('_PS_MODE_DEV_', isset($_COOKIE['XDEBUG_SESSION']));
+```
+
+That's all you need to do. On my side, I use the **Xdebug helper** browser extension to set the `XDEBUG_SESSION` cookie,
+so I get the debug messages while your customers keep seeing the normal shop.
+
+Once the issue is fixed, restore the original line.
