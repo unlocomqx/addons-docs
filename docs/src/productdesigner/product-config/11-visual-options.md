@@ -3,6 +3,10 @@
 The module can display a visual configurator where the customer can pick different parts of the
 product and get a direct preview of the selected options.
 
+<img srcset="/productdesigner/images/visual-options/visual-options-display.jpg 2x">
+
+<img srcset="/productdesigner/images/visual-options/visual-options-display-2.jpg 2x">
+
 In this example, we will configure a custom skateboard step by step to see how to add option groups
 and visual options to the designer.
 
