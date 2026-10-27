@@ -38,7 +38,7 @@ software on the server. The module tries the tools below in order and uses the f
 | Inkscape 1.0+ | PDF and CMYK PDF downloads, AI / EPS / PDF uploads | `sudo apt install inkscape` |
 | Docker | Runs Inkscape or Chrome (Puppeteer) in a container when they are not installed | [Using docker](#using-docker) |
 | Chromium | Chrome PDF and Chrome PNG downloads | `sudo apt install chromium` |
-| Node.js with the `puppeteer` package | Chrome PDF and Chrome PNG downloads (last local fallback) | `npm install -g puppeteer` |
+| Node.js with the `puppeteer` package | Chrome PDF and Chrome PNG downloads (last local fallback) | [Using Node.js](#using-node-js) |
 | Ghostscript (`gs`) | CMYK PDF download | `sudo apt install ghostscript` |
 | ImageMagick command line (`convert`) | PDF and CMYK PDF downloads (last local fallback) | `sudo apt install imagemagick` |
 | `tifig` | HEIC uploads | [tifig releases](https://github.com/monostream/tifig/releases) |
@@ -147,6 +147,22 @@ sudo apt install chromium
 The Docker container loads the SVG from your shop URL, so the shop must be reachable from the server.
 
 If none of these work, the Chrome PDF download falls back to the remote converter.
+
+#### Using Node.js
+
+The Node.js fallback runs Puppeteer directly on the server. Install it globally, then make the
+global modules visible to the web server user:
+
+```shell
+npm install -g puppeteer
+export NODE_PATH="$(npm root -g)"
+```
+
+Set `NODE_PATH` in the environment of the web server or PHP-FPM, not only in your shell.
+Puppeteer downloads its own Chrome into the home folder of the user that runs the install
+(`~/.cache/puppeteer`). If PHP runs as another user (for example `www-data`), run the install as
+that user, or set `PUPPETEER_EXECUTABLE_PATH` to an installed Chrome or Chromium binary.
+Like Docker, it loads the SVG from your shop URL.
 
 ### CMYK PDF
 
